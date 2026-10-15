@@ -1,0 +1,7 @@
+ram: Memory.MappedMemory @ sysbus 0x80000000
+    size: 0x1000000
+clint: IRQControllers.CoreLevelInterruptor @ sysbus 0x02000000
+    frequency: 10000000
+cpu: CPU.RiscV64 @ sysbus
+    cpuType: "rv64imafd_zicsr_zifencei_c_v_zba_zbb"
+    timeProvider: clint

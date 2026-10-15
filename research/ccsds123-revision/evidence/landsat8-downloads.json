@@ -1,0 +1,50 @@
+[
+  {
+    "id": 107774,
+    "filename": "LC08_L1GT_196031_20130322_20170505_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "acquisition": "20130322",
+    "url": "https://dataverse.csuc.cat/api/access/datafile/107774",
+    "bytes": 234881024,
+    "md5": "65c673f6bdfcd7c3db1a3c087d01078b",
+    "sha256": "73a35fe8d67e6c8e671d42915b8796ab38ed203b072977fa24a5f61ff3f17c27",
+    "processing": "L1-calibrated, not raw focal-plane",
+    "storage": "u16 little-endian BSQ",
+    "full_bands": 7
+  },
+  {
+    "id": 107755,
+    "filename": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "acquisition": "20131103",
+    "url": "https://dataverse.csuc.cat/api/access/datafile/107755",
+    "bytes": 234881024,
+    "md5": "d0098d102f19d4299072393a3f720e67",
+    "sha256": "5693c12c0379fba0b42d898b4df268e468178c5d022b369ce13f12469b82bb6d",
+    "processing": "L1-calibrated, not raw focal-plane",
+    "storage": "u16 little-endian BSQ",
+    "full_bands": 7
+  },
+  {
+    "id": 107764,
+    "filename": "LC08_L1GT_175025_20140204_20170426_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "acquisition": "20140204",
+    "url": "https://dataverse.csuc.cat/api/access/datafile/107764",
+    "bytes": 234881024,
+    "md5": "504f70435b6593e03c14445e511b041f",
+    "sha256": "dce5dd2899f952ec89d42d0bbcabde4bac711689915785125dd6a2988628e55c",
+    "processing": "L1-calibrated, not raw focal-plane",
+    "storage": "u16 little-endian BSQ",
+    "full_bands": 7
+  },
+  {
+    "id": 107757,
+    "filename": "LC08_L1GT_007020_20140619_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "acquisition": "20140619",
+    "url": "https://dataverse.csuc.cat/api/access/datafile/107757",
+    "bytes": 234881024,
+    "md5": "51607d8a550a283262a9bcc78919bdd2",
+    "sha256": "3c21efde228eff578442a105c12544e1b31b721096cc534dfd46d291cd465b7a",
+    "processing": "L1-calibrated, not raw focal-plane",
+    "storage": "u16 little-endian BSQ",
+    "full_bands": 7
+  }
+]

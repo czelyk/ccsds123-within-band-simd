@@ -1,0 +1,21 @@
+[
+  {
+    "name": "gici-datasets",
+    "url": "https://gici.uab.es/GiciWebPage/datasets.php",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "landis2025",
+    "url": "https://ntrs.nasa.gov/api/citations/20250008078/downloads/LandIS_compression_final.pdf",
+    "bytes": 426217,
+    "type": "application/pdf",
+    "path": "outputs/ccsds123-revision/literature/landis2025.pdf"
+  },
+  {
+    "name": "ccsds-corpus",
+    "url": "https://ccsds.org/Pubs/120x2g1s.pdf",
+    "bytes": 3083027,
+    "type": "application/pdf",
+    "path": "outputs/ccsds123-revision/literature/ccsds-corpus.pdf"
+  }
+]

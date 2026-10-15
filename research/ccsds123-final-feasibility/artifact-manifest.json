@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-15",
+  "decision": "NO-GO for this direction as the acceptance-focused IAC2027 paper",
+  "new_algorithm_changes": false,
+  "new_timing_trials": 0,
+  "new_Renode_runs": 0,
+  "physical_measurements": false,
+  "prior_evidence_changed": false,
+  "application_cases": [
+    "HYPSO",
+    "EyeSat",
+    "published LandIS study",
+    "PROBA-V/Vegetation"
+  ],
+  "files": {
+    "Final-Feasibility.md": {
+      "bytes": 19609,
+      "sha256": "01001fb8452c32b8b0e1b86ff0f39008aec170801739a50e53a28d9fcfbe669e"
+    },
+    "README.md": {
+      "bytes": 2082,
+      "sha256": "7d202e975225ad6adb0862945e49b6d026cf50dbb000463c74894666248d1726"
+    },
+    "evidence/application-arithmetic.json": {
+      "bytes": 2198,
+      "sha256": "8d626638c710f00e28043ad5ebe5fb334a7a88b0e9ec5cec36f0039ace76eeb4"
+    },
+    "literature/hypso2023.pdf": {
+      "bytes": 2657554,
+      "sha256": "b469dd2e659eeacdc56772ccbd2b4506b54a8ad6abd69c1eaee17449d445e664"
+    },
+    "literature/hypso2023.txt": {
+      "bytes": 118583,
+      "sha256": "77a99d25beec7896018108b57dcf330d853a8c35ef5c23f9aa4cdd5ce12f8097"
+    },
+    "literature/hypso2024.pdf": {
+      "bytes": 85620,
+      "sha256": "099b1126c6165cbcd810e5167ac28884e691103ff6d063f2147a503232a74094"
+    },
+    "literature/hypso2024.txt": {
+      "bytes": 32776,
+      "sha256": "d2873f0cc0fa7719abb4b3caef5a4d83dbb31bdf98a6017ecb57552885561cce"
+    },
+    "literature/landis2025.pdf": {
+      "bytes": 426217,
+      "sha256": "dd8493228b168ad94f50ec6724e238d750e1f50730a738e3cbbec8add26f49c8"
+    },
+    "literature/landis2025.txt": {
+      "bytes": 62543,
+      "sha256": "a15f6aac473b37e07faf832111ded4ebc3e3a2062bb17b2bf5f5b0bc5b0700a1"
+    },
+    "literature/probav-ccsds2016.pdf": {
+      "bytes": 1589827,
+      "sha256": "09fc21d754ef57d678cb295a97c3708b3c4536a2e3f938c27f304bc934041063"
+    },
+    "literature/probav-ccsds2016.txt": {
+      "bytes": 43665,
+      "sha256": "6cd35f1201161dbc7e1a855743febca3b7b98849b33be25f82536770e6cb7954"
+    },
+    "literature/probav-manual.pdf": {
+      "bytes": 3509117,
+      "sha256": "f9e157137de944889373bb2057adaf8d1c1070e0f130549984620e79c5c18bb2"
+    },
+    "literature/probav-manual.txt": {
+      "bytes": 268378,
+      "sha256": "2f3b1f25579bd3dc3565f320ed083e57f18040dbce880a71aca7e3bee2227720"
+    },
+    "literature/retrievals.json": {
+      "bytes": 1525,
+      "sha256": "65121d77318c6bbb7ae4df1209a6c8f72bd566185c61cd82ea6988652ac488ba"
+    },
+    "protocol.md": {
+      "bytes": 2616,
+      "sha256": "a8c841f423463b0ce8af3f998763e0056936da648b5d49cd8558eec76d2cd62b"
+    },
+    "source-ledger.md": {
+      "bytes": 6163,
+      "sha256": "9f73227d44b3eada2c0b587038d36cfc660b4994e843318e842886a3602f5cc2"
+    }
+  }
+}

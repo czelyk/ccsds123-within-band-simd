@@ -1,0 +1,10 @@
+{"kind":"validation","variant":4,"bytes":56134,"mismatch":0,"accepted":0,"rejected":0,"first_row_after_received_rows":1}
+{"kind":"timing","trial":0,"variant":4,"ns_sample":17.474508,"bytes":56134}
+{"kind":"timing","trial":1,"variant":4,"ns_sample":17.645493,"bytes":56134}
+{"kind":"timing","trial":2,"variant":4,"ns_sample":17.452415,"bytes":56134}
+{"kind":"timing","trial":3,"variant":4,"ns_sample":17.325000,"bytes":56134}
+{"kind":"timing","trial":4,"variant":4,"ns_sample":17.371111,"bytes":56134}
+{"kind":"timing","trial":5,"variant":4,"ns_sample":17.513875,"bytes":56134}
+{"kind":"timing","trial":6,"variant":4,"ns_sample":17.672245,"bytes":56134}
+{"kind":"timing","trial":7,"variant":4,"ns_sample":17.513654,"bytes":56134}
+{"kind":"timing","trial":8,"variant":4,"ns_sample":17.356258,"bytes":56134}

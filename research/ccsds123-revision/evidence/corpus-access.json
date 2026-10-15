@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://cwe.ccsds.org/sls/docs/SLS-DC/123.0-B-Info/TestData/README.txt",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://cwe.ccsds.org/sls/docs/sls-dc/123.0-B-Info/TestData/README.txt",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "http://cwe.ccsds.org/sls/docs/sls-dc/123.0-B-Info/TestData/README.txt",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

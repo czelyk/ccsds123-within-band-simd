@@ -1,0 +1,7 @@
+{
+  "kind": "initial-clean-Git-export-check",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Changed: research/ccsds123-independent-reassessment/evidence/comparison-summary.csv\nChanged: research/ccsds123-revision/evidence/landsat-summary.csv\nChanged: research/ccsds123-revision/evidence/landsat8-publisher-readme.txt\n",
+  "diagnosis": "Git normalizes three CRLF text files to LF. Normalize the public copies and regenerate public hashes before upload. Original archives remain unchanged."
+}

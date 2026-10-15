@@ -1,0 +1,22 @@
+[
+  {
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "md5": "cedc431973c728adbd80c4d0772d64de",
+    "matches_public_metadata": true
+  },
+  {
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "md5": "4de1502077ff3b5952c21dd8b9ed4081",
+    "matches_public_metadata": true
+  },
+  {
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "md5": "4572058fd1cbcbd9bf845993d8e587a4",
+    "matches_public_metadata": true
+  },
+  {
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "md5": "5861d46d0f66775cd11881f18d745c8d",
+    "matches_public_metadata": true
+  }
+]

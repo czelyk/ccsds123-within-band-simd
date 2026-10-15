@@ -1,0 +1,29 @@
+[
+  {
+    "name": "iac2027-current.pdf",
+    "url": "https://www.iafastro.org/assets/files/events/iac/2027/IAC2027_Call_for_papers.pdf",
+    "time_utc": "2026-10-15T12:54:37.999572+00:00",
+    "status": 200,
+    "is_pdf": true,
+    "bytes": 8093510,
+    "sha256": "24dd43a2ff31190b34e7bb74d69f3158c8f9fb83d123778dcd1de01ccdeac6f0"
+  },
+  {
+    "name": "versal2024.pdf",
+    "url": "https://zenodo.org/records/13863610/files/VersalAIEnginesforOnBoardDataCompressionImplementationandPerformanceAnalysisofCCSDS121andCCSDS123.pdf?download=1",
+    "time_utc": "2026-10-15T12:54:39.547798+00:00",
+    "status": 200,
+    "is_pdf": true,
+    "bytes": 684232,
+    "sha256": "6211c1e86f5c858e47217a7798b1f00edeaeb4b7c749ad679d491bec91d87130"
+  },
+  {
+    "name": "venspec2026.pdf",
+    "url": "https://www.hou.usra.edu/meetings/lpsc2026/pdf/1695.pdf",
+    "time_utc": "2026-10-15T12:54:40.593853+00:00",
+    "status": 200,
+    "is_pdf": true,
+    "bytes": 921396,
+    "sha256": "b89b1611ba9c9cc29cf1926a60fa5e779d90884703a5431e7c6f94c380df8619"
+  }
+]

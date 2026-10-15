@@ -1,0 +1,228 @@
+{
+  "decision": "REVISE",
+  "scope": "processed L1 workload pilot and functional RVV comparator revision; no physical results",
+  "acquisitions": 4,
+  "held_out_acquisitions": 3,
+  "main_configuration_cases": 8,
+  "held_out_main_cases": 6,
+  "secondary_cases": 1,
+  "independent_adaptive_prefix_checks": 10,
+  "independent_default_fixed_prefix_checks": 4,
+  "raw_adaptive_timing_trials": 189,
+  "raw_fixed_timing_trials": 96,
+  "main_best_baseline_time_over_proposal_range": [
+    0.8278223531267324,
+    0.9101307471029181
+  ],
+  "held_out_best_baseline_time_over_proposal_range": [
+    0.8278223531267324,
+    0.87404734292792
+  ],
+  "main_proposal_faster_than_best_tested_baseline_cases": 0,
+  "main_best_single_band_time_over_proposal_range": [
+    1.230047058555314,
+    1.3663859841163983
+  ],
+  "fixed_size_change_ranges_percent": {
+    "default": [
+      5.395989171189197,
+      8.151812043062613
+    ],
+    "earlier-acquisition-retrospective": [
+      1.1244757854141474,
+      9.321740197411854
+    ]
+  },
+  "stripe_size_change_ranges_percent": {
+    "2": [
+      -0.6224360001693463,
+      0.6346286247834731
+    ],
+    "4": [
+      -0.6171593970973555,
+      1.5823999017116508
+    ],
+    "8": [
+      -0.6817846774824332,
+      3.130739707428276
+    ]
+  },
+  "stripe_parallel_performance_measured": false,
+  "all_four_publisher_md5_match": true,
+  "RVV": {
+    "VLEN": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "cases_per_VLEN": 144,
+    "method_checks_per_VLEN": 2016,
+    "mapped_residual_comparisons_per_VLEN": 4249224,
+    "mismatches": 0,
+    "scope": "new conventional baselines vs scalar, body/residual/final-state differential validation; not physical performance or independent conformance"
+  },
+  "warnings": [
+    "Processed/calibrated data, not raw focal-plane data",
+    "Resident BIP transpose excluded from timing; no real source arrival claim",
+    "Retrospective calibrated products do not prove flight-time calibration availability",
+    "Omega11 fixed vs Omega19 adaptive also changes precision",
+    "Frequency not locked; three trials do not establish a mission-population interval",
+    "Stripe sizes omit mission-specific container/index/packet overhead",
+    "New RVV implementations are functional baselines, not proven architecture-optimal",
+    "Original proposal capped at eight samples; no unrestricted scaling claim",
+    "No physical time or energy measured",
+    "Actual operational workload/profile/budget and IAF eligibility remain unresolved"
+  ],
+  "rows": [
+    {
+      "file": "LC08_L1GT_196031_20130322_20170505_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 3,
+      "nu_max": 9,
+      "role": "training-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 21.70262998342514,
+      "best_tested_baseline": "9:8",
+      "best_baseline_ns_sample": 18.01790964603424,
+      "best_baseline_time_over_proposal": 0.8302177966354761,
+      "best_single_band_time_over_proposal": 1.3503796626678977,
+      "native_BIP8_time": 18.01790964603424,
+      "total_bytes": 89331187
+    },
+    {
+      "file": "LC08_L1GT_196031_20130322_20170505_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 0,
+      "nu_max": 9,
+      "role": "training-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 21.55603161028453,
+      "best_tested_baseline": "9:8",
+      "best_baseline_ns_sample": 19.61880715404238,
+      "best_baseline_time_over_proposal": 0.9101307471029181,
+      "best_single_band_time_over_proposal": 1.3663859841163983,
+      "native_BIP8_time": 19.61880715404238,
+      "total_bytes": 86924197
+    },
+    {
+      "file": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 3,
+      "nu_max": 9,
+      "role": "held-out-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 20.390149073941366,
+      "best_tested_baseline": "7:8",
+      "best_baseline_ns_sample": 17.05870517662593,
+      "best_baseline_time_over_proposal": 0.8366150298737627,
+      "best_single_band_time_over_proposal": 1.3089510283237145,
+      "native_BIP8_time": 17.70188823768071,
+      "total_bytes": 110403404
+    },
+    {
+      "file": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 0,
+      "nu_max": 9,
+      "role": "held-out-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 22.791145895208633,
+      "best_tested_baseline": "7:8",
+      "best_baseline_ns_sample": 19.62867145878928,
+      "best_baseline_time_over_proposal": 0.8612410955131398,
+      "best_single_band_time_over_proposal": 1.230047058555314,
+      "native_BIP8_time": 20.82301413161414,
+      "total_bytes": 106811142
+    },
+    {
+      "file": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 3,
+      "nu_max": 4,
+      "role": "held-out-acquisition",
+      "secondary": true,
+      "proposal_ns_sample": 21.549711176327296,
+      "best_tested_baseline": "9:8",
+      "best_baseline_ns_sample": 17.071011705057963,
+      "best_baseline_time_over_proposal": 0.7921689328166376,
+      "best_single_band_time_over_proposal": 1.2411068174302458,
+      "native_BIP8_time": 17.071011705057963,
+      "total_bytes": 109644731
+    },
+    {
+      "file": "LC08_L1GT_175025_20140204_20170426_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 3,
+      "nu_max": 9,
+      "role": "held-out-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 19.93590783221381,
+      "best_tested_baseline": "7:8",
+      "best_baseline_ns_sample": 16.50339013338089,
+      "best_baseline_time_over_proposal": 0.8278223531267324,
+      "best_single_band_time_over_proposal": 1.2858897605486321,
+      "native_BIP8_time": 16.542601670537675,
+      "total_bytes": 114716617
+    },
+    {
+      "file": "LC08_L1GT_175025_20140204_20170426_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 0,
+      "nu_max": 9,
+      "role": "held-out-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 20.803380940641677,
+      "best_tested_baseline": "7:8",
+      "best_baseline_ns_sample": 18.18313983508519,
+      "best_baseline_time_over_proposal": 0.87404734292792,
+      "best_single_band_time_over_proposal": 1.3163662629801496,
+      "native_BIP8_time": 18.433759995869227,
+      "total_bytes": 111173041
+    },
+    {
+      "file": "LC08_L1GT_007020_20140619_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 3,
+      "nu_max": 9,
+      "role": "held-out-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 19.659906685352325,
+      "best_tested_baseline": "9:8",
+      "best_baseline_ns_sample": 16.500588979039872,
+      "best_baseline_time_over_proposal": 0.8393014902422546,
+      "best_single_band_time_over_proposal": 1.3188086268056032,
+      "native_BIP8_time": 16.500588979039872,
+      "total_bytes": 112257464
+    },
+    {
+      "file": "LC08_L1GT_007020_20140619_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "local": 0,
+      "nu_max": 9,
+      "role": "held-out-acquisition",
+      "secondary": false,
+      "proposal_ns_sample": 20.841356779847825,
+      "best_tested_baseline": "7:8",
+      "best_baseline_ns_sample": 18.114335656166077,
+      "best_baseline_time_over_proposal": 0.8691533784250269,
+      "best_single_band_time_over_proposal": 1.30001978072891,
+      "native_BIP8_time": 18.222667813301086,
+      "total_bytes": 108903925
+    }
+  ],
+  "fixed12_followup": {
+    "independent_prefix_checks": 6,
+    "default_full_case_identities": 9,
+    "raw_custom_timing_trials": 42,
+    "held_out_main_calibrated_size_change_percent": [
+      1.1262565133308255,
+      9.327898851828941
+    ],
+    "secondary_calibrated_size_change_percent": 7.4792741294609,
+    "arithmetic_bound": {
+      "kind": "arithmetic-bound",
+      "differences_checked": 524281,
+      "Omega": 12,
+      "constant_rho_with_offsets5": 18,
+      "all_updates_zero": true,
+      "Omega13_counterexample_u": 131072,
+      "Omega13_counterexample_update": 1,
+      "scope": "lossless zero-damping differences only; straightforward bound, not a claimed new contribution"
+    },
+    "initial_validation_error_preserved": true,
+    "initial_error_reason": "The first-sample weight storage is unused; the original assertion included it. Active weights from t=1 were constant.",
+    "scope": "profile-specific stronger baseline, not claimed novelty; Omega12 vs adaptive Omega19 remains a precision change"
+  }
+}

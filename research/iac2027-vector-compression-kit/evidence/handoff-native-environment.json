@@ -1,0 +1,39 @@
+{
+  "machine": {
+    "system": "Linux",
+    "node": "<original-host>",
+    "release": "7.0.0-34-generic",
+    "version": "#34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2",
+    "machine": "x86_64",
+    "processor": "x86_64"
+  },
+  "argv": {
+    "binary": "<original-workspace>/outputs/iac2027-vector-compression-kit/src/fullbench",
+    "repeats": 0,
+    "core": null,
+    "out": "work/kit-validation"
+  },
+  "utc_epoch": 1792058279.8252647,
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ]
+}

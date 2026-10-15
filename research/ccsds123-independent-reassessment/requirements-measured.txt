@@ -1,0 +1,5 @@
+# Versions actually used for the new host experiments, Python 3.12.3.
+# The unchanged NTNU model was executed with these installed versions.
+numpy==2.5.4
+h5py==3.16.0
+bitarray==3.12.2

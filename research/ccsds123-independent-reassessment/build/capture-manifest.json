@@ -1,0 +1,30 @@
+{
+  "command": [
+    "clang-18",
+    "-O3",
+    "-march=native",
+    "-shared",
+    "-fPIC",
+    "-I",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src",
+    "-I",
+    "<original-workspace>/outputs/ccsds123-independent-reassessment/src",
+    "<original-workspace>/outputs/ccsds123-independent-reassessment/src/native_bip_capture.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/scalar3.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/scalar4.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/scalar5.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/scalar6.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/avx3.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/avx4.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/avx5.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/avx6.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/frozen3.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/frozen4.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/frozen5.c",
+    "<original-workspace>/outputs/iac2027-vector-compression-kit/src/frozen6.c",
+    "-o",
+    "<original-workspace>/outputs/ccsds123-independent-reassessment/build/libcapture.so"
+  ],
+  "returncode": 0,
+  "source_sha256": "9914b6bf5d6477e542e465e21de04b3cb46fdab214a7783e94051d0679a3d512"
+}

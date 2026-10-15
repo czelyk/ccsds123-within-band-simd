@@ -1,0 +1,38 @@
+[
+  {
+    "name": "hypso2024.pdf",
+    "url": "https://rogerbi.folk.ntnu.no/publ/2024_Reconfig_IAC_paper.pdf",
+    "final_url": "https://rogerbi.folk.ntnu.no/publ/2024_Reconfig_IAC_paper.pdf",
+    "status": "saved",
+    "bytes": 85620,
+    "sha256": "099b1126c6165cbcd810e5167ac28884e691103ff6d063f2147a503232a74094"
+  },
+  {
+    "name": "probav-manual.pdf",
+    "url": "https://proba-v.vgt.vito.be/sites/probavvgt/files/Products_User_Manual.pdf",
+    "final_url": "https://proba-v.vgt.vito.be/sites/probavvgt/files/Products_User_Manual.pdf",
+    "status": "saved",
+    "bytes": 3509117,
+    "sha256": "f9e157137de944889373bb2057adaf8d1c1070e0f130549984620e79c5c18bb2"
+  },
+  {
+    "name": "probav-dierckx2014.pdf",
+    "url": "https://proba-v.vgt.vito.be/sites/probavvgt/files/dierckx_etal_2014.pdf",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "probav-ccsds2016.pdf",
+    "url": "https://indico.esa.int/event/130/contributions/712/attachments/773/949/DSCAL_CCSDS_ImageCompress_FPGA_SEFUW2016.pdf",
+    "final_url": "https://indico.esa.int/event/130/contributions/712/attachments/773/949/DSCAL_CCSDS_ImageCompress_FPGA_SEFUW2016.pdf",
+    "status": "saved",
+    "bytes": 1589827,
+    "sha256": "09fc21d754ef57d678cb295a97c3708b3c4536a2e3f938c27f304bc934041063"
+  },
+  {
+    "name": "eyesat.html",
+    "url": "https://www.researchgate.net/publication/312197460_Lossless_Image_Compression_on_the_EYESAT_Nanosat",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

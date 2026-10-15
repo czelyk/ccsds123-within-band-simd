@@ -1,0 +1,26 @@
+[
+  {
+    "id": 107774,
+    "filename": "LC08_L1GT_196031_20130322_20170505_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "url": "https://dataverse.csuc.cat/file.xhtml?fileId=107774&version=1.0",
+    "publisher_md5": "65c673f6bdfcd7c3db1a3c087d01078b"
+  },
+  {
+    "id": 107755,
+    "filename": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "url": "https://dataverse.csuc.cat/file.xhtml?fileId=107755&version=1.0",
+    "publisher_md5": "d0098d102f19d4299072393a3f720e67"
+  },
+  {
+    "id": 107764,
+    "filename": "LC08_L1GT_175025_20140204_20170426_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "url": "https://dataverse.csuc.cat/file.xhtml?fileId=107764&version=1.0",
+    "publisher_md5": "504f70435b6593e03c14445e511b041f"
+  },
+  {
+    "id": 107757,
+    "filename": "LC08_L1GT_007020_20140619_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+    "url": "https://dataverse.csuc.cat/file.xhtml?fileId=107757&version=1.0",
+    "publisher_md5": "51607d8a550a283262a9bcc78919bdd2"
+  }
+]

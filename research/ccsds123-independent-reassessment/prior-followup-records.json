@@ -1,0 +1,6544 @@
+[
+  {
+    "kind": "source-v2",
+    "sha256": "3a89fad89339120b935a2b3e82cc5a39839a8765573ed1134d355b90d4e8fd76",
+    "only_change": "export already computed final weights on scalar compression; original predictor kernels unchanged"
+  },
+  {
+    "kind": "ground-calibration-source",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 3,
+    "acquired": "b'2022-06-25T22:10:13.635265+00:00Z'",
+    "downlinked": "b'2022-06-26T10:38:44.711554+00:00Z'",
+    "weights_sha256": "fc675e90e265fccc4f9315c223d8eefdb36f2e344588627aa0a2726bc19b8961",
+    "host_learning_seconds": 1.930862485,
+    "per-test_training_cost": "none: explicitly a previously ground-derived stored table"
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 3,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 85604419,
+    "header_bytes": 1506,
+    "total_bytes": 85605925,
+    "size_change_percent": 2.001671663091975,
+    "sha256": "d01dd0ca9472c4c0e43a8d8d9b5bbe698be28480ef4e0cc2d37f4e6dc0f574cd",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.389058625832945,
+        "encode_ns_sample": 18.389029467628276,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 21.706727223466032,
+        "encode_ns_sample": 21.70671737237678,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.389058625832945,
+        "encode_ns_sample": 18.389029467628276,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 21.677302160052037,
+        "encode_ns_sample": 21.67728482825206,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.706727223466032,
+        "encode_ns_sample": 21.70671737237678,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.39287468038122,
+        "encode_ns_sample": 18.392864536180642,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.275799072442847,
+        "encode_ns_sample": 18.275778822273605,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.798076679961177,
+        "encode_ns_sample": 21.7980661024656,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 86162805,
+    "header_bytes": 1506,
+    "total_bytes": 86164311,
+    "size_change_percent": 2.667003010580671,
+    "sha256": "c1ce034adc7a2fdd188161b4cc8d471d5d31c3738d870ac12c3f1e77e9f6eb23",
+    "weights_sha256": "8fdf2ef543bb8461c550afcff80cd8ad9d5a874eba27d0f641c9ed6404f39ae5",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.736011019966234,
+        "encode_ns_sample": 18.560215184491913,
+        "training_seconds": 0.013778012
+      },
+      "6": {
+        "total_ns_sample": 22.149568399948617,
+        "encode_ns_sample": 21.968627708858385,
+        "training_seconds": 0.014104789
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.609970806112212,
+        "encode_ns_sample": 18.434779519113917,
+        "training_seconds": 0.013727462
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.022085696065478,
+        "encode_ns_sample": 21.84293261447144,
+        "training_seconds": 0.014040022
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.322497976257473,
+        "encode_ns_sample": 22.142531625437375,
+        "training_seconds": 0.014104789
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.75702381389317,
+        "encode_ns_sample": 18.579881386768292,
+        "training_seconds": 0.01388137
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.736011019966234,
+        "encode_ns_sample": 18.560215184491913,
+        "training_seconds": 0.013778012
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 22.149568399948617,
+        "encode_ns_sample": 21.968627708858385,
+        "training_seconds": 0.014174997
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 85562627,
+    "header_bytes": 1506,
+    "total_bytes": 85564133,
+    "size_change_percent": 1.9518754152020756,
+    "sha256": "1bd9da7f022c7b2a9d054eef9f067c2f50084017a62ba9d6e70ebd45722a9eb4",
+    "weights_sha256": "4d94eda4693fac85c4d26ac7a41d34707b546d48bb5f648da59b6b031add131b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.136197961270565,
+        "encode_ns_sample": 18.386833197227727,
+        "training_seconds": 0.059015339
+      },
+      "6": {
+        "total_ns_sample": 22.64356797786831,
+        "encode_ns_sample": 21.887980600618235,
+        "training_seconds": 0.059272641
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 19.130860901090475,
+        "encode_ns_sample": 18.378532080652,
+        "training_seconds": 0.059015339
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.678557249993883,
+        "encode_ns_sample": 21.922554049727992,
+        "training_seconds": 0.059303981
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.61287318169028,
+        "encode_ns_sample": 21.86216549626041,
+        "training_seconds": 0.058888952
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.343661582332167,
+        "encode_ns_sample": 18.589985660484313,
+        "training_seconds": 0.059072534
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 19.136197961270565,
+        "encode_ns_sample": 18.386833197227727,
+        "training_seconds": 0.058782832
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 22.64356797786831,
+        "encode_ns_sample": 21.887980600618235,
+        "training_seconds": 0.059272641
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 85083018,
+    "header_bytes": 1506,
+    "total_bytes": 85084524,
+    "size_change_percent": 1.3804088987820595,
+    "sha256": "1a5ecec7047c60b256960d99acbdcb913b44f2a154ff19566c3a786864a03754",
+    "weights_sha256": "045325ceb38b2a7684a2ccd5fa5ba05b0ef0f7af3a123543ae9cb2d94566d112",
+    "methods": {
+      "4": {
+        "total_ns_sample": 20.821082031919058,
+        "encode_ns_sample": 18.405515514000015,
+        "training_seconds": 0.189560142
+      },
+      "6": {
+        "total_ns_sample": 24.28579279221415,
+        "encode_ns_sample": 21.851294672714445,
+        "training_seconds": 0.19054746
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 20.821082031919058,
+        "encode_ns_sample": 18.405515514000015,
+        "training_seconds": 0.189527037
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 24.28579279221415,
+        "encode_ns_sample": 21.851294672714445,
+        "training_seconds": 0.19101081
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 24.19055513755332,
+        "encode_ns_sample": 21.775591804505453,
+        "training_seconds": 0.189480607
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 20.9325507133565,
+        "encode_ns_sample": 18.46901033383086,
+        "training_seconds": 0.193278152
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 20.752047089481024,
+        "encode_ns_sample": 18.335921378877227,
+        "training_seconds": 0.189560142
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 24.43542941063724,
+        "encode_ns_sample": 22.006875690723206,
+        "training_seconds": 0.19054746
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "ground-calibration-source",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 0,
+    "acquired": "b'2022-06-25T22:10:13.635265+00:00Z'",
+    "downlinked": "b'2022-06-26T10:38:44.711554+00:00Z'",
+    "weights_sha256": "9108a671b9f8f8226af408341ab2ff9b26282d2744e4f7cf975e3a1ef17b5af8",
+    "host_learning_seconds": 1.991734879,
+    "per-test_training_cost": "none: explicitly a previously ground-derived stored table"
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 0,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 82496272,
+    "header_bytes": 1506,
+    "total_bytes": 82497778,
+    "size_change_percent": 2.7509563226801204,
+    "sha256": "19f220fb900f10d18f56c39ffa141c2c47e5da44a06f4a6259215b8488cd4c69",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.802814276509498,
+        "encode_ns_sample": 17.802807088910093,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 20.614072402065133,
+        "encode_ns_sample": 20.614062015729118,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 19.450932195959446,
+        "encode_ns_sample": 19.450923262436078,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.09114332277113,
+        "encode_ns_sample": 22.091137587984374,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.614072402065133,
+        "encode_ns_sample": 20.614062015729118,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.751281763072257,
+        "encode_ns_sample": 17.751273288331824,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.802814276509498,
+        "encode_ns_sample": 17.802807088910093,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.61342647391666,
+        "encode_ns_sample": 20.613418776558433,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 81110667,
+    "header_bytes": 1506,
+    "total_bytes": 81112173,
+    "size_change_percent": 1.0251857348288151,
+    "sha256": "749436ab6a85dacedac6620715efe2cf3b51e6fbd2569c6da67ca60fb4d9b739",
+    "weights_sha256": "5287069b557fcd85742ab6362ffdb86d54851f669758ee88c821e2008d4e2140",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.902350153845212,
+        "encode_ns_sample": 17.742134013555507,
+        "training_seconds": 0.012705579
+      },
+      "6": {
+        "total_ns_sample": 20.976563940068676,
+        "encode_ns_sample": 20.81775054136387,
+        "training_seconds": 0.012580987
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.8722497746866,
+        "encode_ns_sample": 17.701730618459795,
+        "training_seconds": 0.013365619
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.81883010859902,
+        "encode_ns_sample": 20.658299281443963,
+        "training_seconds": 0.012580987
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.05431894437104,
+        "encode_ns_sample": 20.892038943535034,
+        "training_seconds": 0.012717767
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.93218143132121,
+        "encode_ns_sample": 17.770063788670303,
+        "training_seconds": 0.012705579
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.902350153845212,
+        "encode_ns_sample": 17.742134013555507,
+        "training_seconds": 0.012556456
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.976563940068676,
+        "encode_ns_sample": 20.81775054136387,
+        "training_seconds": 0.012445894
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 80815858,
+    "header_bytes": 1506,
+    "total_bytes": 80817364,
+    "size_change_percent": 0.6580012188708961,
+    "sha256": "e8d4323e56c37237813ef723daf7040c965d4ffa2b9a153bcfb7e2d32771a1fa",
+    "weights_sha256": "7aca260f248cac9f6ed9504b62dc928bac12373e69a5c16e6ad564cbefb07053",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.388509997899792,
+        "encode_ns_sample": 17.65973592199059,
+        "training_seconds": 0.056844632
+      },
+      "6": {
+        "total_ns_sample": 21.406030242971447,
+        "encode_ns_sample": 20.688834319206897,
+        "training_seconds": 0.056135909
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.598201048369994,
+        "encode_ns_sample": 17.59103716549626,
+        "training_seconds": 0.078990643
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 21.286079302160562,
+        "encode_ns_sample": 20.570463286659816,
+        "training_seconds": 0.056135909
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.50672642059589,
+        "encode_ns_sample": 20.794609389655566,
+        "training_seconds": 0.0558631
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.384368462343097,
+        "encode_ns_sample": 17.65973592199059,
+        "training_seconds": 0.056844632
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.388509997899792,
+        "encode_ns_sample": 17.677443057390686,
+        "training_seconds": 0.055780041
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.406030242971447,
+        "encode_ns_sample": 20.688834319206897,
+        "training_seconds": 0.056259993
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 80652733,
+    "header_bytes": 1506,
+    "total_bytes": 80654239,
+    "size_change_percent": 0.454829083130015,
+    "sha256": "fb280ecee5b66d69f3c740fa71ffca2c32c1aa96e321265bfc9f1c2f357d8659",
+    "weights_sha256": "9b7bc051cf12cdef9c05c9c4acfc63c270959f537c67729ccae8037ad4096634",
+    "methods": {
+      "4": {
+        "total_ns_sample": 20.014674146867634,
+        "encode_ns_sample": 17.755888453554853,
+        "training_seconds": 0.17821192
+      },
+      "6": {
+        "total_ns_sample": 22.91136967353006,
+        "encode_ns_sample": 20.65417321706754,
+        "training_seconds": 0.177633722
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 20.075296348291698,
+        "encode_ns_sample": 17.803957703781187,
+        "training_seconds": 0.17821192
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.900898296997724,
+        "encode_ns_sample": 20.619494808616146,
+        "training_seconds": 0.179002146
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.91136967353006,
+        "encode_ns_sample": 20.65417321706754,
+        "training_seconds": 0.177101813
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.970143514950205,
+        "encode_ns_sample": 17.68697875885961,
+        "training_seconds": 0.179139593
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 20.014674146867634,
+        "encode_ns_sample": 17.755888453554853,
+        "training_seconds": 0.17722878
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 26.616242088543068,
+        "encode_ns_sample": 24.35227126866737,
+        "training_seconds": 0.177633722
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 74235962,
+    "header_bytes": 1506,
+    "total_bytes": 74237468,
+    "size_change_percent": 2.5413525505476153,
+    "sha256": "f1b584dfc346ba37b88480a3bb6326ae6b626bdc2edb3ae37ce737e7ee3e6022",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.577521980800444,
+        "encode_ns_sample": 16.57751011616384,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 19.62129168297895,
+        "encode_ns_sample": 19.621283004334988,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.62373553049581,
+        "encode_ns_sample": 16.623726036237734,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.5775924167258,
+        "encode_ns_sample": 19.577581648070666,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.62129168297895,
+        "encode_ns_sample": 19.621283004334988,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.577521980800444,
+        "encode_ns_sample": 16.57751011616384,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.505660667824838,
+        "encode_ns_sample": 16.5056495550825,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.635799648470314,
+        "encode_ns_sample": 19.635787783833713,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "calibration": "prior-first-capture",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 72207875,
+    "header_bytes": 1506,
+    "total_bytes": 72209381,
+    "size_change_percent": -0.25996583587933886,
+    "sha256": "8ff842cc2bcd3977ce3baae0a3779b08b0be3e2d5e2d7e318ef587e1e234e762",
+    "weights_sha256": "fc675e90e265fccc4f9315c223d8eefdb36f2e344588627aa0a2726bc19b8961",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.7290968424519,
+        "encode_ns_sample": 16.729087526609412,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 19.649149786003246,
+        "encode_ns_sample": 19.64913825270988,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.75291757913496,
+        "encode_ns_sample": 16.752910952270263,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.756158192435993,
+        "encode_ns_sample": 19.756151323435855,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.639595478337288,
+        "encode_ns_sample": 19.639584442058773,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.7290968424519,
+        "encode_ns_sample": 16.729087526609412,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.648260256857277,
+        "encode_ns_sample": 16.648254496582577,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.649149786003246,
+        "encode_ns_sample": 19.64913825270988,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 74497220,
+    "header_bytes": 1506,
+    "total_bytes": 74498726,
+    "size_change_percent": 2.902218153946845,
+    "sha256": "4b74ede3ebbdf35d473336a21be9bf71c866d93373142288850b3cc3917169a8",
+    "weights_sha256": "993ee0dd0ca58995f0f239886b233daf8fa8fb7575b677078c06d764a0183414",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.809984149049402,
+        "encode_ns_sample": 16.62696797491171,
+        "training_seconds": 0.013641015
+      },
+      "6": {
+        "total_ns_sample": 19.967806512882625,
+        "encode_ns_sample": 19.786774320083683,
+        "training_seconds": 0.013973313
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.81325514397628,
+        "encode_ns_sample": 16.62696797491171,
+        "training_seconds": 0.014602779
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.8329231049206,
+        "encode_ns_sample": 19.654655092082834,
+        "training_seconds": 0.013973313
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.967806512882625,
+        "encode_ns_sample": 19.786774320083683,
+        "training_seconds": 0.014190025
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.76518971694112,
+        "encode_ns_sample": 16.591480642928218,
+        "training_seconds": 0.013614599
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.809984149049402,
+        "encode_ns_sample": 16.635941233983377,
+        "training_seconds": 0.013641015
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 24.851659048321057,
+        "encode_ns_sample": 24.675001962571468,
+        "training_seconds": 0.013845408
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 74092161,
+    "header_bytes": 1506,
+    "total_bytes": 74093667,
+    "size_change_percent": 2.342725773054055,
+    "sha256": "984c8e3d17c407fc117f76cd1f068d893496921baf3729846abcbf07d2f63825",
+    "weights_sha256": "add5ad83e96539f1be0ed67d340633c4d55fc51980513a50448f6fc5b1febffb",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.7108749653364,
+        "encode_ns_sample": 16.9443170557146,
+        "training_seconds": 0.059919017
+      },
+      "6": {
+        "total_ns_sample": 21.03333952690303,
+        "encode_ns_sample": 20.172364508653665,
+        "training_seconds": 0.062508678
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.7108749653364,
+        "encode_ns_sample": 16.9443170557146,
+        "training_seconds": 0.060130865
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.738429825580923,
+        "encode_ns_sample": 19.98934312223201,
+        "training_seconds": 0.058750832
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.03333952690303,
+        "encode_ns_sample": 20.172364508653665,
+        "training_seconds": 0.067532519
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.610639393040366,
+        "encode_ns_sample": 16.86295687134503,
+        "training_seconds": 0.058651123
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.088050195441532,
+        "encode_ns_sample": 17.32423086314403,
+        "training_seconds": 0.059919017
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.25620122882462,
+        "encode_ns_sample": 20.459370017107506,
+        "training_seconds": 0.062508678
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 73235259,
+    "header_bytes": 1506,
+    "total_bytes": 73236765,
+    "size_change_percent": 1.1591200756820852,
+    "sha256": "058a3aaffe6a91b27fff0dbf3a17acdac0599cb018df69b8c7b1eb1c14afbdfa",
+    "weights_sha256": "293ccd320d5921bb49f02499ac12c9ac0b64032186f2af61456654825bb2165d",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.25729000995049,
+        "encode_ns_sample": 16.897963092951464,
+        "training_seconds": 0.185117171
+      },
+      "6": {
+        "total_ns_sample": 22.439006553969186,
+        "encode_ns_sample": 20.016896975702856,
+        "training_seconds": 0.185439645
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 19.25729000995049,
+        "encode_ns_sample": 16.897963092951464,
+        "training_seconds": 0.185117171
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.439006553969186,
+        "encode_ns_sample": 20.016896975702856,
+        "training_seconds": 0.190041418
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.723776323945614,
+        "encode_ns_sample": 20.360165049711682,
+        "training_seconds": 0.185439645
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.520594829924065,
+        "encode_ns_sample": 17.14037532012854,
+        "training_seconds": 0.186736909
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 19.222125699389107,
+        "encode_ns_sample": 16.883704807331554,
+        "training_seconds": 0.183476648
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.95029752073699,
+        "encode_ns_sample": 19.642729055029484,
+        "training_seconds": 0.181055807
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 71031774,
+    "header_bytes": 1506,
+    "total_bytes": 71033280,
+    "size_change_percent": 3.5661502138178536,
+    "sha256": "cd7e74097fcd9e5295f3305b933fbc1af40ec53f95da311d3ebdb566d49d9474",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.112423179345388,
+        "encode_ns_sample": 19.112413379232017,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 22.68414484389146,
+        "encode_ns_sample": 22.68413689165382,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 19.112423179345388,
+        "encode_ns_sample": 19.112413379232017,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.691940088555302,
+        "encode_ns_sample": 22.691928835629287,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.68414484389146,
+        "encode_ns_sample": 22.68413689165382,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.325062050392717,
+        "encode_ns_sample": 19.32504810848891,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.93282583019322,
+        "encode_ns_sample": 18.93281453903529,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.294612002169533,
+        "encode_ns_sample": 21.29459837886499,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "calibration": "prior-first-capture",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 69148048,
+    "header_bytes": 1506,
+    "total_bytes": 69149554,
+    "size_change_percent": 0.8196875715510865,
+    "sha256": "a44f01b59fd8376ec87ccf4e7e64e276aa9475835b82d08b11d9f95474c48e60",
+    "weights_sha256": "9108a671b9f8f8226af408341ab2ff9b26282d2744e4f7cf975e3a1ef17b5af8",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.808423841012342,
+        "encode_ns_sample": 19.808412575342356,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 22.10361640750528,
+        "encode_ns_sample": 22.103608417035733,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.283106554376992,
+        "encode_ns_sample": 18.28310043727112,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 21.010877322970956,
+        "encode_ns_sample": 21.010861507703474,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.10361640750528,
+        "encode_ns_sample": 22.103608417035733,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.808423841012342,
+        "encode_ns_sample": 19.808412575342356,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 21.752570229473033,
+        "encode_ns_sample": 21.752558288372605,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 24.015834154045038,
+        "encode_ns_sample": 24.015824328443728,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 69333061,
+    "header_bytes": 1506,
+    "total_bytes": 69334567,
+    "size_change_percent": 1.0894355565731706,
+    "sha256": "28eda168924e57eacb71bda1ad8b483eed603124120e649ad9ed7d46186f3c89",
+    "weights_sha256": "052f6c0df61b8ab12c9869ed2e94dbe04a21967fb16d27bf4861566346b6e088",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.06835405757828,
+        "encode_ns_sample": 18.865933748175063,
+        "training_seconds": 0.014505123
+      },
+      "6": {
+        "total_ns_sample": 22.92898976761115,
+        "encode_ns_sample": 22.73539091110214,
+        "training_seconds": 0.014637611
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 19.06835405757828,
+        "encode_ns_sample": 18.865933748175063,
+        "training_seconds": 0.015869853
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 24.127717231173587,
+        "encode_ns_sample": 23.941741677677456,
+        "training_seconds": 0.014577334
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.92898976761115,
+        "encode_ns_sample": 22.73539091110214,
+        "training_seconds": 0.015174446
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.11987759926024,
+        "encode_ns_sample": 18.93481204172682,
+        "training_seconds": 0.014505123
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.961863731781218,
+        "encode_ns_sample": 18.7779669747649,
+        "training_seconds": 0.01440723
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.84517784720693,
+        "encode_ns_sample": 21.65842367534072,
+        "training_seconds": 0.014637611
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 69133836,
+    "header_bytes": 1506,
+    "total_bytes": 69135342,
+    "size_change_percent": 0.7989665499843257,
+    "sha256": "89e19f0e9039c3d6db9a9a8403bf26b54adad81ba0a8f57a923751efad332c30",
+    "weights_sha256": "26a347eeaed0bcca5c81576a3574f0ac82df7bb9807fc17e624c26b9850d46b8",
+    "methods": {
+      "4": {
+        "total_ns_sample": 20.073483671405384,
+        "encode_ns_sample": 19.284773886278924,
+        "training_seconds": 0.061872043
+      },
+      "6": {
+        "total_ns_sample": 23.595660907411485,
+        "encode_ns_sample": 22.80270706148507,
+        "training_seconds": 0.063567772
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 20.39366851505216,
+        "encode_ns_sample": 19.61200524083046,
+        "training_seconds": 0.06132062
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 23.595660907411485,
+        "encode_ns_sample": 22.80270706148507,
+        "training_seconds": 0.062205116
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.68479427663184,
+        "encode_ns_sample": 21.86398351287039,
+        "training_seconds": 0.064391473
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.514265613402987,
+        "encode_ns_sample": 18.70758951874689,
+        "training_seconds": 0.063253847
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 20.073483671405384,
+        "encode_ns_sample": 19.284773886278924,
+        "training_seconds": 0.061872043
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 23.69289047016076,
+        "encode_ns_sample": 22.882567879484856,
+        "training_seconds": 0.063567772
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 68793207,
+    "header_bytes": 1506,
+    "total_bytes": 68794713,
+    "size_change_percent": 0.302331251977761,
+    "sha256": "f73730789df5bfcd6ffb9b46309b33f2dc1ab366dd473869c926e2564888b7c9",
+    "weights_sha256": "9e293d83c4b0a5228b0820d7963fa00945eab195348c5a75785b287b7a6ba33c",
+    "methods": {
+      "4": {
+        "total_ns_sample": 21.611742077838134,
+        "encode_ns_sample": 19.0606786572137,
+        "training_seconds": 0.200160645
+      },
+      "6": {
+        "total_ns_sample": 24.71143092105263,
+        "encode_ns_sample": 22.18166146457788,
+        "training_seconds": 0.198352852
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 20.468744736740152,
+        "encode_ns_sample": 18.049719466975784,
+        "training_seconds": 0.18980245
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 24.278679821502852,
+        "encode_ns_sample": 21.75064140403892,
+        "training_seconds": 0.198352852
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 25.359201745720064,
+        "encode_ns_sample": 22.89543444705441,
+        "training_seconds": 0.193311509
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 22.342319527535132,
+        "encode_ns_sample": 19.761143506284306,
+        "training_seconds": 0.202523762
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 21.611742077838134,
+        "encode_ns_sample": 19.0606786572137,
+        "training_seconds": 0.200160645
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 24.71143092105263,
+        "encode_ns_sample": 22.18166146457788,
+        "training_seconds": 0.198489374
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 82480154,
+    "header_bytes": 1506,
+    "total_bytes": 82481660,
+    "size_change_percent": 2.445710455397787,
+    "sha256": "54d332268d4c14d2e598cc4c613560f26d90bfea9637ae2a370b2c6470280ab8",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.474879773381616,
+        "encode_ns_sample": 16.474868189112367,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 19.48113583951161,
+        "encode_ns_sample": 19.481123248468684,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.490506468329706,
+        "encode_ns_sample": 16.49049882194736,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.48113583951161,
+        "encode_ns_sample": 19.481123248468684,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.35590217881116,
+        "encode_ns_sample": 19.355894468708964,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.474879773381616,
+        "encode_ns_sample": 16.474868189112367,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.423920101421615,
+        "encode_ns_sample": 16.423913627484563,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.830306551114536,
+        "encode_ns_sample": 19.83030079083984,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "calibration": "prior-first-capture",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 80670695,
+    "header_bytes": 1506,
+    "total_bytes": 80672201,
+    "size_change_percent": 0.1982858425212619,
+    "sha256": "63034477e05667b78582ac8b4161e536e0c081b18e9064bf5d09292b60e1ad19",
+    "weights_sha256": "fc675e90e265fccc4f9315c223d8eefdb36f2e344588627aa0a2726bc19b8961",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.838627459076562,
+        "encode_ns_sample": 16.83862188996142,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 19.501300942747967,
+        "encode_ns_sample": 19.501293627708858,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.838627459076562,
+        "encode_ns_sample": 16.83862188996142,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.545520940382687,
+        "encode_ns_sample": 19.545508476779467,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.501300942747967,
+        "encode_ns_sample": 19.501293627708858,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.94989430150807,
+        "encode_ns_sample": 16.94987984984544,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.663803427822227,
+        "encode_ns_sample": 16.66379541186474,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.486765985526926,
+        "encode_ns_sample": 19.48675580309444,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 91010260,
+    "header_bytes": 1506,
+    "total_bytes": 91011766,
+    "size_change_percent": 13.040462906183237,
+    "sha256": "89f614fb3e5b596700494ee4373a5d3c5ea2db3b116dd1d14ba8388206a1ca61",
+    "weights_sha256": "79a2501b55ae5cbcf75f5fac913e5d4829293ad9cc791c897fa329276e6df3c1",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.05161839505493,
+        "encode_ns_sample": 16.86832981854625,
+        "training_seconds": 0.014366326
+      },
+      "6": {
+        "total_ns_sample": 20.13642510980205,
+        "encode_ns_sample": 19.952495537061505,
+        "training_seconds": 0.014314917
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.43149195702529,
+        "encode_ns_sample": 17.246470136798877,
+        "training_seconds": 0.014503636
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 25.258039317188253,
+        "encode_ns_sample": 25.080828302013753,
+        "training_seconds": 0.013889191
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.13642510980205,
+        "encode_ns_sample": 19.952495537061505,
+        "training_seconds": 0.014418478
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.05161839505493,
+        "encode_ns_sample": 16.86832981854625,
+        "training_seconds": 0.014366326
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.015877521776897,
+        "encode_ns_sample": 16.833007253358293,
+        "training_seconds": 0.014334708
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.0028174370142,
+        "encode_ns_sample": 19.82019322917941,
+        "training_seconds": 0.014314917
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 91001570,
+    "header_bytes": 1506,
+    "total_bytes": 91003076,
+    "size_change_percent": 13.029669558621393,
+    "sha256": "50a2edca1d9a6187b3872d449c5c32249e3f8a5451958a476887fc3e984fbfc1",
+    "weights_sha256": "f46f224ccd7ab156595a833fe8dda40a049f02721cc93fdc3ad1e02eda28b96c",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.869156889492444,
+        "encode_ns_sample": 17.10529039175985,
+        "training_seconds": 0.059601232
+      },
+      "6": {
+        "total_ns_sample": 20.975311462640796,
+        "encode_ns_sample": 20.22239727340201,
+        "training_seconds": 0.059540095
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.80690716833052,
+        "encode_ns_sample": 17.047170379749932,
+        "training_seconds": 0.059601232
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.975311462640796,
+        "encode_ns_sample": 20.22239727340201,
+        "training_seconds": 0.059064626
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.408168719465447,
+        "encode_ns_sample": 20.623035007177403,
+        "training_seconds": 0.061592509
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.869156889492444,
+        "encode_ns_sample": 17.10529039175985,
+        "training_seconds": 0.059923835
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.956722852284127,
+        "encode_ns_sample": 17.19875018606197,
+        "training_seconds": 0.059461833
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.70530504732601,
+        "encode_ns_sample": 19.94633130398346,
+        "training_seconds": 0.059540095
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 88224281,
+    "header_bytes": 1506,
+    "total_bytes": 88225787,
+    "size_change_percent": 9.58015914933814,
+    "sha256": "fc6db2c4bee4f1045b81b002fb4816caf170b950279f9a47c3239f165dc04e73",
+    "weights_sha256": "636a4ce65cdeb3fe878d7c766eb20a78adc52a6da2fca3f0b82949390de433d2",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.160902428592983,
+        "encode_ns_sample": 16.812165139429233,
+        "training_seconds": 0.184285602
+      },
+      "6": {
+        "total_ns_sample": 22.175228473904426,
+        "encode_ns_sample": 19.831463550714886,
+        "training_seconds": 0.184345154
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 19.25821970809171,
+        "encode_ns_sample": 16.89246027194614,
+        "training_seconds": 0.18562244
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.175228473904426,
+        "encode_ns_sample": 19.831463550714886,
+        "training_seconds": 0.183895908
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.165966538411347,
+        "encode_ns_sample": 19.816457805732952,
+        "training_seconds": 0.184345154
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.160902428592983,
+        "encode_ns_sample": 16.812165139429233,
+        "training_seconds": 0.184285602
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 19.149541930721735,
+        "encode_ns_sample": 16.808992171123997,
+        "training_seconds": 0.183644293
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 22.36058190498911,
+        "encode_ns_sample": 20.00662961739542,
+        "training_seconds": 0.184695245
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 79295504,
+    "header_bytes": 1506,
+    "total_bytes": 79297010,
+    "size_change_percent": 2.6498790375075743,
+    "sha256": "fa9e5e0fb0f7546936442f44713ae2ec93c43888468543eb9f1d71e614d9b428",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.877828893843745,
+        "encode_ns_sample": 17.877821349413164,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 20.74137475327673,
+        "encode_ns_sample": 20.741367310797916,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.877828893843745,
+        "encode_ns_sample": 17.877821349413164,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.58440570022511,
+        "encode_ns_sample": 20.58439410321189,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.74137475327673,
+        "encode_ns_sample": 20.741367310797916,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.466057670544913,
+        "encode_ns_sample": 17.466044888342427,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 22.66435426046229,
+        "encode_ns_sample": 22.66434448583686,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.75926704582528,
+        "encode_ns_sample": 20.759257449615436,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "calibration": "prior-first-capture",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 77629850,
+    "header_bytes": 1506,
+    "total_bytes": 77631356,
+    "size_change_percent": 0.49369204359266394,
+    "sha256": "69893f143a10af231d8abe48b714a8ddc6ed2add05e1c2538b264ba1fe2e7879",
+    "weights_sha256": "9108a671b9f8f8226af408341ab2ff9b26282d2744e4f7cf975e3a1ef17b5af8",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.540471027347543,
+        "encode_ns_sample": 17.540466426774163,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 20.433443670630552,
+        "encode_ns_sample": 20.433437043765853,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.540471027347543,
+        "encode_ns_sample": 17.540466426774163,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.416441353266944,
+        "encode_ns_sample": 20.41642988369343,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.433443670630552,
+        "encode_ns_sample": 20.433437043765853,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.51962477162805,
+        "encode_ns_sample": 17.519615583225264,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.634539167828915,
+        "encode_ns_sample": 17.634532056693338,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.62019214594191,
+        "encode_ns_sample": 20.620179656850752,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 87483078,
+    "header_bytes": 1506,
+    "total_bytes": 87484584,
+    "size_change_percent": 13.24868321323427,
+    "sha256": "0ac64bdb34c37390ca07eefd1179327b5b9b5161aee06c33f413601adb3b6a9a",
+    "weights_sha256": "674b8634fd2939f94553f4706fa5011e61cca4c5989d4c0b46e75646483d095f",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.179966197892455,
+        "encode_ns_sample": 17.98805041208903,
+        "training_seconds": 0.014867892
+      },
+      "6": {
+        "total_ns_sample": 21.144492463725562,
+        "encode_ns_sample": 20.955017250238566,
+        "training_seconds": 0.014852018
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.179966197892455,
+        "encode_ns_sample": 17.98805041208903,
+        "training_seconds": 0.015045654
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 21.08447645474973,
+        "encode_ns_sample": 20.891020114063632,
+        "training_seconds": 0.015165358
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.144492463725562,
+        "encode_ns_sample": 20.955017250238566,
+        "training_seconds": 0.014852018
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.3154680580024,
+        "encode_ns_sample": 18.125797976461378,
+        "training_seconds": 0.014867892
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.12149757456752,
+        "encode_ns_sample": 17.935042694850214,
+        "training_seconds": 0.014615484
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.27463700074221,
+        "encode_ns_sample": 21.085481431525118,
+        "training_seconds": 0.014826725
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 87586758,
+    "header_bytes": 1506,
+    "total_bytes": 87588264,
+    "size_change_percent": 13.38289684195253,
+    "sha256": "822d177a67efe9e42420b777390e1469b4289ac5530c5447cfbfa654656396f3",
+    "weights_sha256": "6a8686eeb3cfa52438d72f0cfd9cb5f745f50edde1a7d5bb2092b4a3f863310d",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.76727409528004,
+        "encode_ns_sample": 17.998300030789434,
+        "training_seconds": 0.06066298
+      },
+      "6": {
+        "total_ns_sample": 22.004835814329525,
+        "encode_ns_sample": 21.20650522349866,
+        "training_seconds": 0.062629031
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.968264225329712,
+        "encode_ns_sample": 18.183250319109025,
+        "training_seconds": 0.061584117
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.063751547118027,
+        "encode_ns_sample": 21.248499486672866,
+        "training_seconds": 0.06395503
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.004835814329525,
+        "encode_ns_sample": 21.20650522349866,
+        "training_seconds": 0.062629031
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.68955570440513,
+        "encode_ns_sample": 17.91627310736744,
+        "training_seconds": 0.06066298
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.76727409528004,
+        "encode_ns_sample": 17.998300030789434,
+        "training_seconds": 0.060325609
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.631654111306858,
+        "encode_ns_sample": 20.859559137630804,
+        "training_seconds": 0.06056822
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 83890048,
+    "header_bytes": 1506,
+    "total_bytes": 83891554,
+    "size_change_percent": 8.597510427802192,
+    "sha256": "3f4d599ebac8b1ecffa85a07e0391f13c6220d69ee0ea2a0841f20bf3316a98e",
+    "weights_sha256": "a53263c516fa717d110d640537eed4c4a140636b82749ea3e165357eb9cf89d5",
+    "methods": {
+      "4": {
+        "total_ns_sample": 20.165016296989567,
+        "encode_ns_sample": 17.7678923562684,
+        "training_seconds": 0.188083785
+      },
+      "6": {
+        "total_ns_sample": 23.203983268186157,
+        "encode_ns_sample": 20.787921787194044,
+        "training_seconds": 0.1869833
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 20.328481346905154,
+        "encode_ns_sample": 17.915277968937335,
+        "training_seconds": 0.189345543
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 23.203983268186157,
+        "encode_ns_sample": 20.787921787194044,
+        "training_seconds": 0.189569302
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 23.040725957734878,
+        "encode_ns_sample": 20.66002856178685,
+        "training_seconds": 0.186790311
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 20.165016296989567,
+        "encode_ns_sample": 17.7678923562684,
+        "training_seconds": 0.188083785
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 20.091294529981976,
+        "encode_ns_sample": 17.707533445276372,
+        "training_seconds": 0.187034375
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 28.032704150762193,
+        "encode_ns_sample": 25.64956540511553,
+        "training_seconds": 0.1869833
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 81976564,
+    "header_bytes": 1506,
+    "total_bytes": 81978070,
+    "size_change_percent": 3.1005199278641538,
+    "sha256": "4fcfab42c2b48571a93a39d184a008f7513ada2c06017511a3f2e3a432b658bd",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.478754756049817,
+        "encode_ns_sample": 16.478744853984683,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 19.47955421081178,
+        "encode_ns_sample": 19.479544576370028,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.551212359408517,
+        "encode_ns_sample": 16.551202406367498,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.628441764132553,
+        "encode_ns_sample": 19.62843186206742,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.47955421081178,
+        "encode_ns_sample": 19.479544576370028,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.421616297397374,
+        "encode_ns_sample": 16.42160438178489,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.478754756049817,
+        "encode_ns_sample": 16.478744853984683,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.285066742722684,
+        "encode_ns_sample": 19.28505644559446,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "calibration": "prior-first-capture",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 79712887,
+    "header_bytes": 1506,
+    "total_bytes": 79714393,
+    "size_change_percent": 0.253584452940836,
+    "sha256": "8ae8d1ff9b2240ab3095bfc5f774a8bc08ee9bbfe4aff5be929ff6c3bd8632e7",
+    "weights_sha256": "fc675e90e265fccc4f9315c223d8eefdb36f2e344588627aa0a2726bc19b8961",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.550302325213895,
+        "encode_ns_sample": 16.550297061954048,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 19.657961540735847,
+        "encode_ns_sample": 19.657951230863652,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 16.550302325213895,
+        "encode_ns_sample": 16.550297061954048,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.795241197484646,
+        "encode_ns_sample": 19.795233869701566,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.657961540735847,
+        "encode_ns_sample": 19.657951230863652,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.861928573103494,
+        "encode_ns_sample": 16.86191918079718,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.4237686648193,
+        "encode_ns_sample": 16.423762687897103,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.580825128765078,
+        "encode_ns_sample": 19.580813837607153,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 82069826,
+    "header_bytes": 1506,
+    "total_bytes": 82071332,
+    "size_change_percent": 3.217811792499581,
+    "sha256": "8aa2362b1108fd897f55e67d3250af65412196da336ee1f29e4a364c37b269ab",
+    "weights_sha256": "826f3b17bd813b8e54b92a2746f74fc4a737a39babeb565d5da9afcac4027f66",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.833893481815885,
+        "encode_ns_sample": 16.684053354926718,
+        "training_seconds": 0.011742324
+      },
+      "6": {
+        "total_ns_sample": 19.70450405054361,
+        "encode_ns_sample": 19.553010712071906,
+        "training_seconds": 0.011853636
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 21.691591846815435,
+        "encode_ns_sample": 21.542789181082647,
+        "training_seconds": 0.011663002
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 19.640647798963354,
+        "encode_ns_sample": 19.49214961217549,
+        "training_seconds": 0.011613582
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.70450405054361,
+        "encode_ns_sample": 19.553010712071906,
+        "training_seconds": 0.011872332
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.69571440659995,
+        "encode_ns_sample": 16.543784217560987,
+        "training_seconds": 0.0119051
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.833893481815885,
+        "encode_ns_sample": 16.684053354926718,
+        "training_seconds": 0.011742324
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.80177639480209,
+        "encode_ns_sample": 19.65051940600863,
+        "training_seconds": 0.011853636
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 81669997,
+    "header_bytes": 1506,
+    "total_bytes": 81671503,
+    "size_change_percent": 2.714962947897126,
+    "sha256": "9bd8d856979b96531f4791d6150ed6c04f78715886b3800682b5ac5c8c9cef9a",
+    "weights_sha256": "bd848b3a14cdcf18fab8043b6cdf5f0a6fa8c2e8f13cd5f537760fd2dec7ba2e",
+    "methods": {
+      "4": {
+        "total_ns_sample": 16.98785319914442,
+        "encode_ns_sample": 16.369239546885577,
+        "training_seconds": 0.048180242
+      },
+      "6": {
+        "total_ns_sample": 19.97926892428654,
+        "encode_ns_sample": 19.371602495677244,
+        "training_seconds": 0.047667911
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.038235135942482,
+        "encode_ns_sample": 16.424054665006892,
+        "training_seconds": 0.048180242
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.0515758811691,
+        "encode_ns_sample": 19.444738728212908,
+        "training_seconds": 0.04760025
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 19.925559218172697,
+        "encode_ns_sample": 19.316761889614785,
+        "training_seconds": 0.04775597
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 16.94512907603155,
+        "encode_ns_sample": 16.33826129931407,
+        "training_seconds": 0.047605479
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 16.98785319914442,
+        "encode_ns_sample": 16.369239546885577,
+        "training_seconds": 0.048526806
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 19.97926892428654,
+        "encode_ns_sample": 19.371602495677244,
+        "training_seconds": 0.047667911
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 81079850,
+    "header_bytes": 1506,
+    "total_bytes": 81081356,
+    "size_change_percent": 1.9727588128904294,
+    "sha256": "b12a7644e47590fde89efa5aeb935ca6a7ae3edde23120ec45c6a18b13376cc1",
+    "weights_sha256": "2aacf53a1ff3b3c83ec862e798724925ac5207d3dfc4230516d95bbd176e5fa2",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.219617813420115,
+        "encode_ns_sample": 16.295459922251585,
+        "training_seconds": 0.150969256
+      },
+      "6": {
+        "total_ns_sample": 21.482393070440512,
+        "encode_ns_sample": 19.50967210018596,
+        "training_seconds": 0.154781616
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.468734337660166,
+        "encode_ns_sample": 16.539021235023284,
+        "training_seconds": 0.15140529
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 21.482393070440512,
+        "encode_ns_sample": 19.50967210018596,
+        "training_seconds": 0.154781616
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.54310237690344,
+        "encode_ns_sample": 19.55850035581166,
+        "training_seconds": 0.155712782
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.219617813420115,
+        "encode_ns_sample": 16.295459922251585,
+        "training_seconds": 0.150969256
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.20957658412652,
+        "encode_ns_sample": 16.291919430579004,
+        "training_seconds": 0.150459062
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 21.35026832430041,
+        "encode_ns_sample": 19.43376594015839,
+        "training_seconds": 0.150369152
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "calibration": "default",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 78479323,
+    "header_bytes": 1506,
+    "total_bytes": 78480829,
+    "size_change_percent": 3.237284735500001,
+    "sha256": "815e50cbf411b08381e355cb47326d21163a1338cf1494874b0fd5fb19737cba",
+    "weights_sha256": "61cab3cc4f7c3f9be8eb7bf4c5b77bb86b29af5133faca7ad048785271244b1b",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.49120810037355,
+        "encode_ns_sample": 17.491201983267676,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 20.402085639992006,
+        "encode_ns_sample": 20.402074794873048,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.49120810037355,
+        "encode_ns_sample": 17.491201983267676,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.402085639992006,
+        "encode_ns_sample": 20.402074794873048,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.367551467799554,
+        "encode_ns_sample": 20.36754064816854,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.44424807260189,
+        "encode_ns_sample": 17.444231913247204,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.52250771265099,
+        "encode_ns_sample": 17.52249527453571,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.42909328688411,
+        "encode_ns_sample": 20.429084748423826,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "calibration": "prior-first-capture",
+    "causal": true,
+    "training_lines": 0,
+    "body_bytes": 76568627,
+    "header_bytes": 1506,
+    "total_bytes": 76570133,
+    "size_change_percent": 0.723867516181631,
+    "sha256": "9d20ca65e94f80335e701e65f03a187aea48b5872ee02efe53e846bf722e3609",
+    "weights_sha256": "9108a671b9f8f8226af408341ab2ff9b26282d2744e4f7cf975e3a1ef17b5af8",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.74813773632419,
+        "encode_ns_sample": 17.748129325303612,
+        "training_seconds": 0
+      },
+      "6": {
+        "total_ns_sample": 20.723575275065862,
+        "encode_ns_sample": 20.723565232817048,
+        "training_seconds": 0
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.528028795766147,
+        "encode_ns_sample": 17.52802154444689,
+        "training_seconds": 0
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.723575275065862,
+        "encode_ns_sample": 20.723565232817048,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.890771275294234,
+        "encode_ns_sample": 20.890764826845125,
+        "training_seconds": 0
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.74813773632419,
+        "encode_ns_sample": 17.748129325303612,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.75241793902469,
+        "encode_ns_sample": 17.752405246029998,
+        "training_seconds": 0
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.58419162700743,
+        "encode_ns_sample": 20.58418139359906,
+        "training_seconds": 0
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix8-reencode",
+    "causal": true,
+    "training_lines": 8,
+    "body_bytes": 77451800,
+    "header_bytes": 1506,
+    "total_bytes": 77453306,
+    "size_change_percent": 1.885633818009369,
+    "sha256": "523f4f05521ce67d5671cb18d5a4ac0f153d7728134a7ee9ac824520451b63cb",
+    "weights_sha256": "4520c9e2dbf32e6f70663cda4080127bb23271e55b073a9c638fcb4237f7d45f",
+    "methods": {
+      "4": {
+        "total_ns_sample": 17.718904953938193,
+        "encode_ns_sample": 17.559897477305537,
+        "training_seconds": 0.012463821
+      },
+      "6": {
+        "total_ns_sample": 20.709449921802996,
+        "encode_ns_sample": 20.553613565599843,
+        "training_seconds": 0.012193452
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 17.718904953938193,
+        "encode_ns_sample": 17.559897477305537,
+        "training_seconds": 0.012463821
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 20.605287193023237,
+        "encode_ns_sample": 20.45065493813567,
+        "training_seconds": 0.012118639
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 20.709449921802996,
+        "encode_ns_sample": 20.553613565599843,
+        "training_seconds": 0.01221314
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 17.84608046441068,
+        "encode_ns_sample": 17.685156893570515,
+        "training_seconds": 0.012611387
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 17.685446041518837,
+        "encode_ns_sample": 17.53043461527482,
+        "training_seconds": 0.012149401
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.767689701648354,
+        "encode_ns_sample": 20.612118394545174,
+        "training_seconds": 0.012193452
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix32-reencode",
+    "causal": true,
+    "training_lines": 32,
+    "body_bytes": 77204259,
+    "header_bytes": 1506,
+    "total_bytes": 77205765,
+    "size_change_percent": 1.5600070244811137,
+    "sha256": "ca731226d95f5c4513124614c774e2f6155e87fb3c6a67069cb3f7bb1599b475",
+    "weights_sha256": "0c103923467e618d23cc786fc064835fe1ef7d907501923e1806d3f7518b0b76",
+    "methods": {
+      "4": {
+        "total_ns_sample": 18.1786626936064,
+        "encode_ns_sample": 17.5366640974822,
+        "training_seconds": 0.05046628
+      },
+      "6": {
+        "total_ns_sample": 21.05480771387441,
+        "encode_ns_sample": 20.40085840836983,
+        "training_seconds": 0.05096778
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 18.22665750630062,
+        "encode_ns_sample": 17.58012794436696,
+        "training_seconds": 0.050718723
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 21.090803186196545,
+        "encode_ns_sample": 20.441073664227982,
+        "training_seconds": 0.05096778
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 21.05480771387441,
+        "encode_ns_sample": 20.40085840836983,
+        "training_seconds": 0.05129976
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 18.13406428925347,
+        "encode_ns_sample": 17.490733196310163,
+        "training_seconds": 0.05046628
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 18.1786626936064,
+        "encode_ns_sample": 17.5366640974822,
+        "training_seconds": 0.050360964
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 20.98540756747168,
+        "encode_ns_sample": 20.342579007519962,
+        "training_seconds": 0.050426374
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-fixed",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "calibration": "prefix100-reencode",
+    "causal": true,
+    "training_lines": 100,
+    "body_bytes": 76829216,
+    "header_bytes": 1506,
+    "total_bytes": 76830722,
+    "size_change_percent": 1.0666582478129127,
+    "sha256": "55786a256361b14132570905088b5073ea7783d14fde9b9af22bcb85f16d52da",
+    "weights_sha256": "b66146fa56a861d89964173e1f3dbc7a7cc6d2d6434f4ca36cac1c715e27564c",
+    "methods": {
+      "4": {
+        "total_ns_sample": 19.824431733608197,
+        "encode_ns_sample": 17.781954231813845,
+        "training_seconds": 0.160249929
+      },
+      "6": {
+        "total_ns_sample": 22.79116872150448,
+        "encode_ns_sample": 20.438533166438294,
+        "training_seconds": 0.157758394
+      }
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "variant": 4,
+        "total_ns_sample": 24.03060948803902,
+        "encode_ns_sample": 22.02637197763994,
+        "training_seconds": 0.157255259
+      },
+      {
+        "trial": 0,
+        "variant": 6,
+        "total_ns_sample": 22.842678780065576,
+        "encode_ns_sample": 20.341506181845244,
+        "training_seconds": 0.196247308
+      },
+      {
+        "trial": 1,
+        "variant": 6,
+        "total_ns_sample": 22.79116872150448,
+        "encode_ns_sample": 20.783774695266175,
+        "training_seconds": 0.157499546
+      },
+      {
+        "trial": 1,
+        "variant": 4,
+        "total_ns_sample": 19.76147877466213,
+        "encode_ns_sample": 17.704892601462397,
+        "training_seconds": 0.161361018
+      },
+      {
+        "trial": 2,
+        "variant": 4,
+        "total_ns_sample": 19.824431733608197,
+        "encode_ns_sample": 17.781954231813845,
+        "training_seconds": 0.160249929
+      },
+      {
+        "trial": 2,
+        "variant": 6,
+        "total_ns_sample": 22.449196976926277,
+        "encode_ns_sample": 20.438533166438294,
+        "training_seconds": 0.157758394
+      }
+    ],
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 3,
+    "samples": 78468480,
+    "body_bytes": 83925983,
+    "header_bytes": 19,
+    "body_sha256": "f6b92029a5dd6a8f8560088465269713ed8e3c5c7c9a2b49913530eddb0d6bbe",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.067316061175138,
+        "trials_ns": [
+          28.223429382090746,
+          28.018287648747624,
+          28.067316061175138
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.638716768822334,
+        "trials_ns": [
+          29.638716768822334,
+          34.28330613770013,
+          29.08982789012862
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.1659717124634,
+        "trials_ns": [
+          21.1659717124634,
+          22.705437648339817,
+          20.316180280285792
+        ],
+        "accepted": 9602081,
+        "rejected": 149119
+      },
+      "5:1": {
+        "median_ns": 29.40375882137643,
+        "trials_ns": [
+          29.50951342500836,
+          29.40375882137643,
+          29.381059490383908
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 50.806491855073524,
+        "trials_ns": [
+          49.85618030322494,
+          50.806491855073524,
+          55.67674941581639
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.54096971166002,
+        "trials_ns": [
+          30.38892831873384,
+          30.715918633825964,
+          30.54096971166002
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 21.23852476816169,
+        "trials_ns": [
+          21.42033026509498,
+          21.23852476816169,
+          21.086910782520572
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.813424970128132,
+        "trials_ns": [
+          16.87811138943943,
+          16.685442014424137,
+          16.813424970128132
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 0,
+    "samples": 78468480,
+    "body_bytes": 80289042,
+    "header_bytes": 19,
+    "body_sha256": "8367f7629537986f893e9e05748966e22e2d36b4a050afc0ac88479b65045365",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.9056139994046,
+        "trials_ns": [
+          29.12529332797067,
+          28.9056139994046,
+          28.9014193724665
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.8730004072973,
+        "trials_ns": [
+          29.998837048965395,
+          29.8730004072973,
+          29.768797101715236
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.596953923409757,
+        "trials_ns": [
+          21.596953923409757,
+          21.4339543215314,
+          26.503416467350966
+        ],
+        "accepted": 9629758,
+        "rejected": 121442
+      },
+      "5:1": {
+        "median_ns": 29.950354448053538,
+        "trials_ns": [
+          30.27875552068805,
+          29.950354448053538,
+          29.945165001284593
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 50.19254185884574,
+        "trials_ns": [
+          55.58267654732193,
+          50.135001646521,
+          50.19254185884574
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.653009616090436,
+        "trials_ns": [
+          30.619156022902445,
+          30.69851451181417,
+          30.653009616090436
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.721708410816674,
+        "trials_ns": [
+          22.604441069841037,
+          22.806732779837205,
+          22.721708410816674
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 18.291385827787156,
+        "trials_ns": [
+          18.261564732743643,
+          18.291385827787156,
+          18.3044531256372
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 3,
+    "samples": 78468480,
+    "body_bytes": 72397571,
+    "header_bytes": 19,
+    "body_sha256": "a5e4172dd71659d42094188e0071b5ad5f5c088e73257df1c5cad1821a6463cf",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.303489158959113,
+        "trials_ns": [
+          28.303489158959113,
+          28.266707765971763,
+          28.3446688785102
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.272307262737854,
+        "trials_ns": [
+          29.098777611086643,
+          33.24230647770926,
+          29.272307262737854
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.435259813876858,
+        "trials_ns": [
+          20.435259813876858,
+          20.879587230439533,
+          20.431270951087622
+        ],
+        "accepted": 9628772,
+        "rejected": 122428
+      },
+      "5:1": {
+        "median_ns": 30.19146645888897,
+        "trials_ns": [
+          29.245375608142275,
+          30.19146645888897,
+          34.376897322338856
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.919698814097075,
+        "trials_ns": [
+          49.797005561978516,
+          50.402173114606015,
+          49.919698814097075
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.168478196595625,
+        "trials_ns": [
+          30.08012413391976,
+          30.168478196595625,
+          30.192326919038063
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 21.19262148317388,
+        "trials_ns": [
+          21.701388595777566,
+          21.17366491615487,
+          21.19262148317388
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.73171646755487,
+        "trials_ns": [
+          19.459659891462152,
+          16.73171646755487,
+          16.66291304483023
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 0,
+    "samples": 78468480,
+    "body_bytes": 68587333,
+    "header_bytes": 19,
+    "body_sha256": "b954a4407ec8ed6e41f519091188279ba7a2f4d41b878e039413576a22755b1b",
+    "methods": {
+      "0:1": {
+        "median_ns": 29.30111764621922,
+        "trials_ns": [
+          29.3086573232972,
+          29.30111764621922,
+          29.287760078951447
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 30.616469887017054,
+        "trials_ns": [
+          30.616469887017054,
+          30.611664925840287,
+          30.709139618863524
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.78636897261168,
+        "trials_ns": [
+          21.78636897261168,
+          21.729871268055657,
+          21.836689610911286
+        ],
+        "accepted": 9651647,
+        "rejected": 99553
+      },
+      "5:1": {
+        "median_ns": 30.34926955383869,
+        "trials_ns": [
+          30.29572267743685,
+          35.08751816015807,
+          30.34926955383869
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 50.335233854408806,
+        "trials_ns": [
+          50.404553331477814,
+          50.335233854408806,
+          50.31138592209254
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.961548904732194,
+        "trials_ns": [
+          30.943219927288002,
+          31.06834804242417,
+          30.961548904732194
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.78201265017495,
+        "trials_ns": [
+          23.00779310367679,
+          22.731677585700652,
+          22.78201265017495
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 18.616612581255556,
+        "trials_ns": [
+          18.93401042048986,
+          18.616612581255556,
+          18.567382559213584
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 3,
+    "samples": 78468480,
+    "body_bytes": 80512537,
+    "header_bytes": 19,
+    "body_sha256": "148027eefe40a63db9d683c06cf7c18a2d17c93f33b80b142746453871dd1e8f",
+    "methods": {
+      "0:1": {
+        "median_ns": 27.95619856533477,
+        "trials_ns": [
+          27.885384182285677,
+          28.06641699953918,
+          27.95619856533477
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 28.719104868604568,
+        "trials_ns": [
+          28.719104868604568,
+          33.19718675575212,
+          28.589615473627116
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.05542809036189,
+        "trials_ns": [
+          20.05542809036189,
+          23.860256819043773,
+          20.019280697166558
+        ],
+        "accepted": 9611466,
+        "rejected": 139734
+      },
+      "5:1": {
+        "median_ns": 29.129193747604134,
+        "trials_ns": [
+          29.129193747604134,
+          33.71774753378681,
+          29.008766921444128
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.6725981311222,
+        "trials_ns": [
+          49.6725981311222,
+          51.61007241378959,
+          49.609878093726294
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 31.903107540760317,
+        "trials_ns": [
+          31.903107540760317,
+          30.018019235239425,
+          35.27451999834838
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 21.010729900719372,
+        "trials_ns": [
+          24.89485746378673,
+          21.010729900719372,
+          20.86657465519913
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.5055500374163,
+        "trials_ns": [
+          19.230819878249203,
+          16.50216384973941,
+          16.5055500374163
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 0,
+    "samples": 78468480,
+    "body_bytes": 77249960,
+    "header_bytes": 19,
+    "body_sha256": "b3bc206ad33163748d19b604bad507fc5fe55b6831534afcc7352c5c62bb1f3b",
+    "methods": {
+      "0:1": {
+        "median_ns": 29.03351794249105,
+        "trials_ns": [
+          29.254694088632785,
+          28.813847738607908,
+          29.03351794249105
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.85022699560384,
+        "trials_ns": [
+          29.85022699560384,
+          29.831129480270295,
+          29.89798756137496
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.441124703830123,
+        "trials_ns": [
+          21.441124703830123,
+          21.423971765478317,
+          21.464769509999428
+        ],
+        "accepted": 9644554,
+        "rejected": 106646
+      },
+      "5:1": {
+        "median_ns": 29.987550364171703,
+        "trials_ns": [
+          29.987550364171703,
+          29.856437438319183,
+          35.10794434911954
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 50.30322250411885,
+        "trials_ns": [
+          50.60691148853655,
+          50.21938824353422,
+          50.30322250411885
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.831504471604394,
+        "trials_ns": [
+          30.850031757974666,
+          30.831504471604394,
+          30.72301022015464
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.540019776093533,
+        "trials_ns": [
+          22.482218223164256,
+          22.540019776093533,
+          22.65986373127146
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 18.492781343540745,
+        "trials_ns": [
+          18.497231996847653,
+          18.492781343540745,
+          18.345745030361236
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 3,
+    "samples": 78468480,
+    "body_bytes": 79512742,
+    "header_bytes": 19,
+    "body_sha256": "01e362716910e6a3ced2c3e57110a8a066ff9efe23273b2b90a707732a313730",
+    "methods": {
+      "0:1": {
+        "median_ns": 27.44701055761498,
+        "trials_ns": [
+          27.37511279688354,
+          27.44701055761498,
+          27.92377711407179
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 28.36038005323921,
+        "trials_ns": [
+          28.36038005323921,
+          28.6652513085509,
+          28.217456283083347
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.255937199242293,
+        "trials_ns": [
+          20.30195111463864,
+          20.255937199242293,
+          20.196219857960802
+        ],
+        "accepted": 9521415,
+        "rejected": 229785
+      },
+      "5:1": {
+        "median_ns": 28.521662162947468,
+        "trials_ns": [
+          28.521662162947468,
+          33.475536291769636,
+          28.48262599199067
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.606065237914635,
+        "trials_ns": [
+          49.6734094377768,
+          49.606065237914635,
+          49.5525087907909
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 29.941736070330407,
+        "trials_ns": [
+          29.907221536596605,
+          29.941736070330407,
+          29.988106791414847
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 21.007053507344605,
+        "trials_ns": [
+          21.27233988730252,
+          21.007053507344605,
+          20.883761938551633
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.518300787781286,
+        "trials_ns": [
+          16.518300787781286,
+          16.531058521842144,
+          16.452494020529006
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "full-capture-adaptive",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "layout": "BIP",
+    "local": 0,
+    "samples": 78468480,
+    "body_bytes": 76019831,
+    "header_bytes": 19,
+    "body_sha256": "f740ea5067b4e474058018473c0b29247f5adcfde3bbdeb1fe7295941ec7a697",
+    "methods": {
+      "0:1": {
+        "median_ns": 33.07470799740227,
+        "trials_ns": [
+          33.07470799740227,
+          28.28141982615185,
+          33.085220396775874
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.44507566605088,
+        "trials_ns": [
+          29.42325614055478,
+          29.478997949240256,
+          29.44507566605088
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.37264004604142,
+        "trials_ns": [
+          21.35322295015782,
+          21.37264004604142,
+          21.399337453713898
+        ],
+        "accepted": 9565105,
+        "rejected": 186095
+      },
+      "5:1": {
+        "median_ns": 29.46850413057574,
+        "trials_ns": [
+          29.26718664615397,
+          29.46850413057574,
+          29.53875605848361
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 50.02637442448229,
+        "trials_ns": [
+          50.02637442448229,
+          50.05625583673852,
+          49.977480919727256
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.637984818872496,
+        "trials_ns": [
+          30.717595294314354,
+          30.637984818872496,
+          30.60990091817759
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.441762297421842,
+        "trials_ns": [
+          22.441762297421842,
+          22.42829862385508,
+          22.54821361392498
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 18.227234795423588,
+        "trials_ns": [
+          18.227234795423588,
+          18.261810309056578,
+          18.18083807663918
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "full_reference": "specialized scalar; independent NTNU validation on full-width first8 rows"
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 3,
+    "body_bytes": 11560537,
+    "body_sha256": "702c709c09f2055f738ca96865c0598d8eacff7b47af88f454de020f568d2c67",
+    "methods": {
+      "0:1": {
+        "median_ns": 26.757869133010477,
+        "trials_ns": [
+          26.34328465749878,
+          26.762163723653753,
+          26.757869133010477
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 27.170951168067738,
+        "trials_ns": [
+          27.158184183875488,
+          27.170951168067738,
+          27.26748903508772
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 19.559297712597466,
+        "trials_ns": [
+          19.597866886726365,
+          19.46895387883772,
+          19.559297712597466
+        ],
+        "accepted": 1277756,
+        "rejected": 27844
+      },
+      "5:1": {
+        "median_ns": 27.64231199744152,
+        "trials_ns": [
+          27.495577295017057,
+          27.64231199744152,
+          27.68329526072125
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.05627874482212,
+        "trials_ns": [
+          49.03536526864035,
+          49.162452218871834,
+          49.05627874482212
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 29.555097637213695,
+        "trials_ns": [
+          29.41696087277656,
+          29.641403299372563,
+          29.555097637213695
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 20.38713164747807,
+        "trials_ns": [
+          20.21851851851852,
+          21.00610284935429,
+          20.38713164747807
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.08867730034722,
+        "trials_ns": [
+          15.968408774214181,
+          16.08867730034722,
+          16.11614811769006
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 0,
+    "body_bytes": 10911393,
+    "body_sha256": "b8839680ccb7264af9bf2c487dd077939bbdec198f215cc4383cff1f743f9bea",
+    "methods": {
+      "0:1": {
+        "median_ns": 27.623921498081142,
+        "trials_ns": [
+          27.526076979014377,
+          28.491466214364035,
+          27.623921498081142
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 28.317926108674463,
+        "trials_ns": [
+          28.235349849232456,
+          28.317926108674463,
+          28.400481808905944
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.60572583531311,
+        "trials_ns": [
+          20.60572583531311,
+          20.548138534813596,
+          20.758026753624513
+        ],
+        "accepted": 1283068,
+        "rejected": 22532
+      },
+      "5:1": {
+        "median_ns": 28.685626256396198,
+        "trials_ns": [
+          28.685626256396198,
+          28.56962462308114,
+          29.3977142155519
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.498452157955654,
+        "trials_ns": [
+          49.498452157955654,
+          49.46612108613548,
+          49.55309606481482
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.043148643092106,
+        "trials_ns": [
+          30.043148643092106,
+          30.04235254477339,
+          31.112876157407406
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 21.97298948053728,
+        "trials_ns": [
+          21.97298948053728,
+          21.91467070997807,
+          22.13956734283626
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 17.723511360867448,
+        "trials_ns": [
+          17.723511360867448,
+          17.669318233735382,
+          17.754986465186402
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 3,
+    "body_bytes": 9837121,
+    "body_sha256": "1eb911ee88c936a35e9e5ba56187a27e6a50805f1f6afa050276159a394534a0",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.127780538042153,
+        "trials_ns": [
+          28.025716716922513,
+          28.127780538042153,
+          29.181881719816033
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 28.792531010142543,
+        "trials_ns": [
+          28.36607387609649,
+          28.825747555738303,
+          28.792531010142543
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 19.51513681393153,
+        "trials_ns": [
+          19.51513681393153,
+          19.58537373979654,
+          19.49760713633041
+        ],
+        "accepted": 1286952,
+        "rejected": 18648
+      },
+      "5:1": {
+        "median_ns": 28.939402012518276,
+        "trials_ns": [
+          28.939402012518276,
+          29.20887206079435,
+          28.842554329617446
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.51589798062866,
+        "trials_ns": [
+          49.523515929580896,
+          49.51589798062866,
+          49.29470600328948
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 29.749367899457845,
+        "trials_ns": [
+          29.76327801382797,
+          29.749367899457845,
+          29.63750989887914
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 20.82537625258894,
+        "trials_ns": [
+          20.82537625258894,
+          20.920603945845517,
+          20.604502181560672
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.436255501492447,
+        "trials_ns": [
+          16.40961856953582,
+          16.436255501492447,
+          16.8057087978192
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 0,
+    "body_bytes": 9216219,
+    "body_sha256": "09722b6ad78e9ee405f0fda8de31455f95eee2e906f705e4088ac61e99d2eadc",
+    "methods": {
+      "0:1": {
+        "median_ns": 29.640978504203215,
+        "trials_ns": [
+          29.640978504203215,
+          28.970919282255117,
+          29.934226231268276
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 30.669949572825292,
+        "trials_ns": [
+          45.21789869639376,
+          29.81615715993543,
+          30.669949572825292
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.587102141203705,
+        "trials_ns": [
+          35.69176793981482,
+          20.986814217074805,
+          21.587102141203705
+        ],
+        "accepted": 1292388,
+        "rejected": 13212
+      },
+      "5:1": {
+        "median_ns": 30.52903883787159,
+        "trials_ns": [
+          37.15231234009503,
+          30.52903883787159,
+          30.128233697307504
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.956469869334796,
+        "trials_ns": [
+          49.615648795382555,
+          49.9965067426596,
+          49.956469869334796
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.532406836318227,
+        "trials_ns": [
+          30.87983845790692,
+          30.429813520346006,
+          30.532406836318227
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.284868992141813,
+        "trials_ns": [
+          22.284868992141813,
+          22.425711577119884,
+          22.272023197642543
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 18.058129073769493,
+        "trials_ns": [
+          18.058129073769493,
+          18.257331833272417,
+          17.954387487816764
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 3,
+    "body_bytes": 10500624,
+    "body_sha256": "d74cf0b5f67c6c2ad0e3b663f9e6caa01c384d7eafd7c5e6a218325a2822cecc",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.30911363151803,
+        "trials_ns": [
+          29.087598893609893,
+          28.149026197764375,
+          28.30911363151803
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 28.46248791194566,
+        "trials_ns": [
+          28.378078836957847,
+          28.46248791194566,
+          28.855669963754874
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 19.2653279384442,
+        "trials_ns": [
+          19.27360578094542,
+          19.25849066840278,
+          19.2653279384442
+        ],
+        "accepted": 1295741,
+        "rejected": 9859
+      },
+      "5:1": {
+        "median_ns": 29.402989747045567,
+        "trials_ns": [
+          29.402989747045567,
+          29.526794838115254,
+          29.0677438360441
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.58775965521443,
+        "trials_ns": [
+          49.66361371908504,
+          49.58775965521443,
+          49.022698796144006
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 29.722693180433723,
+        "trials_ns": [
+          29.722693180433723,
+          29.732206859923245,
+          29.62371704815424
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 20.601397360045077,
+        "trials_ns": [
+          20.59665256076389,
+          20.601397360045077,
+          20.63924972206993
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.21693393640351,
+        "trials_ns": [
+          16.181429988273635,
+          16.21693393640351,
+          16.64356763218811
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 0,
+    "body_bytes": 9992407,
+    "body_sha256": "ab6fbac25a55f040b55cdb207992c8a8ad408f028a8c896999a488d5c95510d9",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.749239309210527,
+        "trials_ns": [
+          28.709829396625242,
+          28.761112538834066,
+          28.749239309210527
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.712084247076024,
+        "trials_ns": [
+          29.3803934614096,
+          29.741155827394007,
+          29.712084247076024
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.63491544072856,
+        "trials_ns": [
+          20.482662779452973,
+          20.832149084734404,
+          20.63491544072856
+        ],
+        "accepted": 1302514,
+        "rejected": 3086
+      },
+      "5:1": {
+        "median_ns": 30.1561258832846,
+        "trials_ns": [
+          29.763355110867447,
+          30.1561258832846,
+          30.646499508863304
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.65541535316155,
+        "trials_ns": [
+          49.70343548215156,
+          49.65541535316155,
+          49.64292801230507
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.211471658747563,
+        "trials_ns": [
+          30.211471658747563,
+          30.70624038666545,
+          30.083981138827973
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.223928160788255,
+        "trials_ns": [
+          22.223928160788255,
+          22.516648772538986,
+          22.177500228435672
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 18.10285011574074,
+        "trials_ns": [
+          18.176026532803363,
+          17.924250445449562,
+          18.10285011574074
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 3,
+    "body_bytes": 11217989,
+    "body_sha256": "94b431731b847c8afd66c955201805e894f406a2d614182717159728ea25f295",
+    "methods": {
+      "0:1": {
+        "median_ns": 25.089064689175196,
+        "trials_ns": [
+          24.607888930768762,
+          25.089064689175196,
+          25.73022422864888
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 26.171146195023148,
+        "trials_ns": [
+          25.433690359253166,
+          26.25795879401194,
+          26.171146195023148
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.162141927083333,
+        "trials_ns": [
+          20.11713762487817,
+          20.162141927083333,
+          20.462305734496834
+        ],
+        "accepted": 1251162,
+        "rejected": 54438
+      },
+      "5:1": {
+        "median_ns": 26.330657399792884,
+        "trials_ns": [
+          26.124332872654726,
+          26.330657399792884,
+          26.484927052875243
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.21092560230872,
+        "trials_ns": [
+          49.529281074865985,
+          49.19955826251827,
+          49.21092560230872
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 29.760139022143033,
+        "trials_ns": [
+          29.760139022143033,
+          30.24670338770102,
+          29.69531278554459
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 20.58183631822612,
+        "trials_ns": [
+          20.358251762761938,
+          20.58183631822612,
+          20.796073000426414
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.233177997076023,
+        "trials_ns": [
+          16.433928217897172,
+          15.9117808083577,
+          16.233177997076023
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-replay",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "shape": [
+      128,
+      684,
+      120
+    ],
+    "local": 0,
+    "body_bytes": 10586701,
+    "body_sha256": "f3cea070fd09adf15b055b8cdc371afedc4bb317bb431826108306fd0c4019c0",
+    "methods": {
+      "0:1": {
+        "median_ns": 26.125450018274854,
+        "trials_ns": [
+          42.55114760370979,
+          25.978091972009015,
+          26.125450018274854
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 28.064401060702973,
+        "trials_ns": [
+          44.17512878061038,
+          28.064401060702973,
+          26.724754050925927
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.139898764924464,
+        "trials_ns": [
+          21.652269127680313,
+          21.139898764924464,
+          20.926413731268276
+        ],
+        "accepted": 1260701,
+        "rejected": 44899
+      },
+      "5:1": {
+        "median_ns": 26.829734043768276,
+        "trials_ns": [
+          26.829734043768276,
+          27.04054942586501,
+          26.783515415600633
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.699979250426416,
+        "trials_ns": [
+          49.20791358278509,
+          49.699979250426416,
+          49.99584323221247
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 30.115135195845518,
+        "trials_ns": [
+          30.115135195845518,
+          30.11985515274732,
+          29.934413929245856
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 22.239880585252195,
+        "trials_ns": [
+          22.239880585252195,
+          22.940782430250973,
+          21.862551588389376
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 17.842328178301656,
+        "trials_ns": [
+          17.842328178301656,
+          17.78934195297271,
+          18.173452538681772
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "two-image-prefix32",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "prefix_lines": 32,
+    "fixed_suffix_total_bytes": 74111090,
+    "adaptive_split_total_bytes": 72528486,
+    "fixed_delta_percent": 2.366791491263731,
+    "adaptive_split_delta_percent": 0.18080159850624167,
+    "methods": {
+      "0": 28.317199874395428,
+      "4": 16.873234896355836
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "suffix_variant": 4,
+        "total_ns_sample": 16.924761917141762
+      },
+      {
+        "trial": 0,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.38026143745871
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.04763831286142
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 4,
+        "total_ns_sample": 16.852365625025488
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 4,
+        "total_ns_sample": 16.873234896355836
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.317199874395428
+      }
+    ],
+    "prefix_sha256": "dc9a1010857b7d0361c9c490fbc367a93fa852e2e9cd0e7f8c0fd4fa31d53967",
+    "fixed_suffix_sha256": "d6f8da35ae55d49f87d8981538794a82cdef0f4f979325c1991022338f642940",
+    "adaptive_suffix_sha256": "54365da8a17e04b3953cd5f26f4c728aa47d2c72898db23a532dda3f80bb7138",
+    "all_bodies_equal": true,
+    "framing": "two independent CCSDS images; not same adaptive full-image bitstream or claim of exact reproduction of Barrios2024"
+  },
+  {
+    "kind": "two-image-prefix32",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "prefix_lines": 32,
+    "fixed_suffix_total_bytes": 69141846,
+    "adaptive_split_total_bytes": 68605107,
+    "fixed_delta_percent": 0.8084493479205923,
+    "adaptive_split_delta_percent": 0.025886697010846227,
+    "methods": {
+      "0": 29.11355571052224,
+      "4": 18.254882253358293
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.254882253358293
+      },
+      {
+        "trial": 0,
+        "suffix_variant": 0,
+        "total_ns_sample": 29.19033015549683
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.981375642805876
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.321812108505224
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.229319059066775
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 0,
+        "total_ns_sample": 29.11355571052224
+      }
+    ],
+    "prefix_sha256": "a3e10b54c1c64682fc8c2abd5168478c8a64326dae7608562d51b031955c459e",
+    "fixed_suffix_sha256": "4a3eab295028055fa003a3b7b0e3955a9d6e99b3e214e2dc02ab9a41e7c17116",
+    "adaptive_suffix_sha256": "3d29c14631a67f0998c0112dfc2d361c56e2e450b66e760c17e20eb333743f15",
+    "all_bodies_equal": true,
+    "framing": "two independent CCSDS images; not same adaptive full-image bitstream or claim of exact reproduction of Barrios2024"
+  },
+  {
+    "kind": "two-image-prefix32",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "prefix_lines": 32,
+    "fixed_suffix_total_bytes": 91021987,
+    "adaptive_split_total_bytes": 80573588,
+    "fixed_delta_percent": 13.053157820501937,
+    "adaptive_split_delta_percent": 0.07580432547689142,
+    "methods": {
+      "0": 28.143730093917966,
+      "4": 17.291971018171882
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "suffix_variant": 4,
+        "total_ns_sample": 17.388178884056376
+      },
+      {
+        "trial": 0,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.143730093917966
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.311439485000857
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 4,
+        "total_ns_sample": 17.291971018171882
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 4,
+        "total_ns_sample": 17.213201963387082
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 0,
+        "total_ns_sample": 27.829940569767633
+      }
+    ],
+    "prefix_sha256": "bb57eb893ef0651528bec0e721e7630e9aee533e5da7182e6c23d8c5772d13dc",
+    "fixed_suffix_sha256": "0b831bc132c5c61e368b4ce9b486eb3748f4f188269d14d8e361c63b210a8995",
+    "adaptive_suffix_sha256": "6db310c0fe8d79ad61d0b514eb877c56d5ee68f642a1b008cf8fdd5a2d743e73",
+    "all_bodies_equal": true,
+    "framing": "two independent CCSDS images; not same adaptive full-image bitstream or claim of exact reproduction of Barrios2024"
+  },
+  {
+    "kind": "two-image-prefix32",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "prefix_lines": 32,
+    "fixed_suffix_total_bytes": 87594519,
+    "adaptive_split_total_bytes": 77252889,
+    "fixed_delta_percent": 13.390993931532336,
+    "adaptive_split_delta_percent": 0.00376699131530156,
+    "methods": {
+      "0": 28.91362749730847,
+      "4": 18.618038414915134
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "suffix_variant": 4,
+        "total_ns_sample": 19.51882589034476
+      },
+      {
+        "trial": 0,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.91362749730847
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.914238812832874
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.55344725678387
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.618038414915134
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.64374379368633
+      }
+    ],
+    "prefix_sha256": "f16c3f6e49becd8e53e69d400a4c0cc0ca0e79b5c4128a3db603bd24fdaa986d",
+    "fixed_suffix_sha256": "5603f6f99ffcec6782191cb7ed02aa6eb293b5c59906d73130fbdbc02ad79e6e",
+    "adaptive_suffix_sha256": "f6e74a56305ccdbc9108025f06cf4a75b84488be2c829f8f42496a30ed4e1274",
+    "all_bodies_equal": true,
+    "framing": "two independent CCSDS images; not same adaptive full-image bitstream or claim of exact reproduction of Barrios2024"
+  },
+  {
+    "kind": "two-image-prefix32",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "prefix_lines": 32,
+    "fixed_suffix_total_bytes": 81695533,
+    "adaptive_split_total_bytes": 79343777,
+    "fixed_delta_percent": 2.7451845119552676,
+    "adaptive_split_delta_percent": -0.21252437706194005,
+    "methods": {
+      "0": 27.45754121909842,
+      "4": 16.58727881564674
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "suffix_variant": 4,
+        "total_ns_sample": 16.866860935754076
+      },
+      {
+        "trial": 0,
+        "suffix_variant": 0,
+        "total_ns_sample": 27.45754121909842
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 0,
+        "total_ns_sample": 27.474940485657427
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 4,
+        "total_ns_sample": 16.56405360470854
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 4,
+        "total_ns_sample": 16.58727881564674
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 0,
+        "total_ns_sample": 27.240847496982227
+      }
+    ],
+    "prefix_sha256": "6ff01d6f1ccc5b3e267fdf0bf2e2efcdb28e3ba7643145db159207c85d3c4ce2",
+    "fixed_suffix_sha256": "fcf20e8f854a403f7297e1b0e03c6160d692e52f9149be8b616718f4f2269da1",
+    "adaptive_suffix_sha256": "914ac01380f6f47574ccacfc26c46bd510739fe00552363963033fc7edcf2152",
+    "all_bodies_equal": true,
+    "framing": "two independent CCSDS images; not same adaptive full-image bitstream or claim of exact reproduction of Barrios2024"
+  },
+  {
+    "kind": "two-image-prefix32",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "prefix_lines": 32,
+    "fixed_suffix_total_bytes": 77212707,
+    "adaptive_split_total_bytes": 76050471,
+    "fixed_delta_percent": 1.5691388499188053,
+    "adaptive_split_delta_percent": 0.040280268903458705,
+    "methods": {
+      "0": 28.139495833231383,
+      "4": 18.044685700551355
+    },
+    "trials": [
+      {
+        "trial": 0,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.044685700551355
+      },
+      {
+        "trial": 0,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.258509888301646
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 0,
+        "total_ns_sample": 27.99522875936937
+      },
+      {
+        "trial": 1,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.18602651663445
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 4,
+        "total_ns_sample": 18.015580612750494
+      },
+      {
+        "trial": 2,
+        "suffix_variant": 0,
+        "total_ns_sample": 28.139495833231383
+      }
+    ],
+    "prefix_sha256": "688c3cc03acb212419399264a95ec1b5d5e2a9392000b8f6ebd02d3a8bc8902b",
+    "fixed_suffix_sha256": "9b2bf23f5de5ea9f83aa551bd260143a643380838279b1bd8b394934c5d8fd7a",
+    "adaptive_suffix_sha256": "1e98a2e68dcd6827369cf45d0f2d41bf28c6b7c8774cec7a43eea70eba0e9ac8",
+    "all_bodies_equal": true,
+    "framing": "two independent CCSDS images; not same adaptive full-image bitstream or claim of exact reproduction of Barrios2024"
+  },
+  {
+    "kind": "nu4-independent-prefix",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "body_bytes": 613839,
+    "sha256": "851e1615ef4c4103c2e9df91e6d8b088f0fa0e4aab7aa616471a5fcc158ca33e",
+    "all_groups_match": true,
+    "reference_seconds": 13.925365488990792,
+    "dimensions": {
+      "products/dn": {
+        "shape": [
+          956,
+          684,
+          120
+        ],
+        "dimensions": [
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "kind": "nu4-full-sensitivity",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "layout": "BIP",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "body_bytes": 70804862,
+    "header_bytes": 19,
+    "sha256": "65628a6006dc159a02461655aebb0b078798e477c56b9723ae4f65fc070bd176",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.340063156569364,
+        "trials_ns": [
+          28.22455427962922,
+          28.340063156569364,
+          29.23999516748636
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "1:1": {
+        "median_ns": 29.380368346627844,
+        "trials_ns": [
+          29.380368346627844,
+          29.32932786515044,
+          35.37009896202908
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 21.160117501957473,
+        "trials_ns": [
+          21.160117501957473,
+          21.272569036637385,
+          20.95605839440244
+        ],
+        "accepted": 9198062,
+        "rejected": 553138
+      },
+      "5:1": {
+        "median_ns": 29.570753441381814,
+        "trials_ns": [
+          29.570753441381814,
+          29.71313828176613,
+          29.29415372898774
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:1": {
+        "median_ns": 49.806547112929934,
+        "trials_ns": [
+          49.806547112929934,
+          50.32138795093265,
+          49.62728976016867
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:2": {
+        "median_ns": 34.409924736658596,
+        "trials_ns": [
+          35.47789871805851,
+          30.07235501439559,
+          34.409924736658596
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 21.191321432503855,
+        "trials_ns": [
+          20.833515431928845,
+          21.191321432503855,
+          24.49082636747902
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.80999634502924,
+        "trials_ns": [
+          16.807915891833257,
+          16.80999634502924,
+          17.778236407790747
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "fixed_prior9_size_delta_percent": 1.9836203100178862
+  },
+  {
+    "kind": "BIL-fixed-prior",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "body_bytes": 72207875,
+    "header_bytes": 1506,
+    "methods": {
+      "4:1": {
+        "median_ns": 16.019156481685386,
+        "trials_ns": [
+          16.019156481685386,
+          16.125992054389226,
+          15.96782978337289
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "6:1": {
+        "median_ns": 18.95338918250997,
+        "trials_ns": [
+          18.95338918250997,
+          18.935118457755266,
+          19.041631480563915
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-fixed-prior-output-trace",
+    "body_quantum": 1024,
+    "row": 0,
+    "input_group_first": 0,
+    "input_group_last": 1,
+    "within_group_finish_us": 12.853,
+    "trace_sha256": "70776203eb88f391b4c6d4392b044e0a7b883964e00d24be375aa92de5a1b044"
+  },
+  {
+    "kind": "fixed-from-prior-nu4",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "source_file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "body_bytes": 71563020,
+    "header_bytes": 1506,
+    "delta_vs_adaptive_nu4_percent": 1.0728709508035283,
+    "delta_vs_adaptive_nu9_percent": -1.150679186972936,
+    "methods": {
+      "4:1": {
+        "median_ns": 16.684788312453612,
+        "trials_ns": [
+          16.69683509862814,
+          16.684788312453612,
+          16.654654289212687
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "6:1": {
+        "median_ns": 19.538230752016606,
+        "trials_ns": [
+          19.60451814537506,
+          19.538230752016606,
+          19.496823081063887
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "ground_training_seconds": 1.848744595,
+    "weights_sha256": "88794468d1e64c430b1214b6f31c86b100b0d926dd575dacff0e0cad5e062969",
+    "body_sha256": "bc421a57552e130529318049ce7c6e976cf381976ecb358e0beb4fa79cb79a12"
+  },
+  {
+    "kind": "compact-source",
+    "sha256": "526aac8a93ca5b91e502e018d8252dd8bcfe0aaf854f6177f5a621dce9b58bf8",
+    "new_variant": 7,
+    "change": "conventional across-band SIMD constructs 7x8 int features on stack per x; retains per-group prediction-row buffer and byte order; no change to proposed algorithm or scalar kernels",
+    "additional_scratch_bytes_excluding_prediction_row": 224
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 3,
+    "body_bytes": 83925983,
+    "body_sha256": "f6b92029a5dd6a8f8560088465269713ed8e3c5c7c9a2b49913530eddb0d6bbe",
+    "methods": {
+      "7:2": {
+        "median_ns": 28.640333558136973,
+        "trials_ns": [
+          28.590136408912215,
+          28.681673673301688,
+          28.640333558136973
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 19.963277726292137,
+        "trials_ns": [
+          19.963277726292137,
+          19.988965110576885,
+          19.945899461796635
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.779278316592853,
+        "trials_ns": [
+          15.67355010572398,
+          15.779278316592853,
+          15.923327532277929
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "local": 0,
+    "body_bytes": 80289042,
+    "body_sha256": "8367f7629537986f893e9e05748966e22e2d36b4a050afc0ac88479b65045365",
+    "methods": {
+      "7:2": {
+        "median_ns": 29.538744754581714,
+        "trials_ns": [
+          29.814370865855945,
+          29.538744754581714,
+          29.3973719001566
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 21.32393378844601,
+        "trials_ns": [
+          21.27024527555523,
+          21.32393378844601,
+          21.64279593538705
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 17.89391201409789,
+        "trials_ns": [
+          17.468248244390615,
+          17.89391201409789,
+          22.694460693006924
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "body_bytes": 72397571,
+    "body_sha256": "a5e4172dd71659d42094188e0071b5ad5f5c088e73257df1c5cad1821a6463cf",
+    "methods": {
+      "7:2": {
+        "median_ns": 29.412881554478943,
+        "trials_ns": [
+          28.784556729020366,
+          29.412881554478943,
+          34.33800403678012
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 20.102810466062298,
+        "trials_ns": [
+          20.102810466062298,
+          20.530472579563156,
+          20.061014002055348
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.884853204751767,
+        "trials_ns": [
+          15.719448930322086,
+          15.946502697643691,
+          15.884853204751767
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 0,
+    "body_bytes": 68587333,
+    "body_sha256": "b954a4407ec8ed6e41f519091188279ba7a2f4d41b878e039413576a22755b1b",
+    "methods": {
+      "7:2": {
+        "median_ns": 29.685862221365827,
+        "trials_ns": [
+          29.551207605907493,
+          29.685862221365827,
+          29.718890706179092
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 21.88380776586981,
+        "trials_ns": [
+          21.586311064009397,
+          21.88380776586981,
+          26.606517432222468
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 17.697223165276046,
+        "trials_ns": [
+          17.697223165276046,
+          18.21607989602959,
+          17.669161553785674
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 3,
+    "body_bytes": 80512537,
+    "body_sha256": "148027eefe40a63db9d683c06cf7c18a2d17c93f33b80b142746453871dd1e8f",
+    "methods": {
+      "7:2": {
+        "median_ns": 28.907721877625256,
+        "trials_ns": [
+          28.907721877625256,
+          28.61911482164558,
+          29.68591147681209
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 20.393502397395743,
+        "trials_ns": [
+          20.393502397395743,
+          20.123054632892085,
+          20.443735714008987
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.760046900360502,
+        "trials_ns": [
+          15.642842845942727,
+          15.760046900360502,
+          15.934633460467184
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "local": 0,
+    "body_bytes": 77249960,
+    "body_sha256": "b3bc206ad33163748d19b604bad507fc5fe55b6831534afcc7352c5c62bb1f3b",
+    "methods": {
+      "7:2": {
+        "median_ns": 31.978508185707177,
+        "trials_ns": [
+          30.67455471292422,
+          32.59934117495331,
+          31.978508185707177
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 24.0426069677914,
+        "trials_ns": [
+          24.0426069677914,
+          28.000968197676315,
+          22.36205338755128
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 19.379734079212444,
+        "trials_ns": [
+          19.379734079212444,
+          19.454762256131378,
+          18.927028330356343
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "compact-band-BIP",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 3,
+    "body_bytes": 79512742,
+    "body_sha256": "01e362716910e6a3ced2c3e57110a8a066ff9efe23273b2b90a707732a313730",
+    "methods": {
+      "7:2": {
+        "median_ns": 28.78446329022813,
+        "trials_ns": [
+          28.81646309448074,
+          28.759394001260123,
+          28.78446329022813
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 20.195316195751467,
+        "trials_ns": [
+          20.152056685690866,
+          20.195316195751467,
+          20.198517442927404
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.82539900097466,
+        "trials_ns": [
+          15.82539900097466,
+          16.447274077438482,
+          15.719125055053953
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true,
+    "first8_allgroups_equal": true
+  },
+  {
+    "kind": "BIL-full-confirmation",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      956,
+      684,
+      120
+    ],
+    "local": 3,
+    "body_bytes": 72397571,
+    "body_sha256": "a5e4172dd71659d42094188e0071b5ad5f5c088e73257df1c5cad1821a6463cf",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.06660664256527,
+        "trials_ns": [
+          27.954393866174037,
+          28.06660664256527,
+          28.160058930668722
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 19.600661577744336,
+        "trials_ns": [
+          19.476843491807156,
+          19.600661577744336,
+          19.615871417414994
+        ],
+        "accepted": 9628772,
+        "rejected": 122428
+      },
+      "3:2": {
+        "median_ns": 29.53640661830075,
+        "trials_ns": [
+          29.825115103542213,
+          29.53640661830075,
+          29.521565780298026
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:4": {
+        "median_ns": 20.64427144504392,
+        "trials_ns": [
+          21.76944081241283,
+          20.64427144504392,
+          20.604640806091822
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "3:8": {
+        "median_ns": 16.371646462375722,
+        "trials_ns": [
+          16.14130017556094,
+          21.186652831812214,
+          16.371646462375722
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "BIL-output-trace",
+    "variant": 0,
+    "group": 1,
+    "bytes": 9837121,
+    "trace_sha256": "64d0c7de92434d301f4bc7ec96aac8732faba2a4d20c9bb0ebec0989e2564809",
+    "first_row_input_count": 1,
+    "first_quantum_row_upper_bounds": [
+      {
+        "body_quantum": 256,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 1,
+        "host_offset_us": 8.09,
+        "within_group_finish_us": 8.09
+      },
+      {
+        "body_quantum": 1024,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 1,
+        "host_offset_us": 8.09,
+        "within_group_finish_us": 8.09
+      },
+      {
+        "body_quantum": 4096,
+        "row_index": 2,
+        "row_y": 0,
+        "row_z": 2,
+        "input_group_first": 2,
+        "input_group_last": 3,
+        "host_offset_us": 30.914,
+        "within_group_finish_us": 13.433
+      }
+    ],
+    "first_12_rows": [
+      [
+        0,
+        0,
+        0,
+        1,
+        8.09,
+        1544,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        9.353,
+        2964,
+        3
+      ],
+      [
+        0,
+        2,
+        2,
+        3,
+        13.433,
+        4384,
+        5
+      ],
+      [
+        0,
+        3,
+        3,
+        4,
+        13.935,
+        5804,
+        7
+      ],
+      [
+        0,
+        4,
+        4,
+        5,
+        18.856,
+        6392,
+        6
+      ],
+      [
+        0,
+        5,
+        5,
+        6,
+        18.286,
+        7000,
+        0
+      ],
+      [
+        0,
+        6,
+        6,
+        7,
+        17.89,
+        7621,
+        7
+      ],
+      [
+        0,
+        7,
+        7,
+        8,
+        17.103,
+        8267,
+        1
+      ],
+      [
+        0,
+        8,
+        8,
+        9,
+        17.294,
+        8920,
+        5
+      ],
+      [
+        0,
+        9,
+        9,
+        10,
+        17.035,
+        9582,
+        2
+      ],
+      [
+        0,
+        10,
+        10,
+        11,
+        19.174,
+        10243,
+        3
+      ],
+      [
+        0,
+        11,
+        11,
+        12,
+        17.604,
+        10898,
+        5
+      ]
+    ],
+    "warning": "diagnostic host traces, row-end bounds, not arrival-scheduled or target timings"
+  },
+  {
+    "kind": "BIL-output-trace",
+    "variant": 2,
+    "group": 1,
+    "bytes": 9837121,
+    "trace_sha256": "043db70818e6372637da4ad62f8a8a087cfb5accbf95b2719295b2c77643d33f",
+    "first_row_input_count": 1,
+    "first_quantum_row_upper_bounds": [
+      {
+        "body_quantum": 256,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 1,
+        "host_offset_us": 11.195,
+        "within_group_finish_us": 11.195
+      },
+      {
+        "body_quantum": 1024,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 1,
+        "host_offset_us": 11.195,
+        "within_group_finish_us": 11.195
+      },
+      {
+        "body_quantum": 4096,
+        "row_index": 2,
+        "row_y": 0,
+        "row_z": 2,
+        "input_group_first": 2,
+        "input_group_last": 3,
+        "host_offset_us": 42.943,
+        "within_group_finish_us": 16.485
+      }
+    ],
+    "first_12_rows": [
+      [
+        0,
+        0,
+        0,
+        1,
+        11.195,
+        1544,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        15.225,
+        2964,
+        3
+      ],
+      [
+        0,
+        2,
+        2,
+        3,
+        16.485,
+        4384,
+        5
+      ],
+      [
+        0,
+        3,
+        3,
+        4,
+        18.766,
+        5804,
+        7
+      ],
+      [
+        0,
+        4,
+        4,
+        5,
+        21.411,
+        6392,
+        6
+      ],
+      [
+        0,
+        5,
+        5,
+        6,
+        22.259,
+        7000,
+        0
+      ],
+      [
+        0,
+        6,
+        6,
+        7,
+        20.996,
+        7621,
+        7
+      ],
+      [
+        0,
+        7,
+        7,
+        8,
+        21.074,
+        8267,
+        1
+      ],
+      [
+        0,
+        8,
+        8,
+        9,
+        20.975,
+        8920,
+        5
+      ],
+      [
+        0,
+        9,
+        9,
+        10,
+        20.632,
+        9582,
+        2
+      ],
+      [
+        0,
+        10,
+        10,
+        11,
+        20.335,
+        10243,
+        3
+      ],
+      [
+        0,
+        11,
+        11,
+        12,
+        19.678,
+        10898,
+        5
+      ]
+    ],
+    "warning": "diagnostic host traces, row-end bounds, not arrival-scheduled or target timings"
+  },
+  {
+    "kind": "BIL-output-trace",
+    "variant": 3,
+    "group": 2,
+    "bytes": 9837121,
+    "trace_sha256": "8bb26138536b891ec287bfe9357a5b460eb69cd477a1e47de6a9e4673587001b",
+    "first_row_input_count": 2,
+    "first_quantum_row_upper_bounds": [
+      {
+        "body_quantum": 256,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 2,
+        "host_offset_us": 37.105,
+        "within_group_finish_us": 37.105
+      },
+      {
+        "body_quantum": 1024,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 2,
+        "host_offset_us": 37.105,
+        "within_group_finish_us": 37.105
+      },
+      {
+        "body_quantum": 4096,
+        "row_index": 2,
+        "row_y": 0,
+        "row_z": 2,
+        "input_group_first": 2,
+        "input_group_last": 4,
+        "host_offset_us": 74.979,
+        "within_group_finish_us": 34.103
+      }
+    ],
+    "first_12_rows": [
+      [
+        0,
+        0,
+        0,
+        2,
+        37.105,
+        1544,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        40.834,
+        2964,
+        3
+      ],
+      [
+        0,
+        2,
+        2,
+        4,
+        34.103,
+        4384,
+        5
+      ],
+      [
+        0,
+        3,
+        2,
+        4,
+        38.011,
+        5804,
+        7
+      ],
+      [
+        0,
+        4,
+        4,
+        6,
+        35.239,
+        6392,
+        6
+      ],
+      [
+        0,
+        5,
+        4,
+        6,
+        39.799,
+        7000,
+        0
+      ],
+      [
+        0,
+        6,
+        6,
+        8,
+        34.975,
+        7621,
+        7
+      ],
+      [
+        0,
+        7,
+        6,
+        8,
+        39.509,
+        8267,
+        1
+      ],
+      [
+        0,
+        8,
+        8,
+        10,
+        35.197,
+        8920,
+        5
+      ],
+      [
+        0,
+        9,
+        8,
+        10,
+        39.581,
+        9582,
+        2
+      ],
+      [
+        0,
+        10,
+        10,
+        12,
+        35.071,
+        10243,
+        3
+      ],
+      [
+        0,
+        11,
+        10,
+        12,
+        39.198,
+        10898,
+        5
+      ]
+    ],
+    "warning": "diagnostic host traces, row-end bounds, not arrival-scheduled or target timings"
+  },
+  {
+    "kind": "BIL-output-trace",
+    "variant": 3,
+    "group": 4,
+    "bytes": 9837121,
+    "trace_sha256": "946d16c280731b02ac044710322cbc8441d8f474b7399606517d4a84c95e851c",
+    "first_row_input_count": 4,
+    "first_quantum_row_upper_bounds": [
+      {
+        "body_quantum": 256,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 4,
+        "host_offset_us": 42.521,
+        "within_group_finish_us": 42.521
+      },
+      {
+        "body_quantum": 1024,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 4,
+        "host_offset_us": 42.521,
+        "within_group_finish_us": 42.521
+      },
+      {
+        "body_quantum": 4096,
+        "row_index": 2,
+        "row_y": 0,
+        "row_z": 2,
+        "input_group_first": 0,
+        "input_group_last": 4,
+        "host_offset_us": 49.724,
+        "within_group_finish_us": 49.724
+      }
+    ],
+    "first_12_rows": [
+      [
+        0,
+        0,
+        0,
+        4,
+        42.521,
+        1544,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        4,
+        46.156,
+        2964,
+        3
+      ],
+      [
+        0,
+        2,
+        0,
+        4,
+        49.724,
+        4384,
+        5
+      ],
+      [
+        0,
+        3,
+        0,
+        4,
+        53.796,
+        5804,
+        7
+      ],
+      [
+        0,
+        4,
+        4,
+        8,
+        45.994,
+        6392,
+        6
+      ],
+      [
+        0,
+        5,
+        4,
+        8,
+        51.612,
+        7000,
+        0
+      ],
+      [
+        0,
+        6,
+        4,
+        8,
+        57.298,
+        7621,
+        7
+      ],
+      [
+        0,
+        7,
+        4,
+        8,
+        62.696,
+        8267,
+        1
+      ],
+      [
+        0,
+        8,
+        8,
+        12,
+        47.669,
+        8920,
+        5
+      ],
+      [
+        0,
+        9,
+        8,
+        12,
+        53.002,
+        9582,
+        2
+      ],
+      [
+        0,
+        10,
+        8,
+        12,
+        58.733,
+        10243,
+        3
+      ],
+      [
+        0,
+        11,
+        8,
+        12,
+        63.669,
+        10898,
+        5
+      ]
+    ],
+    "warning": "diagnostic host traces, row-end bounds, not arrival-scheduled or target timings"
+  },
+  {
+    "kind": "BIL-output-trace",
+    "variant": 3,
+    "group": 8,
+    "bytes": 9837121,
+    "trace_sha256": "0ac5ada0330ab50520bda3bd2ac0f38b46b453facfd8720590163919b781069b",
+    "first_row_input_count": 8,
+    "first_quantum_row_upper_bounds": [
+      {
+        "body_quantum": 256,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 8,
+        "host_offset_us": 51.468,
+        "within_group_finish_us": 51.468
+      },
+      {
+        "body_quantum": 1024,
+        "row_index": 0,
+        "row_y": 0,
+        "row_z": 0,
+        "input_group_first": 0,
+        "input_group_last": 8,
+        "host_offset_us": 51.468,
+        "within_group_finish_us": 51.468
+      },
+      {
+        "body_quantum": 4096,
+        "row_index": 2,
+        "row_y": 0,
+        "row_z": 2,
+        "input_group_first": 0,
+        "input_group_last": 8,
+        "host_offset_us": 58.738,
+        "within_group_finish_us": 58.738
+      }
+    ],
+    "first_12_rows": [
+      [
+        0,
+        0,
+        0,
+        8,
+        51.468,
+        1544,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        8,
+        55.262,
+        2964,
+        3
+      ],
+      [
+        0,
+        2,
+        0,
+        8,
+        58.738,
+        4384,
+        5
+      ],
+      [
+        0,
+        3,
+        0,
+        8,
+        62.952,
+        5804,
+        7
+      ],
+      [
+        0,
+        4,
+        0,
+        8,
+        67.81,
+        6392,
+        6
+      ],
+      [
+        0,
+        5,
+        0,
+        8,
+        72.636,
+        7000,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        8,
+        77.593,
+        7621,
+        7
+      ],
+      [
+        0,
+        7,
+        0,
+        8,
+        82.372,
+        8267,
+        1
+      ],
+      [
+        0,
+        8,
+        8,
+        16,
+        60.027,
+        8920,
+        5
+      ],
+      [
+        0,
+        9,
+        8,
+        16,
+        65.443,
+        9582,
+        2
+      ],
+      [
+        0,
+        10,
+        8,
+        16,
+        71.315,
+        10243,
+        3
+      ],
+      [
+        0,
+        11,
+        8,
+        16,
+        76.476,
+        10898,
+        5
+      ]
+    ],
+    "warning": "diagnostic host traces, row-end bounds, not arrival-scheduled or target timings"
+  },
+  {
+    "kind": "all-main-cases-summary",
+    "rows": [
+      {
+        "scene": "kotzbue",
+        "local": 3,
+        "best_scalar_ns": 28.067316061175138,
+        "proposed_ns": 21.1659717124634,
+        "band4_ns": 21.23852476816169,
+        "band8_ns": 16.813424970128132,
+        "proposed_speedup_scalar": 1.3260584698149218,
+        "band8_speedup_proposed": 1.2588732961944575,
+        "adaptive_total_bytes": 83926002,
+        "compression_ratio": 1.8699444303328068
+      },
+      {
+        "scene": "kotzbue",
+        "local": 0,
+        "best_scalar_ns": 28.9056139994046,
+        "proposed_ns": 21.596953923409757,
+        "band4_ns": 22.721708410816674,
+        "band8_ns": 18.291385827787156,
+        "proposed_speedup_scalar": 1.338411615911849,
+        "band8_speedup_proposed": 1.1807172035374698,
+        "adaptive_total_bytes": 80289061,
+        "compression_ratio": 1.9546493388433077
+      },
+      {
+        "scene": "finnmark",
+        "local": 3,
+        "best_scalar_ns": 28.303489158959113,
+        "proposed_ns": 20.435259813876858,
+        "band4_ns": 21.19262148317388,
+        "band8_ns": 16.73171646755487,
+        "proposed_speedup_scalar": 1.3850320190076184,
+        "band8_speedup_proposed": 1.2213486795275112,
+        "adaptive_total_bytes": 72397590,
+        "compression_ratio": 2.167709726249175
+      },
+      {
+        "scene": "finnmark",
+        "local": 0,
+        "best_scalar_ns": 29.30111764621922,
+        "proposed_ns": 21.78636897261168,
+        "band4_ns": 22.78201265017495,
+        "band8_ns": 18.616612581255556,
+        "proposed_speedup_scalar": 1.3449289178501735,
+        "band8_speedup_proposed": 1.170264938238423,
+        "adaptive_total_bytes": 68587352,
+        "compression_ratio": 2.2881326574613934
+      },
+      {
+        "scene": "erie",
+        "local": 3,
+        "best_scalar_ns": 27.95619856533477,
+        "proposed_ns": 20.05542809036189,
+        "band4_ns": 21.010729900719372,
+        "band8_ns": 16.5055500374163,
+        "proposed_speedup_scalar": 1.3939467379791202,
+        "band8_speedup_proposed": 1.215071781606696,
+        "adaptive_total_bytes": 80512556,
+        "compression_ratio": 1.9492234229900738
+      },
+      {
+        "scene": "erie",
+        "local": 0,
+        "best_scalar_ns": 29.03351794249105,
+        "proposed_ns": 21.441124703830123,
+        "band4_ns": 22.540019776093533,
+        "band8_ns": 18.492781343540745,
+        "proposed_speedup_scalar": 1.3541042432958128,
+        "band8_speedup_proposed": 1.1594321214055339,
+        "adaptive_total_bytes": 77249979,
+        "compression_ratio": 2.031546960032183
+      },
+      {
+        "scene": "griegBC",
+        "local": 3,
+        "best_scalar_ns": 27.44701055761498,
+        "proposed_ns": 20.255937199242293,
+        "band4_ns": 21.007053507344605,
+        "band8_ns": 16.518300787781286,
+        "proposed_speedup_scalar": 1.3550106463917,
+        "band8_speedup_proposed": 1.2262724513544254,
+        "adaptive_total_bytes": 79512761,
+        "compression_ratio": 1.9737329961413363
+      },
+      {
+        "scene": "griegBC",
+        "local": 0,
+        "best_scalar_ns": 29.44507566605088,
+        "proposed_ns": 21.37264004604142,
+        "band4_ns": 22.441762297421842,
+        "band8_ns": 18.227234795423588,
+        "proposed_speedup_scalar": 1.3776995075301712,
+        "band8_speedup_proposed": 1.1725662332175348,
+        "adaptive_total_bytes": 76019850,
+        "compression_ratio": 2.0644208058816216
+      }
+    ]
+  },
+  {
+    "kind": "analytical-accounting",
+    "BIP_nominal_HYPSO_class": [
+      {
+        "method": "scalar",
+        "host_capacity_Msamples_s": 35.331332981024445,
+        "host_encoding_seconds": 2.220931773,
+        "capture22Hz_seconds": 43.45454545454545,
+        "buffered_capture_then_host_encoding_seconds": 45.67547722754546,
+        "ideal_line_overlap_finish_seconds": 43.45686860493563,
+        "output_bytes": 72397590,
+        "compression_ratio": 2.167709726249175
+      },
+      {
+        "method": "proposed",
+        "host_capacity_Msamples_s": 48.93502745293875,
+        "host_encoding_seconds": 1.603523776,
+        "capture22Hz_seconds": 43.45454545454545,
+        "buffered_capture_then_host_encoding_seconds": 45.058069230545456,
+        "ideal_line_overlap_finish_seconds": 43.456222780670984,
+        "output_bytes": 72397590,
+        "compression_ratio": 2.167709726249175
+      },
+      {
+        "method": "band4",
+        "host_capacity_Msamples_s": 47.18623417088637,
+        "host_encoding_seconds": 1.662952795,
+        "capture22Hz_seconds": 43.45454545454545,
+        "buffered_capture_then_host_encoding_seconds": 45.117498249545456,
+        "ideal_line_overlap_finish_seconds": 43.456284944916796,
+        "output_bytes": 72397590,
+        "compression_ratio": 2.167709726249175
+      },
+      {
+        "method": "band8",
+        "host_capacity_Msamples_s": 59.766731162289254,
+        "host_encoding_seconds": 1.312912359,
+        "capture22Hz_seconds": 43.45454545454545,
+        "buffered_capture_then_host_encoding_seconds": 44.767457813545455,
+        "ideal_line_overlap_finish_seconds": 43.45591879383311,
+        "output_bytes": 72397590,
+        "compression_ratio": 2.167709726249175
+      },
+      {
+        "method": "fixed-prior9",
+        "host_capacity_Msamples_s": 59.77609009127089,
+        "host_encoding_seconds": 1.312706801,
+        "capture22Hz_seconds": 43.45454545454545,
+        "buffered_capture_then_host_encoding_seconds": 44.76725225554545,
+        "ideal_line_overlap_finish_seconds": 43.455918578814284,
+        "output_bytes": 72209381,
+        "compression_ratio": 2.1733597190093623
+      }
+    ],
+    "BIL_HYPSO_data_CHIME2020_rate_surrogate": [
+      {
+        "method": "scalar",
+        "host_ns_sample": 28.06660664256527,
+        "host_capacity_Msamples_s": 35.629529879947064,
+        "group_rows": 1,
+        "input_wait_us": 6.452830188679245,
+        "host_trace_first1024_body_bytes_row_end_upper_us_with_arrival": 14.542830188679247,
+        "constant_service_cube_finish_seconds": 2.202350414830189,
+        "surrogate_capture_seconds": 0.7402686792452831,
+        "sustainable_on_measured_host_at106M": false
+      },
+      {
+        "method": "proposed",
+        "host_ns_sample": 19.600661577744336,
+        "host_capacity_Msamples_s": 51.01868608024204,
+        "group_rows": 1,
+        "input_wait_us": 6.452830188679245,
+        "host_trace_first1024_body_bytes_row_end_upper_us_with_arrival": 17.647830188679244,
+        "constant_service_cube_finish_seconds": 1.5380405738301886,
+        "surrogate_capture_seconds": 0.7402686792452831,
+        "sustainable_on_measured_host_at106M": false
+      },
+      {
+        "method": "band2",
+        "host_ns_sample": 29.53640661830075,
+        "host_capacity_Msamples_s": 33.8565219839708,
+        "group_rows": 2,
+        "input_wait_us": 12.90566037735849,
+        "host_trace_first1024_body_bytes_row_end_upper_us_with_arrival": 50.010660377358484,
+        "constant_service_cube_finish_seconds": 2.3176898376603776,
+        "surrogate_capture_seconds": 0.7402686792452831,
+        "sustainable_on_measured_host_at106M": false
+      },
+      {
+        "method": "band4",
+        "host_ns_sample": 20.64427144504392,
+        "host_capacity_Msamples_s": 48.4395878373354,
+        "group_rows": 4,
+        "input_wait_us": 25.81132075471698,
+        "host_trace_first1024_body_bytes_row_end_upper_us_with_arrival": 68.33232075471699,
+        "constant_service_cube_finish_seconds": 1.6199504123207547,
+        "surrogate_capture_seconds": 0.7402686792452831,
+        "sustainable_on_measured_host_at106M": false
+      },
+      {
+        "method": "band8",
+        "host_ns_sample": 16.371646462375722,
+        "host_capacity_Msamples_s": 61.08121148951857,
+        "group_rows": 8,
+        "input_wait_us": 51.62264150943396,
+        "host_trace_first1024_body_bytes_row_end_upper_us_with_arrival": 103.09064150943396,
+        "constant_service_cube_finish_seconds": 1.2847098356415094,
+        "surrogate_capture_seconds": 0.7402686792452831,
+        "sustainable_on_measured_host_at106M": false
+      }
+    ],
+    "BIL_formula": "F=g*a+c+(K-1)*max(g*a,c), a=W/R, c=g*W*host_ns_per_sample; uniform service approximation, not WCET or Renode",
+    "memory_bytes": {
+      "common_two_line_ring": 328320,
+      "proposed_scratch": 27360,
+      "current_band_scratch_max8": 175104,
+      "optimized_band2_scratch_estimate": 43776,
+      "optimized_band4_scratch_estimate": 87552,
+      "proposed_ring_plus_scratch": 355680,
+      "current_band_ring_plus_scratch": 503424,
+      "prefix8_input_retention_streaming": 1313280,
+      "prefix32_input_retention_streaming": 5253120,
+      "prefix100_input_retention_streaming": 16416000
+    },
+    "historical_energy_sensitivity": {
+      "processing_energy_Wh": 0.33944444444444444,
+      "buffer_energy_Wh": 1.6321500000000002,
+      "extra_byte_fraction_offset_by20percent_processing_reduction": 0.04159476083012522
+    },
+    "timing_exclusions": [
+      "raw input file/network I/O",
+      "layout conversion to assumed native source layout",
+      "context allocation",
+      "header construction",
+      "compressed output file/telemetry I/O",
+      "DMA/backpressure/interference",
+      "downlink contact scheduling"
+    ],
+    "warnings": [
+      "Host Clang18 MCJIT medians are not flight measurements",
+      "Native BIP line bursts are a coarse arrival envelope; intraline readout not measured",
+      "Streaming overlap is analytic, current code uses resident replay",
+      "CHIME envelope is 2020 predevelopment and uses near-lossless/block coder; not a claim this profile meets CHIME requirements"
+    ]
+  },
+  {
+    "kind": "evidence-inventory",
+    "full_adaptive_cases": 8,
+    "fixed_calibration_cases": 38,
+    "BIL_prefix_cases": 8,
+    "two_image_cases": 6,
+    "independent_nu9_prefix_checks": 16,
+    "independent_nu4_prefix_checks": 1,
+    "all_retained": true,
+    "baseline_source_sha256": "3a89fad89339120b935a2b3e82cc5a39839a8765573ed1134d355b90d4e8fd76",
+    "files_written_after_permission_change": false
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 3,
+    "adaptive_body_bytes": 769213,
+    "adaptive_sha256": "43e9279ce91d8a30b5b52d9e40738894544bb9655717de2b42c7ea4a40a8ce8b",
+    "fixed_body_bytes": 764295,
+    "fixed_sha256": "a9bece967c0ff576bd6ff03d25f824438e74b4eaa19cca5833f006ed1d7b71c4",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 29.332767247004085
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 0,
+    "adaptive_body_bytes": 709359,
+    "adaptive_sha256": "36de4b403425cd522d7ffd11baf8ff089c2a32ff0b6c83f2f3be2487218b7b03",
+    "fixed_body_bytes": 699002,
+    "fixed_sha256": "5164733e70900d44b0d4b754a662a4f272aba47cbf8f7c16e8cf022303d0dc79",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 29.594655066990526
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 3,
+    "adaptive_body_bytes": 617392,
+    "adaptive_sha256": "461348c6494af8853cf4f6b1518cc3c12e9cdcd5ba6dcfa35d007bf21f4522fd",
+    "fixed_body_bytes": 622671,
+    "fixed_sha256": "b3d838a13a0f5723d5386b4278a2e96dd1e6ad9130dac5cf7c36b6d87d971b74",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 28.575285715982318
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 0,
+    "adaptive_body_bytes": 570066,
+    "adaptive_sha256": "b8367aea88f0d06b477eae2aa14e3947cb1c381fde94ac079de2e10a928d2fac",
+    "fixed_body_bytes": 568820,
+    "fixed_sha256": "17817eac0d1223b32b2d987b2c8176af420d635d917cb52decc20712b7ab227c",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 29.159067745989887
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 3,
+    "adaptive_body_bytes": 660287,
+    "adaptive_sha256": "7d856522b34ac7912be76f4c02a29bfa6d3ae93a204c3dab223f857409bbb4af",
+    "fixed_body_bytes": 669223,
+    "fixed_sha256": "99928a0d8c89ad57c800334f63aaf379e5c286b63b5a2db5ca504948345b1d82",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 29.254353180003818
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 0,
+    "adaptive_body_bytes": 618789,
+    "adaptive_sha256": "f8504d7659f8765abe632efe4fd3ac67fbcd7384ed09f2cf01205bdcdae54b8b",
+    "fixed_body_bytes": 617675,
+    "fixed_sha256": "ee681d36cb41e5980b4b93df4ebb4ca5c07d0ebf99240e5b6b77e420de83d546",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 29.700147415001993
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 3,
+    "adaptive_body_bytes": 752026,
+    "adaptive_sha256": "2931ca4f39800b8883353a7791f98c0962c0402f665ddd7ece768e0c4a07ccf7",
+    "fixed_body_bytes": 746646,
+    "fixed_sha256": "00e9c1ea711c1bf808b64017389a05b77eaabf2dfd219912f842d45eda62a3e5",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 28.655887335000443
+  },
+  {
+    "kind": "independent-full-band-prefix",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "shape": [
+      8,
+      684,
+      120
+    ],
+    "local": 0,
+    "adaptive_body_bytes": 695275,
+    "adaptive_sha256": "dcd58d50e50af34a6beae71bfbb707fe8b6046e106d234cd0884bf2633772658",
+    "fixed_body_bytes": 683691,
+    "fixed_sha256": "468b3eb2ee5d405af01f637a711e5581babafc729eee0ec6a76a26c749d902d5",
+    "predictor_learning_state_match": true,
+    "all_methods_groups_match": true,
+    "reference_seconds": 29.02452424200601
+  },
+  {
+    "kind": "compact-source",
+    "sha256": "526aac8a93ca5b91e502e018d8252dd8bcfe0aaf854f6177f5a621dce9b58bf8",
+    "new_variant": 7,
+    "change": "conventional across-band SIMD constructs 7x8 int features on stack per x; retains per-group prediction-row buffer and byte order; no change to proposed algorithm or scalar kernels",
+    "additional_scratch_bytes_excluding_prediction_row": 224
+  },
+  {
+    "kind": "compact-band-BIP-finished",
+    "file": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "local": 0,
+    "body_bytes": 76019831,
+    "body_sha256": "f740ea5067b4e474058018473c0b29247f5adcfde3bbdeb1fe7295941ec7a697",
+    "methods": {
+      "7:2": {
+        "median_ns": 29.463108104043815,
+        "trials_ns": [
+          29.64212941298213,
+          29.41643973478268,
+          29.463108104043815
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 21.36421852443172,
+        "trials_ns": [
+          21.34273114504066,
+          21.36421852443172,
+          26.470998941230924
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 17.503888707924506,
+        "trials_ns": [
+          17.503888707924506,
+          17.495724729216114,
+          17.623290281651943
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "paired-compact-comparison",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "layout": "BIP",
+    "nu_max": 9,
+    "body_bytes": 72397571,
+    "body_sha256": "a5e4172dd71659d42094188e0071b5ad5f5c088e73257df1c5cad1821a6463cf",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.181001581781626,
+        "trials_ns": [
+          28.302275002650745,
+          28.175855171401306,
+          28.181001581781626
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.04621337127978,
+        "trials_ns": [
+          20.114977236719763,
+          20.04621337127978,
+          20.027687805345536
+        ],
+        "accepted": 9628772,
+        "rejected": 122428
+      },
+      "7:2": {
+        "median_ns": 28.81927450359686,
+        "trials_ns": [
+          28.763928701052958,
+          28.81927450359686,
+          34.09444659817547
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 20.162281058585563,
+        "trials_ns": [
+          20.259409892991428,
+          20.162281058585563,
+          20.137350819080478
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.776164620494752,
+        "trials_ns": [
+          15.776164620494752,
+          15.791210254104579,
+          15.734599829128843
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "compact-band-trace",
+    "layout": 1,
+    "group": 8,
+    "first1024_body_row": 0,
+    "first_input_rows": 8,
+    "first_row_finish_us": 68.54,
+    "trace_sha256": "900b27b116f00296c8f0931d54f28358cd0c5a0c5e270d6267c3fecb764b5a89"
+  },
+  {
+    "kind": "paired-compact-comparison",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "layout": "BIL",
+    "nu_max": 9,
+    "body_bytes": 72397571,
+    "body_sha256": "a5e4172dd71659d42094188e0071b5ad5f5c088e73257df1c5cad1821a6463cf",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.097713209176476,
+        "trials_ns": [
+          28.097713209176476,
+          28.678093777272096,
+          27.909162201179377
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 19.486876985510616,
+        "trials_ns": [
+          19.486876985510616,
+          19.49952927595896,
+          19.461090007095844
+        ],
+        "accepted": 9628772,
+        "rejected": 122428
+      },
+      "7:2": {
+        "median_ns": 28.109868663188074,
+        "trials_ns": [
+          28.109868663188074,
+          28.08460172798046,
+          32.320642632557686
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 19.413350201252783,
+        "trials_ns": [
+          19.413350201252783,
+          19.406380090451606,
+          19.463637195470078
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.325178326380223,
+        "trials_ns": [
+          15.325178326380223,
+          15.346662723682172,
+          15.322196211778284
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  },
+  {
+    "kind": "compact-band-trace",
+    "layout": 0,
+    "group": 8,
+    "first1024_body_row": 0,
+    "first_input_rows": 8,
+    "first_row_finish_us": 59.892,
+    "trace_sha256": "8361615eed399be22d4a1cc5213ea90c077b63a3e5fe479c1c74c3fda4fccb38"
+  },
+  {
+    "kind": "paired-compact-nu4",
+    "file": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "local": 3,
+    "layout": "BIP",
+    "nu_max": 4,
+    "body_bytes": 70804862,
+    "body_sha256": "65628a6006dc159a02461655aebb0b078798e477c56b9723ae4f65fc070bd176",
+    "methods": {
+      "0:1": {
+        "median_ns": 28.14879004920192,
+        "trials_ns": [
+          28.14879004920192,
+          28.232178411000188,
+          28.133070731075712
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "2:1": {
+        "median_ns": 20.835515916709486,
+        "trials_ns": [
+          20.81126526217916,
+          20.846271968056474,
+          20.835515916709486
+        ],
+        "accepted": 9198062,
+        "rejected": 553138
+      },
+      "7:2": {
+        "median_ns": 28.79275345973313,
+        "trials_ns": [
+          28.8526449473725,
+          28.746981501362075,
+          28.79275345973313
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:4": {
+        "median_ns": 20.132913559686642,
+        "trials_ns": [
+          20.111408071113395,
+          20.132913559686642,
+          20.20738477411567
+        ],
+        "accepted": 0,
+        "rejected": 0
+      },
+      "7:8": {
+        "median_ns": 15.798575007442478,
+        "trials_ns": [
+          15.798575007442478,
+          15.771953706762257,
+          15.799934967518167
+        ],
+        "accepted": 0,
+        "rejected": 0
+      }
+    },
+    "all_bodies_equal": true
+  }
+]
+

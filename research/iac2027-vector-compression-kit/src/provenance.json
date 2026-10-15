@@ -1,0 +1,25 @@
+{
+  "reference_commit": "9fabb0371ebf93d72a0f83ca053e9cdb2c63e3c6",
+  "raw_files": [
+    {
+      "name": "Indian_pines_corrected.mat",
+      "sha256": "ec2f8808710919d566f70f0d4aa885aae1ddfd42b734aba71c5e12ca65450939",
+      "bytes": 5953527,
+      "url": "https://raw.githubusercontent.com/gokriznastic/HybridSN/master/data/Indian_pines_corrected.mat"
+    },
+    {
+      "name": "PaviaU.mat",
+      "sha256": "28447fa87f7a5797845e9a189c0da85e23b1d06a4ba7361e5ff44efbf834d2fb",
+      "bytes": 34806917,
+      "url": "https://raw.githubusercontent.com/gokriznastic/HybridSN/master/data/PaviaU.mat"
+    },
+    {
+      "name": "Salinas_corrected.mat",
+      "sha256": "5ec1c0d22f56d18ecd336f8e35735863c0f160682e04e0c18ef3f89a3334d87d",
+      "bytes": 26552770,
+      "url": "https://raw.githubusercontent.com/gokriznastic/HybridSN/master/data/Salinas_corrected.mat"
+    }
+  ],
+  "reference_source": "https://github.com/NTNU-SmallSat-Lab/ccsds123_issue_2_verification_model",
+  "data_source": "https://github.com/gokriznastic/HybridSN/tree/master/data"
+}

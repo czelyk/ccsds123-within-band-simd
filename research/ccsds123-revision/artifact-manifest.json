@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-15",
+  "decision": "REVISE",
+  "physical_measurements": false,
+  "original_proposal_changed": false,
+  "original_source_files_unchanged": 32,
+  "main_acquisitions": 4,
+  "held_out_acquisitions": 3,
+  "scope": "English revision record, functional RVV baselines and bounded processed-data host pilot; not a completed mission/physical study",
+  "not_in_archive": [
+    "raw Landsat products",
+    "external NTNU checkout",
+    "Renode/LLVM/Python runtimes and sysroot",
+    "earlier reassessment package and historical kit"
+  ],
+  "excluded_local_snapshots": [
+    "evidence/landsat8-access-0.txt",
+    "evidence/landsat8-access-1.txt",
+    "evidence/landsat8-file-107755.html",
+    "evidence/landsat8-file-107757.html",
+    "evidence/landsat8-file-107764.html",
+    "evidence/landsat8-file-107774.html",
+    "literature/ccsds-corpus.pdf",
+    "literature/landis2025.pdf",
+    "literature/landis2025.txt"
+  ],
+  "files": {
+    "IAF-clarification-draft.md": {
+      "bytes": 1583,
+      "sha256": "a545815ca8f6088791b1748df5b5bb0e240f7e0ab617d244b3649a690bbbc51e"
+    },
+    "PHYSICAL-PILOT.md": {
+      "bytes": 4625,
+      "sha256": "109b53acb4858548b482216d3e5f7e39e622a349eef7c6e7edb16433d3b7b8c3"
+    },
+    "README.md": {
+      "bytes": 6429,
+      "sha256": "8a42f90913c55bccf45267d459bf70f67e26cf2cf22aaad857bb5d21e793d4a1"
+    },
+    "Research-Revision.md": {
+      "bytes": 14061,
+      "sha256": "264fd9d8f147cd26a3a0f2233cd643deada53d0c619ba00dedc18be35cd43698"
+    },
+    "analyze_revision.py": {
+      "bytes": 5637,
+      "sha256": "053e1046fb3edf6f7bbcd2e929c314647c37030b04671819fc6e6b9f807bbf7d"
+    },
+    "build/build-manifest.json": {
+      "bytes": 7636,
+      "sha256": "52723dfdb78ad977a009c6517c65ab7166f10256dbe2ee139f45eacf4dee4659"
+    },
+    "build/build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/fixed12-build-manifest.json": {
+      "bytes": 3569,
+      "sha256": "f6c51fc755c3a4ccffc37616e41f56283f61b5b0fe4d1740e930785d9f1cbe83"
+    },
+    "build/fixed12-build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/host-build-manifest.json": {
+      "bytes": 3752,
+      "sha256": "2434ac8465a93e7866a1bb39547dc36a64a02a611c1ff113ef376d8e2e84c2b2"
+    },
+    "build/host-build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/libfixed12.so": {
+      "bytes": 87496,
+      "sha256": "aee36be69caf440e31c1cb2e965f77167b61c76d85472e06a32cbd615fd551f3"
+    },
+    "build/libpilot.so": {
+      "bytes": 87488,
+      "sha256": "d74fdd8bbdd9c44ec96bacaa50793c16519f15955b973813ca1f380dda14d2d8"
+    },
+    "build/linux-build-manifest.json": {
+      "bytes": 4404,
+      "sha256": "38b8306a0633e5182cfc09049b64315f66461599a74dbf58b5e1286f71cda3c3"
+    },
+    "build/linux-build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/linux-elf-info.txt": {
+      "bytes": 1277,
+      "sha256": "829a6303eb88312eb15e841bd52357a5bbca8db878192baad0e92ca214f8392c"
+    },
+    "build/revision-pilot-rvv": {
+      "bytes": 655792,
+      "sha256": "5cad03bf7c0f1b11127fdda32e494924dd1a0c17af13b37ec91ea71caaef1f49"
+    },
+    "build/revision-selftest.elf": {
+      "bytes": 42784,
+      "sha256": "74318ec2e71bcf57228958283b1896127e6b66e0a38595e83ae616b8a1fa5271"
+    },
+    "build/rvv-check-1024.resc": {
+      "bytes": 561,
+      "sha256": "7185de6eed9691d76c00dab960087f37ada0480c6a61d3a731867fbd1d595c8b"
+    },
+    "build/rvv-check-128.resc": {
+      "bytes": 559,
+      "sha256": "2ca377caa2df167e663b427ab3894ea88960ecc43b4898bf9fb7636fc01b8b9e"
+    },
+    "build/rvv-check-256.resc": {
+      "bytes": 559,
+      "sha256": "0af792ffd43a0bba7c8916f4af1298580f9205ec449796f2519e028c94eda7ab"
+    },
+    "build/rvv-check-512.resc": {
+      "bytes": 559,
+      "sha256": "f8ac62652805c65b38e5a26ce0aea580486683dd01e7c76b6a459561385efb4f"
+    },
+    "build_host_pilot.py": {
+      "bytes": 1394,
+      "sha256": "09679e9999fd1cdfdc1d1348e78f114b0b73a5397696e31232fbdff0462fd6d6"
+    },
+    "build_linux.py": {
+      "bytes": 1526,
+      "sha256": "0fe9b5bf9e15995a02a190f8d99a59a5473b2a9507fe6e8e6752a02c42659b19"
+    },
+    "build_revision.py": {
+      "bytes": 4427,
+      "sha256": "0e172fe2458e77dfe5e31ddf9775d7a57a751206fbf893a01658b46f396ba09e"
+    },
+    "evidence/corpus-access.json": {
+      "bytes": 407,
+      "sha256": "ef45cc3205304a336e2c4e70263b31e0c5659149f9d14161f53ab762872080c1"
+    },
+    "evidence/environment-notes.json": {
+      "bytes": 1075,
+      "sha256": "dd5efc48c202333f4dfad6b16201d39252f8351e1dfcc3d00fc7ccd71376a2a3"
+    },
+    "evidence/fixed12-analysis.json": {
+      "bytes": 6194,
+      "sha256": "8d42113057e45761ed77a7380f1ed717930d51ada7fdb49aa562498be68fec6c"
+    },
+    "evidence/fixed12-check-diagnosis.json": {
+      "bytes": 1371,
+      "sha256": "e0447a229d4a67cf0dc3486fbc14710e5858afadf45390d7f4c7db5243d2cc90"
+    },
+    "evidence/fixed12-followup.jsonl": {
+      "bytes": 23112,
+      "sha256": "cbec2f7934dae09331d7b31f3462a49c74a14ab504132738dfd764aaba343027"
+    },
+    "evidence/fixed12-initial-check/failure.json": {
+      "bytes": 355,
+      "sha256": "8ed97f97d5cb3339e2c48d22bf8ca2983604bf116bc30ad0f73b21a40a49e3e1"
+    },
+    "evidence/fixed12-initial-check/fixed12-build-manifest.json": {
+      "bytes": 3569,
+      "sha256": "f6c51fc755c3a4ccffc37616e41f56283f61b5b0fe4d1740e930785d9f1cbe83"
+    },
+    "evidence/fixed12-initial-check/fixed12-followup.jsonl": {
+      "bytes": 3449,
+      "sha256": "49a0d79e3e85fa715e438c3a43e83e6b2dd48072fcb22c410cd7443e6e310175"
+    },
+    "evidence/fixed12-initial-check/fixed12_followup.py": {
+      "bytes": 8529,
+      "sha256": "0ed282c5018c3e48ae65b946c7090cb350cdc20c82672378399f5c94a708ddc3"
+    },
+    "evidence/initial-rvv-validation/build-manifest.json": {
+      "bytes": 7450,
+      "sha256": "866aacb317988f273dda201687b56a0aabd10b5e92759a7df4e5ef5ac35988a8"
+    },
+    "evidence/initial-rvv-validation/native_bip_rvv.inc": {
+      "bytes": 2964,
+      "sha256": "3b55613f99107a45dad59f7659f90dff71f81444c7137870c009833811198a0a"
+    },
+    "evidence/initial-rvv-validation/revision-selftest.elf": {
+      "bytes": 41832,
+      "sha256": "af255c5cd36014a27946c7a887754149207eceb33115733de5782fe03a8ded8c"
+    },
+    "evidence/initial-rvv-validation/revision_capture.c": {
+      "bytes": 15450,
+      "sha256": "1083de5ca6746a8949a55940ba6263a7491caf92272d3e6e0939fa80995827e5"
+    },
+    "evidence/initial-rvv-validation/revision_harness.c": {
+      "bytes": 12259,
+      "sha256": "da0047e95eedbe17a4f45813597a84b98c18ce6a4f9671182c74a01bfd5740aa"
+    },
+    "evidence/initial-rvv-validation/revision_selftest.c": {
+      "bytes": 2421,
+      "sha256": "ac7a404ba42e4ddde99e484178f5b9ca1bfd7543555dd960cc0407e441521c8b"
+    },
+    "evidence/initial-rvv-validation/rvv-check-1024.log": {
+      "bytes": 945,
+      "sha256": "bbdeb477766c7bf6a259ee4db60244f30997c1443e96b53d5351eec636cc20d2"
+    },
+    "evidence/initial-rvv-validation/rvv-check-128.log": {
+      "bytes": 944,
+      "sha256": "98ba9fe7c2345f4750a0e6b146be32ad4d135f6a922d88c659e853d39d8adce3"
+    },
+    "evidence/initial-rvv-validation/rvv-check-256.log": {
+      "bytes": 944,
+      "sha256": "052bfd407facc686ba32b0e64c8e0b7e0495863462c0af8707f372d89acb6b56"
+    },
+    "evidence/initial-rvv-validation/rvv-check-512.log": {
+      "bytes": 944,
+      "sha256": "832d2954132dcdb3d0d0ef698cac4c840053285026415d6f3b5a1db4fbcb338d"
+    },
+    "evidence/initial-rvv-validation/rvv-status-1024.bin": {
+      "bytes": 64,
+      "sha256": "3c3fdd8c3d883e1fab798a2ee2edd832545bc1128dd809b8cdfd81803db041e5"
+    },
+    "evidence/initial-rvv-validation/rvv-status-128.bin": {
+      "bytes": 64,
+      "sha256": "3c3fdd8c3d883e1fab798a2ee2edd832545bc1128dd809b8cdfd81803db041e5"
+    },
+    "evidence/initial-rvv-validation/rvv-status-256.bin": {
+      "bytes": 64,
+      "sha256": "3c3fdd8c3d883e1fab798a2ee2edd832545bc1128dd809b8cdfd81803db041e5"
+    },
+    "evidence/initial-rvv-validation/rvv-status-512.bin": {
+      "bytes": 64,
+      "sha256": "3c3fdd8c3d883e1fab798a2ee2edd832545bc1128dd809b8cdfd81803db041e5"
+    },
+    "evidence/initial-rvv-validation/rvv-validation.json": {
+      "bytes": 1847,
+      "sha256": "384ee26716088809b3caeeee5acb0a88eb22a4895ed9cdee5da2e84b4106def8"
+    },
+    "evidence/initial-rvv-validation/spectral_rvv.inc": {
+      "bytes": 2984,
+      "sha256": "bd49f00615268d2243373274896411bd9be9b88b7183e20e9864ba3451173b7c"
+    },
+    "evidence/landsat-pilot.jsonl": {
+      "bytes": 157036,
+      "sha256": "2e22787e6f0f78bff38f616efd86720e69f11c28815c10fda0649e0594351b32"
+    },
+    "evidence/landsat-summary.csv": {
+      "bytes": 2056,
+      "sha256": "39e8475ffd31858f4334ec53297f161870a113f0b4ce009d16f5912954ab6577"
+    },
+    "evidence/landsat8-access.json": {
+      "bytes": 416,
+      "sha256": "456ed27c2d44d66ab9a7dc8b868e31e72f10ef7322778c0d5d563c4d7b3b0694"
+    },
+    "evidence/landsat8-downloads.json": {
+      "bytes": 1931,
+      "sha256": "6c5a49fbdcb0a22f9ee2a711724fba5765474a53c2e5f5ff7a510db44a5fe783"
+    },
+    "evidence/landsat8-publisher-checksums.json": {
+      "bytes": 995,
+      "sha256": "6a656b8ac77a4be8268f3437c9cde9d816ae8910617785c4ca7bc76728d69fb8"
+    },
+    "evidence/landsat8-publisher-readme.txt": {
+      "bytes": 6712,
+      "sha256": "84c7d6794b90c4ae6c3b99b702b2e19d8d1203e3d76d7ac4d739ba5722b9d89a"
+    },
+    "evidence/landsat8-readme-access.json": {
+      "bytes": 196,
+      "sha256": "35543cd37a12f5bdd3e81e4e68a31826d4d836b52fd8e32e8690fb83f038a9e8"
+    },
+    "evidence/landsat8-selection.json": {
+      "bytes": 4629,
+      "sha256": "69075fe70b9de44238e0a8ccb4b9c5611af0c3566bd62f126729b0240b521336"
+    },
+    "evidence/revision-analysis.json": {
+      "bytes": 8407,
+      "sha256": "1eeb66d8c511503ff048db670bf8c738daa0582a8ea8cb2e2b78e5e52e83ed27"
+    },
+    "evidence/rvv-check-1024.log": {
+      "bytes": 945,
+      "sha256": "506c418ff495f1477c230f385ef763c59a20a350dc098ae091cf26202400fd8f"
+    },
+    "evidence/rvv-check-128.log": {
+      "bytes": 944,
+      "sha256": "df9e38c86ce805745e603837548b7f9eed686166cd9ec107209a1345375dfe40"
+    },
+    "evidence/rvv-check-256.log": {
+      "bytes": 944,
+      "sha256": "4fc870d42259bdba2400509059ea0c070de4d7f28106c562eff1bed7a2107525"
+    },
+    "evidence/rvv-check-512.log": {
+      "bytes": 944,
+      "sha256": "e5778439f53abc273f4b2d60678ae195992b66329de6ef1fec8eb260c346cbf7"
+    },
+    "evidence/rvv-status-1024.bin": {
+      "bytes": 64,
+      "sha256": "59a591c1f529b25498eee8c781f8f77140043ae8e40a2ccd19abbaf790e0b3cb"
+    },
+    "evidence/rvv-status-128.bin": {
+      "bytes": 64,
+      "sha256": "59a591c1f529b25498eee8c781f8f77140043ae8e40a2ccd19abbaf790e0b3cb"
+    },
+    "evidence/rvv-status-256.bin": {
+      "bytes": 64,
+      "sha256": "59a591c1f529b25498eee8c781f8f77140043ae8e40a2ccd19abbaf790e0b3cb"
+    },
+    "evidence/rvv-status-512.bin": {
+      "bytes": 64,
+      "sha256": "59a591c1f529b25498eee8c781f8f77140043ae8e40a2ccd19abbaf790e0b3cb"
+    },
+    "evidence/rvv-validation.json": {
+      "bytes": 1846,
+      "sha256": "40ded16ff9b35b7249be71d5b71458a2123ed4e1399655832b822ec5749476f4"
+    },
+    "evidence/source-preservation.json": {
+      "bytes": 2658,
+      "sha256": "68fb09134aa3662779a3ffd3b1953b408251c82e5e12fe776024c7f35417ade5"
+    },
+    "export_input.py": {
+      "bytes": 1424,
+      "sha256": "75d8d52b05d72d4547b108fb908596501ec168315d8632cbbeece15d548be724"
+    },
+    "fetch_landsat.py": {
+      "bytes": 1653,
+      "sha256": "61573cf5db43e3051d6e7467c00b0ba67a9748c8091115e31e0814ff83209d6c"
+    },
+    "fixed12_followup.py": {
+      "bytes": 8659,
+      "sha256": "bee4cf76fab7ce19412b941016f0035d1f12e244e78083432edabbbeade623df"
+    },
+    "landsat-pilot-protocol.md": {
+      "bytes": 4875,
+      "sha256": "88856e792cacef1fe6b636d7cea56479fff337e874a4a42d51e2c1227efcb83f"
+    },
+    "literature/access.json": {
+      "bytes": 706,
+      "sha256": "fbcfcd548f2b5dc9363083ac1e43912e6d19b703b8d0b9e41e11dd6b8ee9a28d"
+    },
+    "original-source-manifest.json": {
+      "bytes": 2655,
+      "sha256": "af19887692d9a3bd19a78841042a283ec24bf407ba359ca0f8ce5a6254d7b56a"
+    },
+    "protocol.md": {
+      "bytes": 3754,
+      "sha256": "6819c1d703842a3ef96e06b0420e414e94d1ebaa1fff7968d274119b9c44bb91"
+    },
+    "requirements-measured.txt": {
+      "bytes": 90,
+      "sha256": "a677d269cfbf1fa987f56be19fdf8ecf313e3cfac28f81df34ea729704828c28"
+    },
+    "run_landsat_pilot.py": {
+      "bytes": 10070,
+      "sha256": "4c59aa650a0f72887ca94ac0717f7fecc11b72c22d2450cd39795fe96c95be6f"
+    },
+    "run_renode.py": {
+      "bytes": 1825,
+      "sha256": "9846c6e9b05d542f9ef06d778c8d7c3cd3d75b9df65edbef42d4c02a81e0d357"
+    },
+    "src/fixed12_3.c": {
+      "bytes": 141,
+      "sha256": "317a2e0fcc0fd295a829236813101de2d8089afecfc1bd24b3b1c456a3403813"
+    },
+    "src/fixed12_4.c": {
+      "bytes": 141,
+      "sha256": "a767e1b21878a873a5dadaad58a79a25ef25566a622bd50d503b63e97bf2140b"
+    },
+    "src/fixed12_5.c": {
+      "bytes": 141,
+      "sha256": "d6bf326f316f98aa0f496640ad6244aa2b2073e5fc1960bb475a46b76bef4f00"
+    },
+    "src/fixed12_6.c": {
+      "bytes": 141,
+      "sha256": "903cab77e5e1d640f8a07b53f6cff8eb2e0e335d24460dd64c59d3ead7e6e131"
+    },
+    "src/fixed12_host.c": {
+      "bytes": 20219,
+      "sha256": "69a2178ca8a1271ec9ffd2306da8b94309b152f4caa1dc8a66cf7e679cd7d733"
+    },
+    "src/followup_host.c": {
+      "bytes": 18826,
+      "sha256": "526aac8a93ca5b91e502e018d8252dd8bcfe0aaf854f6177f5a621dce9b58bf8"
+    },
+    "src/native_bench.c": {
+      "bytes": 3381,
+      "sha256": "9302c050cd749d12cfaa284602742e12f8476cc0b067d3578cd2d0031114bf08"
+    },
+    "src/native_bip.inc": {
+      "bytes": 5112,
+      "sha256": "cf39089187dc44334b7929c65d517776c14b7bcfe13cd1c8d7e8832bdd1d4e7d"
+    },
+    "src/native_bip_rvv.inc": {
+      "bytes": 2971,
+      "sha256": "1f0c2daad9a4545a46ca4e7b8ec8531ff74b6c7091da56b9be729513136c8517"
+    },
+    "src/pilot_host.c": {
+      "bytes": 20219,
+      "sha256": "ec9ef529d2cd90391c5bed4904fc8884078146689b24c69c0ffe3a865286d05c"
+    },
+    "src/prior_native_bip_host.c": {
+      "bytes": 18961,
+      "sha256": "cddcb6b10fe152c1ab6ebfca6e31085bc3ca13651484444a88c91fa836f9dc62"
+    },
+    "src/reference_kernels/avx.inc": {
+      "bytes": 5094,
+      "sha256": "bf31848d770905ae1ad4872adcea78d37a808beba84c195e894a6433b5766bae"
+    },
+    "src/reference_kernels/avx3.c": {
+      "bytes": 106,
+      "sha256": "22c9ad21050130adcc0afc5a0e7e04ea063416928d2f62b904f38d39d7aa5c64"
+    },
+    "src/reference_kernels/avx4.c": {
+      "bytes": 106,
+      "sha256": "c7bd48f5cb44c8637f1b48cebdcf14af4c7902fc297afd0b7c85debb8329afec"
+    },
+    "src/reference_kernels/avx5.c": {
+      "bytes": 106,
+      "sha256": "adca800a6840b59e6b1136911fa396e82c0cdd3cfd7f91d7365731562e7af3b9"
+    },
+    "src/reference_kernels/avx6.c": {
+      "bytes": 106,
+      "sha256": "4aa04070be5e0f543c889085c5986f7b429421cc58a09df6ff5c36d3a1e97e92"
+    },
+    "src/reference_kernels/band_rvv.inc": {
+      "bytes": 3123,
+      "sha256": "c832b913b6cf4480e265873d9443bda22a22dedca5b3996200e1e6139d4b5a69"
+    },
+    "src/reference_kernels/core.h": {
+      "bytes": 676,
+      "sha256": "aafc016366de4f96674d6edc37863fa890aaf4d658733141e2da342e68cbb63b"
+    },
+    "src/reference_kernels/frozen3.c": {
+      "bytes": 141,
+      "sha256": "deee76052a0ff93bbbf57c53b6575846858658b5ea41b2871d26e30a128beeb1"
+    },
+    "src/reference_kernels/frozen4.c": {
+      "bytes": 141,
+      "sha256": "57dce485e43c83fe55ac853bcf5e470cadca3ef421afbaacc9ef352f964ea213"
+    },
+    "src/reference_kernels/frozen5.c": {
+      "bytes": 141,
+      "sha256": "912b3e092baf09cbe7f364e89634c720f74b89e35fc2c93f7f6555f501b2d32a"
+    },
+    "src/reference_kernels/frozen6.c": {
+      "bytes": 141,
+      "sha256": "20c04de28a91e40df64c27fb4b5d04d2dfea4894429b60bc47e31099269575ad"
+    },
+    "src/reference_kernels/frozen_rvv3.c": {
+      "bytes": 149,
+      "sha256": "b8f9a0bbf203eb2290d520bdfcef0b197615fcd0fcf5a1bfb38ac87105f99ed1"
+    },
+    "src/reference_kernels/frozen_rvv4.c": {
+      "bytes": 149,
+      "sha256": "2ec91e607190119c616c2c53a4107573b38b4c0e3e5e4fadd99d5996c2904ce0"
+    },
+    "src/reference_kernels/frozen_rvv5.c": {
+      "bytes": 149,
+      "sha256": "86e627940eac93b7dd44b8d7bf06212cfbc23f9c3a33377e15e4ecc491941c5d"
+    },
+    "src/reference_kernels/frozen_rvv6.c": {
+      "bytes": 149,
+      "sha256": "2df4b8f443f5446b772dfa3998829cd5596ef28f64e23dfbf2c4cd4cb6516ccc"
+    },
+    "src/reference_kernels/fullbench.c": {
+      "bytes": 16279,
+      "sha256": "4005245804a13a3dc37ff79e51b6d5cc5307480610d8e53aeb65e30eca75d7dc"
+    },
+    "src/reference_kernels/portable.inc": {
+      "bytes": 1048,
+      "sha256": "6ebd80f793c0dbd775aa7f1ea9da6fa458b9a102c8c58818001c53ba147abfc7"
+    },
+    "src/reference_kernels/reference_cases.h": {
+      "bytes": 39227,
+      "sha256": "c7623339d7b15d3ee701ea4667372fc997ea442b112930be6f8d9bb2276baa86"
+    },
+    "src/reference_kernels/runtime.c": {
+      "bytes": 275,
+      "sha256": "65d3353eff27140529659a277f3d341ba18b5102e5d9302026fa00238cd3c5ae"
+    },
+    "src/reference_kernels/rvv.inc": {
+      "bytes": 4001,
+      "sha256": "a66313db28a3de945a02d2108e0c6b1b23f2db3f56a32b31d4b53105c1db4166"
+    },
+    "src/reference_kernels/rvv.ld": {
+      "bytes": 393,
+      "sha256": "aeb9a54530b759bdab8fdd380159f428caaeb7c0081aaefefb3fd4c0a0b858cc"
+    },
+    "src/reference_kernels/rvv.repl": {
+      "bytes": 254,
+      "sha256": "5ccde649578daf6254f0a2c8d0a30d10045f282477c246e3d746335af387e397"
+    },
+    "src/reference_kernels/rvv3.c": {
+      "bytes": 114,
+      "sha256": "fd56c80d5e6b69ea87f30b04d6f3b16d64bb6537706d7a131319faed9a1d9939"
+    },
+    "src/reference_kernels/rvv4.c": {
+      "bytes": 114,
+      "sha256": "e89bfabe5edaea92b5a13dbeb32dc4895d32212eed4d8ad97b735bfe3e261c67"
+    },
+    "src/reference_kernels/rvv5.c": {
+      "bytes": 114,
+      "sha256": "85073e5bbd29c9471a962074067f929ff4ec320d48b5d19d29cbb1c809bcc1ea"
+    },
+    "src/reference_kernels/rvv6.c": {
+      "bytes": 114,
+      "sha256": "4059b425da475fbdd6b66306017759c9b83368331eee160a5f0a93de8e53f07a"
+    },
+    "src/reference_kernels/scalar3.c": {
+      "bytes": 55,
+      "sha256": "b402bcb25fe78c10aa02cb27f1fcdcfc692bba385d9bfa6743b0be200ff80215"
+    },
+    "src/reference_kernels/scalar4.c": {
+      "bytes": 55,
+      "sha256": "431618df411abaa6f4598300934f47ccd502ef7bc3b57ebe66e349412834b5cc"
+    },
+    "src/reference_kernels/scalar5.c": {
+      "bytes": 55,
+      "sha256": "57f82efafa68ba0b2f92fe6c1a15e52621d9d8c67f549442267501708d361555"
+    },
+    "src/reference_kernels/scalar6.c": {
+      "bytes": 55,
+      "sha256": "59d5786ab1554080d93ce8df4f47d5211f89030df058aad1bdb850bd8274b841"
+    },
+    "src/reference_kernels/selftest.c": {
+      "bytes": 3118,
+      "sha256": "9e7fd2dc8862cebf7eae7a3353d4f166770bdbec647038d0caea1270aa00a4b0"
+    },
+    "src/reference_kernels/start.S": {
+      "bytes": 309,
+      "sha256": "72490774efba6b032ccaad6f608c1d4b0dcb7c5b80f86642376896f5289f1b95"
+    },
+    "src/revision_capture.c": {
+      "bytes": 15457,
+      "sha256": "61b230ab986c1fd4ec5129b80e47a56a2aa3483f87ef1814c48645e34d0565e6"
+    },
+    "src/revision_harness.c": {
+      "bytes": 12259,
+      "sha256": "da0047e95eedbe17a4f45813597a84b98c18ce6a4f9671182c74a01bfd5740aa"
+    },
+    "src/revision_selftest.c": {
+      "bytes": 2736,
+      "sha256": "a90c3d8781bf4d8502cf3ea8f0c4aa06371dada8009b46828faf9932a33926ed"
+    },
+    "src/spectral_rvv.inc": {
+      "bytes": 3620,
+      "sha256": "e6fb9fff2d8998a09261aac0f94801af1d9ea2adbdfa7f1a497b49bb3de54b0e"
+    },
+    "src/tap_baseline.inc": {
+      "bytes": 1984,
+      "sha256": "f2bed258e54f3082f5339eabcf4271ff9f35c494e640ae277e76f3d9c76d6a5b"
+    },
+    "src/tap_rvv.inc": {
+      "bytes": 2514,
+      "sha256": "60aa5a1454a119fc468ff26218635015c0fa3edbd1297a67dd08b91ce1733494"
+    }
+  }
+}

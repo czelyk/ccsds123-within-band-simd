@@ -1,0 +1,24 @@
+{
+  "main_host_campaign": {
+    "timing_jobs_concurrent": false,
+    "renode_concurrent_with_timing": false,
+    "raw_file_downloads_overlapped_early_cases": true,
+    "frequency_locked": false,
+    "interpretation": "Exploratory resident host medians. Background download/checksum activity was possible in early cases; retain all trials and do not infer precise cross-scene or cross-campaign timing differences. No controlled target-performance conclusion."
+  },
+  "fixed12_followup": {
+    "scheduled_after_main_host_campaign_and_downloads": true,
+    "separate_campaign": true,
+    "no_paired_cross_campaign_timing_inference": true
+  },
+  "RVV_baseline_revision": {
+    "initial_validation_archived": true,
+    "changes": [
+      "Avoid unused predictor components for one- and two-band groups",
+      "Use compact or actual-VL feature scratch instead of maximum-size temporary feature arrays",
+      "Add long synthetic cases that actually reach both adaptation exponent caps"
+    ],
+    "proposal_changed": false,
+    "new_validation_required_after_changes": true
+  }
+}

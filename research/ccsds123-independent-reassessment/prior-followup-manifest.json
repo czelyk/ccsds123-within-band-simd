@@ -1,0 +1,12 @@
+{
+  "sourceV2": "3a89fad89339120b935a2b3e82cc5a39839a8765573ed1134d355b90d4e8fd76",
+  "sourceCompact": "526aac8a93ca5b91e502e018d8252dd8bcfe0aaf854f6177f5a621dce9b58bf8",
+  "newTimingEnvironment": "Clang 18 -O3 -march=native; LLVM18 MCJIT; i7-12700H core2; 3 rotated trials; frequency not locked",
+  "completedFixedCases": 38,
+  "compactMainCases": 8,
+  "scope": "lossless D16, zero damping, R64, Omega19, full predictor P3, local3/0; nu_max9 main,4 secondary",
+  "storage": "read-only: no updated artifact; raw benchmark records and reproducible source construction retained in tool transcript",
+  "interruption": "first worker exited before final cases; all completed reported trials retained; unfinished cases completed in fresh worker; initial fresh setup NameError fixed before any measurements",
+  "caution": "Full diagnostic trace arrays were held in memory; reported row summaries/hashes retained, not a durable full-trace archive"
+}
+

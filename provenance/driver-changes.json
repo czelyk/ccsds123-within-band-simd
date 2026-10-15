@@ -1,0 +1,50 @@
+[
+  {
+    "path": "research/ccsds123-revision/build_revision.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "0e172fe2458e77dfe5e31ddf9775d7a57a751206fbf893a01658b46f396ba09e",
+    "after_sha256": "37372b4b7877b7a1142aee97dc48260b6762c36e6dfbf4d30bfeec4d3238075d"
+  },
+  {
+    "path": "research/ccsds123-revision/run_renode.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "9846c6e9b05d542f9ef06d778c8d7c3cd3d75b9df65edbef42d4c02a81e0d357",
+    "after_sha256": "c137c858baa799a33e5f5dcf2eb3d614a1063f2c49de4e79bfca02491396f5f6"
+  },
+  {
+    "path": "research/ccsds123-independent-reassessment/recheck_renode.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "3423dff5118b456d3c9749557c69e8c49eb9194d45985781818a5e23ed5b48db",
+    "after_sha256": "9a571837e7c0efe7efa6fe2679c1fc74c715ccec6cd6b15ec31142b935f9e6c9"
+  },
+  {
+    "path": "research/ccsds123-revision/fetch_landsat.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "61573cf5db43e3051d6e7467c00b0ba67a9748c8091115e31e0814ff83209d6c",
+    "after_sha256": "1e9f3bb9fb61cace17f852a2bcd9b345f3874f332857e433365b363c799ba65d"
+  },
+  {
+    "path": "research/ccsds123-revision/run_landsat_pilot.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "4c59aa650a0f72887ca94ac0717f7fecc11b72c22d2450cd39795fe96c95be6f",
+    "after_sha256": "f758a0ecbc7eadfafe025b1d1003045048b25a5a6caa0f87654cc5dc689ba721"
+  },
+  {
+    "path": "research/ccsds123-revision/fixed12_followup.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "bee4cf76fab7ce19412b941016f0035d1f12e244e78083432edabbbeade623df",
+    "after_sha256": "21b6b114c4f65adcc5c7b04dc34ac7345143eec7401bc100474d24e8ff886c32"
+  },
+  {
+    "path": "research/ccsds123-independent-reassessment/run_new_baseline.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "6a1a094551a56d09e07b5ecc0c388a9286addf841a76c7b4a45c8bfbb4d125b7",
+    "after_sha256": "d4c61bfa472fe7667fb9ea393a0f0045f4fd5a88cda5b242c33b54aafb82bc22"
+  },
+  {
+    "path": "research/ccsds123-independent-reassessment/run_bip_baseline.py",
+    "changes": "Portable tool/data/reference discovery; missing input fails promptly. No codec mathematics or timing/parameter policy changed.",
+    "before_sha256": "117dc8392df8080cca33ccede98fcb17f9b5e5b7f6cddea006e4bb201c422c2c",
+    "after_sha256": "78dfa19d3edbb19a13b4c6c6407734d020be2c0afd0f4b937a2721e812925ca4"
+  }
+]

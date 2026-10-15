@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://dataverse.csuc.cat/api/datasets/:persistentId/?persistentId=doi%3A10.34810%2FDATA1514",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 6656,
+    "json": false
+  },
+  {
+    "url": "https://dataverse.csuc.cat/dataset.xhtml?persistentId=doi%3A10.34810%2Fdata1514",
+    "status": 200,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 303440,
+    "json": false
+  }
+]

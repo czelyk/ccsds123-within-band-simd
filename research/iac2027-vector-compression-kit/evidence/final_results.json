@@ -1,0 +1,2354 @@
+[
+  {
+    "file": "work/cycle13/revised/frame_checkerboard_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "e81b76bad9e716c36c6186db0a70e4e46914340b7e7fb78260013cc8b5495914",
+    "medians_ns": {
+      "0": 17.881441,
+      "1": 21.597828,
+      "2": 23.973561,
+      "3": 19.112463,
+      "5": 19.076866
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 22,
+        "rejected": 1124,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_checkerboard_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "8e3072915cb1c6898ae1eda89fcc74ab916ab498c9e4a77cbb62b160e8535e4f",
+    "medians_ns": {
+      "0": 15.035571,
+      "1": 19.591471,
+      "2": 24.230469,
+      "3": 19.945762,
+      "5": 18.807999
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 67,
+        "rejected": 1079,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_constant_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "ae93a4a22e3ef727942f28081b0bee7947c37971e881e0a4a343e1adf6fa8c18",
+    "medians_ns": {
+      "0": 12.120102,
+      "1": 15.944679,
+      "2": 13.722769,
+      "3": 14.103969,
+      "5": 17.109444
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 1146,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_constant_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "69bc06b426567ee2615e06efeb190eacb1896a65a2a0c3c8df7111d497f58212",
+    "medians_ns": {
+      "0": 13.566016,
+      "1": 17.156057,
+      "2": 14.982016,
+      "3": 15.621606,
+      "5": 17.595671
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 1146,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_noise_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "0864bfd577fbf2622ef4983da11352f40625749a7bc5af3dab3939e9707e7d0a",
+    "medians_ns": {
+      "0": 23.994167,
+      "1": 27.155002,
+      "2": 22.554742,
+      "3": 22.785534,
+      "5": 24.314512
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 871,
+        "rejected": 275,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_noise_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "e5ad9a273e873f8742f3ba838f77ce9099d74e0c46980c0d440b452656d9ca5c",
+    "medians_ns": {
+      "0": 23.86303,
+      "1": 27.844674,
+      "2": 22.844221,
+      "3": 23.771382,
+      "5": 24.527524
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 905,
+        "rejected": 241,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_bil_fixed_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "21d6f31c3ec38581f418dafdfa7012d57d539c0f2dc28d56582b8e12ba73c786",
+    "medians_ns": {
+      "4": 16.171917
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 58867,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_bil_fixed_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "203f182fb90022fdcde5fd4e3e93762c26bbb26bfd271de74cfada5747b45794",
+    "medians_ns": {
+      "4": 17.474508
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 56134,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_bil_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "d3c3acdce796b2c8ca8f536d88294e2ca3abe75a89c327cd954c1fdf6f9b7154",
+    "medians_ns": {
+      "0": 25.643971,
+      "1": 28.383387,
+      "2": 20.208409,
+      "3": 20.156504,
+      "5": 26.179909
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 6042,
+        "rejected": 96,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 6
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_bil_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "785524acdad41ac21c6fbf9cb187551a17335ea1ac2a58d0ca715b7b7985dd73",
+    "medians_ns": {
+      "0": 26.685801,
+      "1": 29.944062,
+      "2": 21.667877,
+      "3": 21.655822,
+      "5": 27.492882
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 6071,
+        "rejected": 67,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 6
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_fixed_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "b22afaeb0453d1cf87a497dc94dfb630a063ed9bec828042ee9f7e623e9dfab3",
+    "medians_ns": {
+      "4": 16.620656
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 58867,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_fixed_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "58d2276ba83389b90275e2641bb366048c35af6a26aaf27537422beec096322e",
+    "medians_ns": {
+      "4": 17.241012
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 56134,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_nu4_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "598ed03ad80c782f9ca0a11768e4460d932c7ae2d0355e7b9e9ef8ecdc94d326",
+    "medians_ns": {
+      "0": 25.640204,
+      "1": 28.252062,
+      "2": 20.065226,
+      "3": 22.169851,
+      "5": 25.925898
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 58687,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 58687,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 58687,
+        "mismatch": 0,
+        "accepted": 5973,
+        "rejected": 165,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 58687,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 58687,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_nu4_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "9d30030650efefe583c04442e1ee37b9ce55157f08546905cb8f34c990abe53d",
+    "medians_ns": {
+      "0": 26.282319,
+      "1": 29.589278,
+      "2": 21.402722,
+      "3": 23.49752,
+      "5": 27.433442
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 55693,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 55693,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 55693,
+        "mismatch": 0,
+        "accepted": 6030,
+        "rejected": 108,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 55693,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 55693,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "559592a4b448b454f7c92713de5a3c761ccb4e191969192ef16cb1614f64a1b2",
+    "medians_ns": {
+      "0": 25.633409,
+      "1": 28.201576,
+      "2": 19.851718,
+      "3": 22.433525,
+      "5": 25.976662
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 6042,
+        "rejected": 96,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 59136,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pavia_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "529ea2c70492cf8cf8ac58723917436ce412c551949c516a86d64536a7e65114",
+    "medians_ns": {
+      "0": 26.223198,
+      "1": 29.654897,
+      "2": 21.23293,
+      "3": 23.619615,
+      "5": 27.37679
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 6071,
+        "rejected": 67,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 55840,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_bil_fixed_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "a31f9199fbcc084bf0a688c5c7c70f6ec0e892e6f818de29c3c3d51c5057154a",
+    "medians_ns": {
+      "4": 16.163958
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 58411,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_bil_fixed_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "60285fd2aa7380dd4f641db44696535fc0b8c6057f08b179cba298e7d1f72035",
+    "medians_ns": {
+      "4": 17.594492
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 56698,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_bil_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "c4ebc7c43df7bc2ec25b46891099a9c105c624ac42ce83247de2e849cac2af63",
+    "medians_ns": {
+      "0": 25.465986,
+      "1": 28.575591,
+      "2": 20.24674,
+      "3": 20.14891,
+      "5": 25.902483
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 6042,
+        "rejected": 96,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 6
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_bil_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "ba7403e1da38de5ce1049ee9c9afcc090bb01c29aa843f49dbab2d18a88ac8a7",
+    "medians_ns": {
+      "0": 26.58327,
+      "1": 29.830535,
+      "2": 21.501062,
+      "3": 21.581647,
+      "5": 27.176484
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 6092,
+        "rejected": 46,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 6
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_fixed_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "de6d0b0a60f6501a11db07296b71fac6cf3299ef8a3840ba881aeddd72ecbb9c",
+    "medians_ns": {
+      "4": 16.150489
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 58411,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_fixed_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "e4235c9ecf139984424a3ac2dbdd6a890ab71cd7799d23de7c76bdbd603c5987",
+    "medians_ns": {
+      "4": 17.261627
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 56698,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_nu4_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "25b42d952fc5df286b33ed684d1dc5dda9bf9e31ca35632b0a7e8c469d82de97",
+    "medians_ns": {
+      "0": 25.48394,
+      "1": 28.201381,
+      "2": 19.877803,
+      "3": 22.310039,
+      "5": 25.831416
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 58919,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 58919,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 58919,
+        "mismatch": 0,
+        "accepted": 5991,
+        "rejected": 147,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 58919,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 58919,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_nu4_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "519d3067de6a7a95898fbe4abfc65562a90c1e1d2ab2814e381f83103674ebda",
+    "medians_ns": {
+      "0": 26.318641,
+      "1": 29.638374,
+      "2": 21.266734,
+      "3": 23.41784,
+      "5": 27.263357
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 56648,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 56648,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 56648,
+        "mismatch": 0,
+        "accepted": 6067,
+        "rejected": 71,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 56648,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 56648,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "9429d9c820768b74006543654f6d3d396c72f34491ee9913cf340964d7e26f40",
+    "medians_ns": {
+      "0": 25.60335,
+      "1": 28.39425,
+      "2": 19.884265,
+      "3": 22.260419,
+      "5": 25.829081
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 6042,
+        "rejected": 96,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 59244,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_pines_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "087c7f79431bb6bdc3f4617ce02258cc2b228e06e1b3205693590de676c150bf",
+    "medians_ns": {
+      "0": 26.26025,
+      "1": 29.540902,
+      "2": 20.955387,
+      "3": 23.70432,
+      "5": 27.119357
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 6092,
+        "rejected": 46,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 56710,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_bil_fixed_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "b4fda52d4f8856b3931b3f159b3debd41a8fae3ebc15260451c0774890289ba5",
+    "medians_ns": {
+      "4": 15.34896
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 52240,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_bil_fixed_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "210178830fc97641e5ead4635dcf3913d398a7078887deb6fbf4c5b9da3944a8",
+    "medians_ns": {
+      "4": 16.654166
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 46040,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_bil_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "731372fb6222e776b4e97f16a4b45a99b4c3eda7a7db6b91b9473777c84d534a",
+    "medians_ns": {
+      "0": 24.547271,
+      "1": 27.548285,
+      "2": 19.446479,
+      "3": 19.402273,
+      "5": 25.459733
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 6048,
+        "rejected": 90,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 6
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_bil_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "307c4d1cf76f23499acd7bec30692f948cd7683964d2107e7aaaa7155528cd9d",
+    "medians_ns": {
+      "0": 25.643291,
+      "1": 28.936733,
+      "2": 20.643751,
+      "3": 20.986008,
+      "5": 26.659655
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 6122,
+        "rejected": 16,
+        "first_row_after_received_rows": 1
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 6
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 1
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_fixed_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "407d41d3b0186adfddfc15d1a3ec9b51bb3ff1f94e54e39cc58fee30e181ffaa",
+    "medians_ns": {
+      "4": 15.391895
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 52240,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_fixed_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "bf4517a85fb1904a8ddd0caf5da793b918ab4a16b9cb31b38b305a8ff9f65d3b",
+    "medians_ns": {
+      "4": 16.741471
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 4,
+        "bytes": 46040,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_nu4_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "1484ca30448412578afac5d1445de5a2d34495aab49526f963c0f660ca8dd662",
+    "medians_ns": {
+      "0": 24.665132,
+      "1": 27.425684,
+      "2": 19.198577,
+      "3": 21.279869,
+      "5": 25.363457
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 51236,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 51236,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 51236,
+        "mismatch": 0,
+        "accepted": 6049,
+        "rejected": 89,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 51236,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 51236,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_nu4_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "b622097bd3c63f499b3aae10e5b7f54ce9dfb0c564754b0c21b73170abd431de",
+    "medians_ns": {
+      "0": 25.61502,
+      "1": 29.32752,
+      "2": 20.594183,
+      "3": 22.660189,
+      "5": 26.527786
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 45925,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 45925,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 45925,
+        "mismatch": 0,
+        "accepted": 6121,
+        "rejected": 17,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 45925,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 45925,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "be87570e051e92f3e36bbba81b022f490c2c420d15456c0719013564ec938ecf",
+    "medians_ns": {
+      "0": 24.453901,
+      "1": 27.492299,
+      "2": 19.155319,
+      "3": 21.366098,
+      "5": 25.230576
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 6048,
+        "rejected": 90,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 51744,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/revised/frame_salinas_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "f63915e512cf9a09507f1c96fa35d02ee1a9de2db070e293f7686117489b1828",
+    "medians_ns": {
+      "0": 25.434514,
+      "1": 29.014081,
+      "2": 20.469565,
+      "3": 22.616884,
+      "5": 26.367589
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 6122,
+        "rejected": 16,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 46163,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b1_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "7ae6a68a0cadb10c927bf27154947cad481d78f6429185ef0bdd47b30a01dc75",
+    "medians_ns": {
+      "0": 21.980522,
+      "1": 23.626855,
+      "2": 16.610283,
+      "3": 48.007488,
+      "5": 19.23531
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 11094,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 11094,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 11094,
+        "mismatch": 0,
+        "accepted": 1022,
+        "rejected": 1,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 11094,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 11094,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b1_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "79c079f538d1fb69b81ef158e2de27efdabf88bae6f4e72161688c128cd7579d",
+    "medians_ns": {
+      "0": 21.622769,
+      "1": 24.748435,
+      "2": 17.641536,
+      "3": 48.395425,
+      "5": 19.697588
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 10563,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 10563,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 10563,
+        "mismatch": 0,
+        "accepted": 1021,
+        "rejected": 2,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 10563,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 10563,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b2_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "1c9bcae55d98ccb28b09fa822c43ce3328d3f8d3df0c6916f07158229fea584a",
+    "medians_ns": {
+      "0": 23.883575,
+      "1": 25.43584,
+      "2": 18.117214,
+      "3": 32.41928,
+      "5": 23.204939
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 21476,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 21476,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 21476,
+        "mismatch": 0,
+        "accepted": 2026,
+        "rejected": 20,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 21476,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 21476,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b2_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "716bd777602a154dd55642d57abc967a8afd9bd4f13e05a6001f9dbbe1b5a92c",
+    "medians_ns": {
+      "0": 23.286747,
+      "1": 26.141774,
+      "2": 18.653505,
+      "3": 32.719224,
+      "5": 23.604089
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 20357,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 20357,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 20357,
+        "mismatch": 0,
+        "accepted": 2038,
+        "rejected": 8,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 20357,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 20357,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b3_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "38af78c8b1013468e2bab939a624a820ffb899ef0323a62033addf76de8c47a0",
+    "medians_ns": {
+      "0": 24.492519,
+      "1": 26.593292,
+      "2": 18.854711,
+      "3": 27.420686,
+      "5": 25.575214
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 31691,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 31691,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 31691,
+        "mismatch": 0,
+        "accepted": 3028,
+        "rejected": 41,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 31691,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 31691,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b3_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "c6f8c1bed08ebb2a4ec0021be51235f0b4c04ded309140f2b80e55e3623f5645",
+    "medians_ns": {
+      "0": 24.220237,
+      "1": 27.288487,
+      "2": 19.384214,
+      "3": 28.34278,
+      "5": 26.01717
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 29632,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 29632,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 29632,
+        "mismatch": 0,
+        "accepted": 3050,
+        "rejected": 19,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 29632,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 29632,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b4_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "d22ca4f0003b067284e6d26c962cab94df332f80b929edcb4e042c5d8bd59bab",
+    "medians_ns": {
+      "0": 25.165429,
+      "1": 27.290264,
+      "2": 19.371627,
+      "3": 25.131478,
+      "5": 25.805859
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 41368,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 41368,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 41368,
+        "mismatch": 0,
+        "accepted": 4026,
+        "rejected": 66,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 41368,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 41368,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b4_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "599a672f14630365d4dec4ee83d26b15e76142b9adfdfd6540631fd3fa83b12b",
+    "medians_ns": {
+      "0": 25.123627,
+      "1": 28.326398,
+      "2": 20.204603,
+      "3": 25.937823,
+      "5": 26.688412
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 38615,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 38615,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 38615,
+        "mismatch": 0,
+        "accepted": 4057,
+        "rejected": 35,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 38615,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 38615,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b8_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "3b85d480ad06a6d395625821149ca2a7a61c6d587e082875dbce7d82676e4385",
+    "medians_ns": {
+      "0": 25.894592,
+      "1": 28.584555,
+      "2": 20.062927,
+      "3": 20.921251,
+      "5": 26.098981
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 76208,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 76208,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 76208,
+        "mismatch": 0,
+        "accepted": 8057,
+        "rejected": 127,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 76208,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 76208,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/band_matrix/frame_pavia_b8_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 50,
+    "fixture_sha256": "f83add7281b89b514a74478cc3ab243ca823b85370e3da2f7a5a2b64e57b8c7f",
+    "medians_ns": {
+      "0": 26.711278,
+      "1": 30.112819,
+      "2": 21.709831,
+      "3": 22.373661,
+      "5": 27.542785
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 72258,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 72258,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 72258,
+        "mismatch": 0,
+        "accepted": 8093,
+        "rejected": 91,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 72258,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 72258,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/large/frame_pavia256x256x8_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "repeats": 12,
+    "fixture_sha256": "bf9cc4b463d3591286f5ac87f4e7ff83faa42c9bf8d84c7cc927a76c75f36991",
+    "medians_ns": {
+      "0": 25.928913,
+      "1": 28.902659,
+      "2": 19.98332,
+      "3": 21.264728,
+      "5": 26.432237
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 603894,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 603894,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 603894,
+        "mismatch": 0,
+        "accepted": 65086,
+        "rejected": 442,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 603894,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 603894,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  },
+  {
+    "file": "work/cycle13/large/frame_pavia256x256x8_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "repeats": 12,
+    "fixture_sha256": "f936fafb9611f9c6cbf0061feed67b85a1022abd910dbe00c59c800781aac267",
+    "medians_ns": {
+      "0": 26.878612,
+      "1": 30.091953,
+      "2": 21.008706,
+      "3": 22.836304,
+      "5": 27.471639
+    },
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 577310,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 577310,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 577310,
+        "mismatch": 0,
+        "accepted": 65231,
+        "rejected": 297,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 577310,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 577310,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ]
+  }
+]

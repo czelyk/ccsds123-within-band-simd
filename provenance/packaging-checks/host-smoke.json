@@ -1,0 +1,314 @@
+[
+  {
+    "file": "<packaging-run>/research/iac2027-vector-compression-kit/src/frame_checkerboard_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "sha256": "e81b76bad9e716c36c6186db0a70e4e46914340b7e7fb78260013cc8b5495914",
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 22,
+        "rejected": 1124,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 15915,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ],
+    "medians_ns": {}
+  },
+  {
+    "file": "<packaging-run>/research/iac2027-vector-compression-kit/src/frame_checkerboard_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "sha256": "8e3072915cb1c6898ae1eda89fcc74ab916ab498c9e4a77cbb62b160e8535e4f",
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 67,
+        "rejected": 1079,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 15014,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ],
+    "medians_ns": {}
+  },
+  {
+    "file": "<packaging-run>/research/iac2027-vector-compression-kit/src/frame_constant_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "sha256": "ae93a4a22e3ef727942f28081b0bee7947c37971e881e0a4a343e1adf6fa8c18",
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 1146,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ],
+    "medians_ns": {}
+  },
+  {
+    "file": "<packaging-run>/research/iac2027-vector-compression-kit/src/frame_constant_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "sha256": "69bc06b426567ee2615e06efeb190eacb1896a65a2a0c3c8df7111d497f58212",
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 1146,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 1182,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ],
+    "medians_ns": {}
+  },
+  {
+    "file": "<packaging-run>/research/iac2027-vector-compression-kit/src/frame_noise_nu9_NARROW_COLUMN_ORIENTED.bin",
+    "sha256": "0864bfd577fbf2622ef4983da11352f40625749a7bc5af3dab3939e9707e7d0a",
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 871,
+        "rejected": 275,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 19066,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ],
+    "medians_ns": {}
+  },
+  {
+    "file": "<packaging-run>/research/iac2027-vector-compression-kit/src/frame_noise_nu9_WIDE_NEIGHBOR_ORIENTED.bin",
+    "sha256": "e5ad9a273e873f8742f3ba838f77ce9099d74e0c46980c0d440b452656d9ca5c",
+    "validation": [
+      {
+        "kind": "validation",
+        "variant": 0,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 1,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 2,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 905,
+        "rejected": 241,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 3,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      },
+      {
+        "kind": "validation",
+        "variant": 5,
+        "bytes": 19051,
+        "mismatch": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "first_row_after_received_rows": 0
+      }
+    ],
+    "medians_ns": {}
+  }
+]

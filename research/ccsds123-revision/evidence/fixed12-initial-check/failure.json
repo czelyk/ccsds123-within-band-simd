@@ -1,0 +1,8 @@
+{
+  "exception": "AssertionError",
+  "location": "initial fixed12_followup.py line67, before independent body comparison",
+  "failed_condition": "included the unused t=0 weight-vector storage in the constant-weight assertion",
+  "diagnosis_record": "../fixed12-check-diagnosis.json",
+  "results_preserved": true,
+  "no_performance_trials_had_run": true
+}

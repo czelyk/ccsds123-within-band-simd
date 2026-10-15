@@ -1,0 +1,53 @@
+{
+  "kind": "Arithmetic and existing-evidence audit only; no new timing or simulation",
+  "landsat_main_cases": 8,
+  "landsat_main_proposal_wins": 0,
+  "landsat_conventional_time_reduction_percent": [
+    8.986925289708193,
+    17.217764687326763
+  ],
+  "landsat_proposal_speedup_best_single_band": [
+    1.230047058555314,
+    1.3663859841163983
+  ],
+  "landsat_wide_8stripe_size_change_percent": [
+    -0.6817846774824332,
+    0.2203575307317962
+  ],
+  "landsat_independent_context_parallel_performance_measured": false,
+  "hypso_main_conventional_wins": 8,
+  "hypso_conventional_speedup": [
+    1.1724039436736773,
+    1.358408716729237
+  ],
+  "hypso_nominal_u16_cube_bytes": 156936960,
+  "hypso_nominal_u16_cube_MiB": 149.666748046875,
+  "hypso_measured_source_prefix_samples_first_1024_body_bytes": {
+    "v2g1": 81961,
+    "native-BIP-v9g8": 464
+  },
+  "eyesat_arithmetic_assumption": "Assume unpacked two-byte samples only for storage illustration; not a documented flight format or compressor memory allocation",
+  "eyesat_256_square_tile_bytes_at_two_bytes_sample": 131072,
+  "eyesat_8_tile_input_bytes_at_two_bytes_sample": 1048576,
+  "eyesat_8_tile_two_row_context_bytes_at_two_bytes_sample": 8192,
+  "eyesat_full_frame_bytes_at_two_bytes_sample": 8388608,
+  "eyesat_memory_caveat": "These are input/two-row sample arrays, not total codec, output, DMA, cache or partition RAM. They do not prove eight contexts can run concurrently.",
+  "probav_geometric_detector_strips": 18,
+  "probav_parallelism_caveat": "Geometric strip count is not a measured simultaneous SIMD lane count; bus schedule, widths, rates and state/packing costs matter.",
+  "original_32_source_files_prior_check_unchanged": true,
+  "physical_results": false,
+  "prior_artifacts_integrity": {
+    "ccsds123-revision": {
+      "files_checked": 128,
+      "all_match": true,
+      "mismatches": [],
+      "manifest_sha256": "5cfa0dbddba71de2b967124069e2765bb2d08a6c9cec438d7872505b35c5fe22"
+    },
+    "ccsds123-independent-reassessment": {
+      "files_checked": 102,
+      "all_match": true,
+      "mismatches": [],
+      "manifest_sha256": "7e09b6a6b3d97a560a3d9cce6eec8391b224976d266208cddda8e42110574a8b"
+    }
+  }
+}

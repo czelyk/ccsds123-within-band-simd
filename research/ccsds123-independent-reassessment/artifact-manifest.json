@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-15",
+  "decision": "REVISE",
+  "scope": "Independent reassessment of current CCSDS 123 project; not external human peer review",
+  "physical_measurements": false,
+  "original_source_files_unchanged": 32,
+  "package_excludes": [
+    "four raw NetCDF inputs",
+    "third-party article PDF/text copies listed below",
+    "external reference repository and runtimes",
+    "earlier full physical test kit"
+  ],
+  "excluded_local_literature_files": [
+    "literature/venspec2026.pdf",
+    "literature/venspec2026.txt",
+    "literature/versal2024.pdf",
+    "literature/versal2024.txt"
+  ],
+  "reproduction_driver_changes_after_measurement": "Packaged identical reference sources; portable data/reference paths and CPU selection. No C algorithm or scientific parameter changes. Historical build command paths retained in manifests.",
+  "files": {
+    "Bilimsel-Degerlendirme-TR.md": {
+      "bytes": 23614,
+      "sha256": "f5f2fc7a800516798b947cc023211873bd469990c4c81489318a174aacf77994"
+    },
+    "README.md": {
+      "bytes": 7243,
+      "sha256": "042efaf0358adb79c60cf0b6e053af51a61cbaed451472540b3504add36b80ac"
+    },
+    "analyze_evidence.py": {
+      "bytes": 4115,
+      "sha256": "5563788f03354b4a6cb7b896c91094c4ff82287b87fe6ff1b4d45569a98aceac"
+    },
+    "build/baseline-regression": {
+      "bytes": 2260992,
+      "sha256": "d16cf8f2e4d53e98e9e7d317f9b3e471a53711b4554570eaf93d5766fe21ad73"
+    },
+    "build/build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/capture-build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/capture-manifest.json": {
+      "bytes": 2388,
+      "sha256": "64148f765222492bae943521f2ba17c258c04f2881d4795f41af630265bfce4c"
+    },
+    "build/libcapture.so": {
+      "bytes": 83552,
+      "sha256": "462622332a501947ca6ac33523e04bee42383c83d80c2eb937d5382ee76ced99"
+    },
+    "build/libnativebip.so": {
+      "bytes": 83400,
+      "sha256": "0d777f8b9131ace84dc131770cd39c53844c039b1a4abbfe31b81f347252cd1e"
+    },
+    "build/libreassessment.so": {
+      "bytes": 75200,
+      "sha256": "318261e3e76d3590cb401a4702501796927889dfc450e5e8e55686e2be743584"
+    },
+    "build/manifest.json": {
+      "bytes": 5221,
+      "sha256": "f673ab6acb82bd87bfa21d070d930f7884c51563ea241252150cd1dbeaa1d60e"
+    },
+    "build/native-bip-build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/native-bip-manifest.json": {
+      "bytes": 5168,
+      "sha256": "707a4a29ed7218420c4829f848d4621d98f1ca6584b4a4f81ed6249e2b435e3c"
+    },
+    "build/original-rvv.repl": {
+      "bytes": 254,
+      "sha256": "5ccde649578daf6254f0a2c8d0a30d10045f282477c246e3d746335af387e397"
+    },
+    "build/original-selftest.elf": {
+      "bytes": 53992,
+      "sha256": "a650d873b7ef99c04c47f2caaf2565e96a3346b18b3cd084e37c7ffdade02667"
+    },
+    "build/renode-recheck-128.resc": {
+      "bytes": 603,
+      "sha256": "698e176f66b1fcbac80c739749e314b429e630e0bd1fd26e38baa7b3d5db6ec0"
+    },
+    "build/renode-recheck-256.resc": {
+      "bytes": 603,
+      "sha256": "d611938ff384155f695b0e1504661a6e42faebeff52536f7af51dadc0ceb178f"
+    },
+    "build/sanitizer-build.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build_bip_baseline.py": {
+      "bytes": 2972,
+      "sha256": "0637e0c933b6b36d1be00a5b1ecfbac47f752ce81cdad3ec609b34ffda37309c"
+    },
+    "build_new_baseline.py": {
+      "bytes": 1621,
+      "sha256": "1a09e6b01f18e47a3a1eb19bbc14fe9a8af50e23c2aea161598434cc1f35f791"
+    },
+    "check_new_baselines.py": {
+      "bytes": 1086,
+      "sha256": "de6e30acfce56bbbc3015729be0cf8e1570f7703fa777ad6999e9efe4bf9e62b"
+    },
+    "evidence/analysis.json": {
+      "bytes": 14275,
+      "sha256": "a059f510076805eff127e212c3f4c9630d90eb5fee28dd5b33d50cdb2d697975"
+    },
+    "evidence/comparison-summary.csv": {
+      "bytes": 2716,
+      "sha256": "76b1da398413194fac5d1cdac3a2d23451ce95ed94aa35184a5be5f7f34172d3"
+    },
+    "evidence/input-file-checksums.json": {
+      "bytes": 573,
+      "sha256": "1f33c159d111f4205a9c722998bd796bc274a2104090e802463bdfa1f1c9f88d"
+    },
+    "evidence/native-bip-comparison.jsonl": {
+      "bytes": 39870,
+      "sha256": "26ff0838e0296986b99b5b23605bfa0861e3a6a7c69f15f2ba763c8320601441"
+    },
+    "evidence/renode-recheck-128.bin": {
+      "bytes": 64,
+      "sha256": "be1d07e95154f473e75f17a290fa2d96c5fff615bd16f82ca04246f16be74ad9"
+    },
+    "evidence/renode-recheck-128.log": {
+      "bytes": 965,
+      "sha256": "93e16c0ef6fc7469946a7ea7bb7519dca218cf04b1b35889b438b4c17b24622f"
+    },
+    "evidence/renode-recheck-256.bin": {
+      "bytes": 64,
+      "sha256": "75bce9f273df5254677a341535d75629f910ee9bc8b58fa08e623a1e8db88e09"
+    },
+    "evidence/renode-recheck-256.log": {
+      "bytes": 965,
+      "sha256": "36dfee0ff274cc40e0f369ebd24c6259a6e8f747e1ac091ee918ea26fb5bcdc4"
+    },
+    "evidence/renode-reproducibility.json": {
+      "bytes": 754,
+      "sha256": "a24cf323a51d1c93e2e2fbdb2c7ffe0853f41859f31c3934b0a2cc95bcc2a0a2"
+    },
+    "evidence/sanitizer-regression.json": {
+      "bytes": 2732,
+      "sha256": "007c49af704da71396ab621089418479b916b4ead5e8568ce1e36bef0d6e8835"
+    },
+    "evidence/tap-comparison.jsonl": {
+      "bytes": 71050,
+      "sha256": "41cabfcd0c5952f9f17bae2f88d03c477ba7f8d24907fe95f362563c4f41ddf1"
+    },
+    "evidence/trace-finnmark-local3-nu9-v0-g1.npz": {
+      "bytes": 1486685,
+      "sha256": "f4da908cf031ff100b849c1593703dcdf9acdd3c7c7dc36b007cb4744c48d510"
+    },
+    "evidence/trace-finnmark-local3-nu9-v2-g1.npz": {
+      "bytes": 1471454,
+      "sha256": "3a2517a1eec862f0b27429b7f04b85a5e242eff71c920d33032b4abaf9c03cfc"
+    },
+    "evidence/trace-finnmark-local3-nu9-v7-g2.npz": {
+      "bytes": 1432992,
+      "sha256": "6d2a53fa2c2581b9940b6e079b349a774414ea51046d4106cb640d242dd1f0b4"
+    },
+    "evidence/trace-finnmark-local3-nu9-v7-g4.npz": {
+      "bytes": 1373462,
+      "sha256": "16599ecdc1d94b3189b72706be679c232e8e4c2f98a1741b1e7dfe6dc206442d"
+    },
+    "evidence/trace-finnmark-local3-nu9-v7-g8.npz": {
+      "bytes": 1343142,
+      "sha256": "c8b66755f7a986971863104106b60fbe0b7d12eb810a66e15ec0c310815429ce"
+    },
+    "evidence/trace-finnmark-local3-nu9-v8-g1.npz": {
+      "bytes": 1483770,
+      "sha256": "facf63e6c19d056005f331f158809565e4ce5001525db76484bfa04c0655681c"
+    },
+    "evidence/trace-native-BIP-local3-nu9-g8.npz": {
+      "bytes": 6226,
+      "sha256": "11e65cccab01c0c8107f651a7c58ebd776916e21000dccf9a55f1790462b049c"
+    },
+    "literature/access-record.json": {
+      "bytes": 1041,
+      "sha256": "ac0336b9b555d7b4b8ae31a51621ea5d371331a5dad9a34cbb9e36f7ea27f602"
+    },
+    "literature/iac2027-current.pdf": {
+      "bytes": 8093510,
+      "sha256": "24dd43a2ff31190b34e7bb74d69f3158c8f9fb83d123778dcd1de01ccdeac6f0"
+    },
+    "literature/iac2027-current.txt": {
+      "bytes": 357204,
+      "sha256": "eb5647964ea24d70de9d4104f61942fde360451172fddf9dbfafbf6f738f3894"
+    },
+    "new-experiment-protocol.md": {
+      "bytes": 4422,
+      "sha256": "32c2b0700c787fd1591bd544728abcb3560956b93954f8a6f3e2d3dc276da163"
+    },
+    "original-source-manifest.json": {
+      "bytes": 2655,
+      "sha256": "af19887692d9a3bd19a78841042a283ec24bf407ba359ca0f8ce5a6254d7b56a"
+    },
+    "prior-followup-manifest.json": {
+      "bytes": 943,
+      "sha256": "1b87850b50198c91a3bbdcecb90309e902baa1597945767d49446884535da127"
+    },
+    "prior-followup-records.json": {
+      "bytes": 169543,
+      "sha256": "0e66625562dd1e031e1c9abdc42b5b56c35af78024719659f95f696c5b95da12"
+    },
+    "prior-source/inmemory-accounting-command.py": {
+      "bytes": 4329,
+      "sha256": "582e3a6c0bfaca5160565563966f0cd0252932137fc43496fbdb57ec9d7ed8a0"
+    },
+    "prior-source/inmemory-bil-command.py": {
+      "bytes": 916,
+      "sha256": "aab46bc7dab5dde8b5b7a52d91a0bc86a1d6ebdb6d788221c0e2c8f7d1c375d9"
+    },
+    "prior-source/inmemory-calibration-command.py": {
+      "bytes": 4918,
+      "sha256": "400777bebb2838cc42dd5155b2bb117907dbfb5cf8a5152c2b63f502f72dcac4"
+    },
+    "prior-source/inmemory-compact-command.py": {
+      "bytes": 3705,
+      "sha256": "dcc7f364ece2cc297636439099c8e1f8006ce78549961ee2a1bb0b54f22d18c0"
+    },
+    "prior-source/inmemory-full-captures-command.py": {
+      "bytes": 2845,
+      "sha256": "13dbc09ee67002f5f161ba22402343e5e286a79062b7f6e2920f07a1a39aead5"
+    },
+    "prior-source/inmemory-nu4-command.py": {
+      "bytes": 1765,
+      "sha256": "96d7f0c2a782066fcbda8b80f830b906a2cd5f493169ddf87b71ae777113c415"
+    },
+    "prior-source/inmemory-original.py": {
+      "bytes": 11919,
+      "sha256": "3624bd116f40050b64a303428613ed1754966cafd3d9f5c96b6be2b54e3071bc"
+    },
+    "prior-source/inmemory-output-traces-command.py": {
+      "bytes": 1707,
+      "sha256": "60e0a7bd39cb217ac04556690f3feb1bc000432ac1f17ae47986f447d0f0d2ad"
+    },
+    "prior-source/inmemory-paired-replay.py": {
+      "bytes": 14440,
+      "sha256": "db1c811309ac19ddf57739229a0b5273211253d1ab6f2c3e517e43dc18667307"
+    },
+    "prior-source/inmemory-reference-command.py": {
+      "bytes": 3927,
+      "sha256": "d35430915f98d0289e8e82b20b82df1c7df3f2f0c5e422d2917216e12530639b"
+    },
+    "prior-source/inmemory-segmentation-command.py": {
+      "bytes": 2778,
+      "sha256": "372be4d2408a7cac6bb24a27f14fbac86a51f9363250ffc5429f93514812f80e"
+    },
+    "prior-source/materialize_host.py": {
+      "bytes": 9909,
+      "sha256": "7d384278f86d1fff0a802f510aaf109f9e7c971f4fe00d3fec54105af4e3f24b"
+    },
+    "recheck_renode.py": {
+      "bytes": 1874,
+      "sha256": "3423dff5118b456d3c9749557c69e8c49eb9194d45985781818a5e23ed5b48db"
+    },
+    "requirements-measured.txt": {
+      "bytes": 184,
+      "sha256": "158363833009e6fbf81a8e3359520c97ecb1e063eccecb3e212f45f855b563ec"
+    },
+    "run_bip_baseline.py": {
+      "bytes": 7611,
+      "sha256": "117dc8392df8080cca33ccede98fcb17f9b5e5b7f6cddea006e4bb201c422c2c"
+    },
+    "run_new_baseline.py": {
+      "bytes": 5026,
+      "sha256": "6a1a094551a56d09e07b5ecc0c388a9286addf841a76c7b4a45c8bfbb4d125b7"
+    },
+    "selected-hypso-inputs.json": {
+      "bytes": 2994,
+      "sha256": "cd85adca8325fd2a6c9bb3572870d262291e014a2e22a6bb270697ac1f2d0971"
+    },
+    "src/baseline_regression.c": {
+      "bytes": 2212,
+      "sha256": "4e1ba541fda2d84c740b3d65915f82ed6cc376b17e1a6d47a098804cfe175684"
+    },
+    "src/followup_host.c": {
+      "bytes": 18826,
+      "sha256": "526aac8a93ca5b91e502e018d8252dd8bcfe0aaf854f6177f5a621dce9b58bf8"
+    },
+    "src/native_bip.inc": {
+      "bytes": 5112,
+      "sha256": "cf39089187dc44334b7929c65d517776c14b7bcfe13cd1c8d7e8832bdd1d4e7d"
+    },
+    "src/native_bip_capture.c": {
+      "bytes": 24523,
+      "sha256": "9914b6bf5d6477e542e465e21de04b3cb46fdab214a7783e94051d0679a3d512"
+    },
+    "src/native_bip_host.c": {
+      "bytes": 18961,
+      "sha256": "cddcb6b10fe152c1ab6ebfca6e31085bc3ca13651484444a88c91fa836f9dc62"
+    },
+    "src/reference_kernels/avx.inc": {
+      "bytes": 5094,
+      "sha256": "bf31848d770905ae1ad4872adcea78d37a808beba84c195e894a6433b5766bae"
+    },
+    "src/reference_kernels/avx3.c": {
+      "bytes": 106,
+      "sha256": "22c9ad21050130adcc0afc5a0e7e04ea063416928d2f62b904f38d39d7aa5c64"
+    },
+    "src/reference_kernels/avx4.c": {
+      "bytes": 106,
+      "sha256": "c7bd48f5cb44c8637f1b48cebdcf14af4c7902fc297afd0b7c85debb8329afec"
+    },
+    "src/reference_kernels/avx5.c": {
+      "bytes": 106,
+      "sha256": "adca800a6840b59e6b1136911fa396e82c0cdd3cfd7f91d7365731562e7af3b9"
+    },
+    "src/reference_kernels/avx6.c": {
+      "bytes": 106,
+      "sha256": "4aa04070be5e0f543c889085c5986f7b429421cc58a09df6ff5c36d3a1e97e92"
+    },
+    "src/reference_kernels/band_rvv.inc": {
+      "bytes": 3123,
+      "sha256": "c832b913b6cf4480e265873d9443bda22a22dedca5b3996200e1e6139d4b5a69"
+    },
+    "src/reference_kernels/core.h": {
+      "bytes": 676,
+      "sha256": "aafc016366de4f96674d6edc37863fa890aaf4d658733141e2da342e68cbb63b"
+    },
+    "src/reference_kernels/frozen3.c": {
+      "bytes": 141,
+      "sha256": "deee76052a0ff93bbbf57c53b6575846858658b5ea41b2871d26e30a128beeb1"
+    },
+    "src/reference_kernels/frozen4.c": {
+      "bytes": 141,
+      "sha256": "57dce485e43c83fe55ac853bcf5e470cadca3ef421afbaacc9ef352f964ea213"
+    },
+    "src/reference_kernels/frozen5.c": {
+      "bytes": 141,
+      "sha256": "912b3e092baf09cbe7f364e89634c720f74b89e35fc2c93f7f6555f501b2d32a"
+    },
+    "src/reference_kernels/frozen6.c": {
+      "bytes": 141,
+      "sha256": "20c04de28a91e40df64c27fb4b5d04d2dfea4894429b60bc47e31099269575ad"
+    },
+    "src/reference_kernels/frozen_rvv3.c": {
+      "bytes": 149,
+      "sha256": "b8f9a0bbf203eb2290d520bdfcef0b197615fcd0fcf5a1bfb38ac87105f99ed1"
+    },
+    "src/reference_kernels/frozen_rvv4.c": {
+      "bytes": 149,
+      "sha256": "2ec91e607190119c616c2c53a4107573b38b4c0e3e5e4fadd99d5996c2904ce0"
+    },
+    "src/reference_kernels/frozen_rvv5.c": {
+      "bytes": 149,
+      "sha256": "86e627940eac93b7dd44b8d7bf06212cfbc23f9c3a33377e15e4ecc491941c5d"
+    },
+    "src/reference_kernels/frozen_rvv6.c": {
+      "bytes": 149,
+      "sha256": "2df4b8f443f5446b772dfa3998829cd5596ef28f64e23dfbf2c4cd4cb6516ccc"
+    },
+    "src/reference_kernels/fullbench.c": {
+      "bytes": 16279,
+      "sha256": "4005245804a13a3dc37ff79e51b6d5cc5307480610d8e53aeb65e30eca75d7dc"
+    },
+    "src/reference_kernels/portable.inc": {
+      "bytes": 1048,
+      "sha256": "6ebd80f793c0dbd775aa7f1ea9da6fa458b9a102c8c58818001c53ba147abfc7"
+    },
+    "src/reference_kernels/reference_cases.h": {
+      "bytes": 39227,
+      "sha256": "c7623339d7b15d3ee701ea4667372fc997ea442b112930be6f8d9bb2276baa86"
+    },
+    "src/reference_kernels/runtime.c": {
+      "bytes": 275,
+      "sha256": "65d3353eff27140529659a277f3d341ba18b5102e5d9302026fa00238cd3c5ae"
+    },
+    "src/reference_kernels/rvv.inc": {
+      "bytes": 4001,
+      "sha256": "a66313db28a3de945a02d2108e0c6b1b23f2db3f56a32b31d4b53105c1db4166"
+    },
+    "src/reference_kernels/rvv.ld": {
+      "bytes": 393,
+      "sha256": "aeb9a54530b759bdab8fdd380159f428caaeb7c0081aaefefb3fd4c0a0b858cc"
+    },
+    "src/reference_kernels/rvv.repl": {
+      "bytes": 254,
+      "sha256": "5ccde649578daf6254f0a2c8d0a30d10045f282477c246e3d746335af387e397"
+    },
+    "src/reference_kernels/rvv3.c": {
+      "bytes": 114,
+      "sha256": "fd56c80d5e6b69ea87f30b04d6f3b16d64bb6537706d7a131319faed9a1d9939"
+    },
+    "src/reference_kernels/rvv4.c": {
+      "bytes": 114,
+      "sha256": "e89bfabe5edaea92b5a13dbeb32dc4895d32212eed4d8ad97b735bfe3e261c67"
+    },
+    "src/reference_kernels/rvv5.c": {
+      "bytes": 114,
+      "sha256": "85073e5bbd29c9471a962074067f929ff4ec320d48b5d19d29cbb1c809bcc1ea"
+    },
+    "src/reference_kernels/rvv6.c": {
+      "bytes": 114,
+      "sha256": "4059b425da475fbdd6b66306017759c9b83368331eee160a5f0a93de8e53f07a"
+    },
+    "src/reference_kernels/scalar3.c": {
+      "bytes": 55,
+      "sha256": "b402bcb25fe78c10aa02cb27f1fcdcfc692bba385d9bfa6743b0be200ff80215"
+    },
+    "src/reference_kernels/scalar4.c": {
+      "bytes": 55,
+      "sha256": "431618df411abaa6f4598300934f47ccd502ef7bc3b57ebe66e349412834b5cc"
+    },
+    "src/reference_kernels/scalar5.c": {
+      "bytes": 55,
+      "sha256": "57f82efafa68ba0b2f92fe6c1a15e52621d9d8c67f549442267501708d361555"
+    },
+    "src/reference_kernels/scalar6.c": {
+      "bytes": 55,
+      "sha256": "59d5786ab1554080d93ce8df4f47d5211f89030df058aad1bdb850bd8274b841"
+    },
+    "src/reference_kernels/selftest.c": {
+      "bytes": 3118,
+      "sha256": "9e7fd2dc8862cebf7eae7a3353d4f166770bdbec647038d0caea1270aa00a4b0"
+    },
+    "src/reference_kernels/start.S": {
+      "bytes": 309,
+      "sha256": "72490774efba6b032ccaad6f608c1d4b0dcb7c5b80f86642376896f5289f1b95"
+    },
+    "src/tap_baseline.inc": {
+      "bytes": 1984,
+      "sha256": "f2bed258e54f3082f5339eabcf4271ff9f35c494e640ae277e76f3d9c76d6a5b"
+    },
+    "src/tap_host.c": {
+      "bytes": 18887,
+      "sha256": "3f14dc4846b76433a81ae0121189c83b376bfe91737963308ffb88aba0d3d1a7"
+    }
+  }
+}

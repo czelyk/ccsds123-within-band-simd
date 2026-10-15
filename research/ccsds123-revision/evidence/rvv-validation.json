@@ -1,0 +1,74 @@
+[
+  {
+    "VLEN": 128,
+    "returncode": 0,
+    "wall_seconds": 26.1271454779926,
+    "elf_sha256": "74318ec2e71bcf57228958283b1896127e6b66e0a38595e83ae616b8a1fa5271",
+    "scope": "new conventional baselines vs scalar, body/residual/final-state differential validation; not physical performance or independent conformance",
+    "status": [
+      1611517011,
+      2016,
+      0,
+      4249224,
+      144,
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  },
+  {
+    "VLEN": 256,
+    "returncode": 0,
+    "wall_seconds": 26.301262576002046,
+    "elf_sha256": "74318ec2e71bcf57228958283b1896127e6b66e0a38595e83ae616b8a1fa5271",
+    "scope": "new conventional baselines vs scalar, body/residual/final-state differential validation; not physical performance or independent conformance",
+    "status": [
+      1611517011,
+      2016,
+      0,
+      4249224,
+      144,
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  },
+  {
+    "VLEN": 512,
+    "returncode": 0,
+    "wall_seconds": 26.079395278007723,
+    "elf_sha256": "74318ec2e71bcf57228958283b1896127e6b66e0a38595e83ae616b8a1fa5271",
+    "scope": "new conventional baselines vs scalar, body/residual/final-state differential validation; not physical performance or independent conformance",
+    "status": [
+      1611517011,
+      2016,
+      0,
+      4249224,
+      144,
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  },
+  {
+    "VLEN": 1024,
+    "returncode": 0,
+    "wall_seconds": 26.223863461011206,
+    "elf_sha256": "74318ec2e71bcf57228958283b1896127e6b66e0a38595e83ae616b8a1fa5271",
+    "scope": "new conventional baselines vs scalar, body/residual/final-state differential validation; not physical performance or independent conformance",
+    "status": [
+      1611517011,
+      2016,
+      0,
+      4249224,
+      144,
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  }
+]

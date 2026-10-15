@@ -1,0 +1,90 @@
+[
+  {
+    "id": 276037,
+    "persistentId": "doi:10.18710/ZR0MVS/Q8BZTS",
+    "pidURL": "https://doi.org/10.18710/ZR0MVS/Q8BZTS",
+    "filename": "kotzbue_2022-06-25T22-10-13Z-l1a.nc",
+    "contentType": "application/x-netcdf",
+    "friendlyType": "Network Common Data Form",
+    "filesize": 100344479,
+    "description": "",
+    "storageIdentifier": "S3://uit-dataverseno-prod01:19db0232183-c67f435da3c5",
+    "rootDataFileId": -1,
+    "md5": "cedc431973c728adbd80c4d0772d64de",
+    "checksum": {
+      "type": "MD5",
+      "value": "cedc431973c728adbd80c4d0772d64de"
+    },
+    "tabularData": false,
+    "creationDate": "2026-04-21",
+    "publicationDate": "2026-04-23",
+    "fileAccessRequest": true,
+    "acquisition": "2022-06-25T22-10-13Z"
+  },
+  {
+    "id": 275987,
+    "persistentId": "doi:10.18710/ZR0MVS/KBQGBC",
+    "pidURL": "https://doi.org/10.18710/ZR0MVS/KBQGBC",
+    "filename": "finnmark_2022-07-06T19-40-03Z-l1a.nc",
+    "contentType": "application/x-netcdf",
+    "friendlyType": "Network Common Data Form",
+    "filesize": 95966543,
+    "description": "",
+    "storageIdentifier": "S3://uit-dataverseno-prod01:19db0258cba-46a0c6f4ff18",
+    "rootDataFileId": -1,
+    "md5": "4de1502077ff3b5952c21dd8b9ed4081",
+    "checksum": {
+      "type": "MD5",
+      "value": "4de1502077ff3b5952c21dd8b9ed4081"
+    },
+    "tabularData": false,
+    "creationDate": "2026-04-21",
+    "publicationDate": "2026-04-23",
+    "fileAccessRequest": true,
+    "acquisition": "2022-07-06T19-40-03Z"
+  },
+  {
+    "id": 275919,
+    "persistentId": "doi:10.18710/ZR0MVS/2MJRFN",
+    "pidURL": "https://doi.org/10.18710/ZR0MVS/2MJRFN",
+    "filename": "erie_2022-07-09T16-12-06Z-l1a.nc",
+    "contentType": "application/x-netcdf",
+    "friendlyType": "Network Common Data Form",
+    "filesize": 102150450,
+    "description": "",
+    "storageIdentifier": "S3://uit-dataverseno-prod01:19db0268aa9-637f833d6595",
+    "rootDataFileId": -1,
+    "md5": "4572058fd1cbcbd9bf845993d8e587a4",
+    "checksum": {
+      "type": "MD5",
+      "value": "4572058fd1cbcbd9bf845993d8e587a4"
+    },
+    "tabularData": false,
+    "creationDate": "2026-04-21",
+    "publicationDate": "2026-04-23",
+    "fileAccessRequest": true,
+    "acquisition": "2022-07-09T16-12-06Z"
+  },
+  {
+    "id": 275791,
+    "persistentId": "doi:10.18710/ZR0MVS/5BWMS8",
+    "pidURL": "https://doi.org/10.18710/ZR0MVS/5BWMS8",
+    "filename": "griegBC_2022-08-05T18-49-40Z-l1a.nc",
+    "contentType": "application/x-netcdf",
+    "friendlyType": "Network Common Data Form",
+    "filesize": 95198691,
+    "description": "",
+    "storageIdentifier": "S3://uit-dataverseno-prod01:19db023a50a-fa1c730ed5b0",
+    "rootDataFileId": -1,
+    "md5": "5861d46d0f66775cd11881f18d745c8d",
+    "checksum": {
+      "type": "MD5",
+      "value": "5861d46d0f66775cd11881f18d745c8d"
+    },
+    "tabularData": false,
+    "creationDate": "2026-04-21",
+    "publicationDate": "2026-04-23",
+    "fileAccessRequest": true,
+    "acquisition": "2022-08-05T18-49-40Z"
+  }
+]

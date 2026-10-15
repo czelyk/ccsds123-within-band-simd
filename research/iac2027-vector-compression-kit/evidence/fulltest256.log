@@ -1,0 +1,11 @@
+[11:58:44.9285] [INFO] Loaded monitor commands from: <original-workspace>/work/single_topic_review/renode/renode_1.17.0-portable/scripts/monitor.py
+[11:58:45.0452] [INFO] Including script(s): <original-workspace>/outputs/iac2027-vector-compression-kit/src/fulltest256.resc
+[11:58:45.0580] [INFO] System bus created.
+[11:58:46.0186] [INFO] sysbus: Loading block of 64 bytes length at 0x80000000.
+[11:58:46.0293] [INFO] sysbus: Loading block of 26128 bytes length at 0x80001000.
+[11:58:46.0295] [INFO] sysbus: Loading block of 3860102 bytes length at 0x80007620.
+[11:58:46.0330] [INFO] sysbus: Loading block of 735872 bytes length at 0x803B5CA8.
+[11:58:46.0531] [INFO] cpu: Setting PC value to 0x80001000.
+[11:58:46.1387] [INFO] machine-0: Machine started.
+[11:59:10.1421] [INFO] machine-0: Machine paused.
+[11:59:10.2073] [INFO] machine-0: Disposed.

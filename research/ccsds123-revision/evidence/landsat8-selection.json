@@ -1,0 +1,138 @@
+{
+  "dataset_doi": "10.34810/DATA1514",
+  "rule": "earliest four acquisition dates, filename tie-break; all original seven bands/full4096x4096; no value-based scene removal",
+  "purpose": "processed multispectral workload pilot, not raw focal-plane or mission validation",
+  "profile": "unsigned16 actual delivered calibrated products, unchanged values; lossless zero damping Omega19 P3; nu_max9 main,4 sensitivity",
+  "split": "Earliest selected acquisition trains retrospective exogenous comparisons only. Three later acquisitions are held out. Calibrated products were produced years later; no claim of on-orbit table availability or actual uplink feasibility.",
+  "publisher_file_count": 21,
+  "selected": [
+    {
+      "id": 107774,
+      "filename": "LC08_L1GT_196031_20130322_20170505_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20130322"
+    },
+    {
+      "id": 107755,
+      "filename": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20131103"
+    },
+    {
+      "id": 107764,
+      "filename": "LC08_L1GT_175025_20140204_20170426_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20140204"
+    },
+    {
+      "id": 107757,
+      "filename": "LC08_L1GT_007020_20140619_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20140619"
+    }
+  ],
+  "all_files": [
+    {
+      "id": 107774,
+      "filename": "LC08_L1GT_196031_20130322_20170505_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20130322"
+    },
+    {
+      "id": 107755,
+      "filename": "LC08_L1GT_196031_20131103_20170428_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20131103"
+    },
+    {
+      "id": 107764,
+      "filename": "LC08_L1GT_175025_20140204_20170426_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20140204"
+    },
+    {
+      "id": 107757,
+      "filename": "LC08_L1GT_007020_20140619_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20140619"
+    },
+    {
+      "id": 107759,
+      "filename": "LC08_L1GT_004064_20140630_20170421_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20140630"
+    },
+    {
+      "id": 107758,
+      "filename": "LC08_L1GT_045014_20140917_20170303_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20140917"
+    },
+    {
+      "id": 107761,
+      "filename": "LC08_L1GT_001075_20150324_20170411_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20150324"
+    },
+    {
+      "id": 107754,
+      "filename": "LC08_L1GT_198031_20150904_20180527_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20150904"
+    },
+    {
+      "id": 107763,
+      "filename": "LC08_L1GT_025029_20151229_20170224_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20151229"
+    },
+    {
+      "id": 107771,
+      "filename": "LC08_L1GT_007020_20160507_20170325_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20160507"
+    },
+    {
+      "id": 107756,
+      "filename": "LC08_L1GT_007020_20160608_20170324_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20160608"
+    },
+    {
+      "id": 107762,
+      "filename": "LC08_L1GT_007020_20160624_20170323_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20160624"
+    },
+    {
+      "id": 107773,
+      "filename": "LC08_L1GT_037031_20161117_20170219_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20161117"
+    },
+    {
+      "id": 107767,
+      "filename": "LC08_L1GT_025023_20170217_20170228_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20170217"
+    },
+    {
+      "id": 107766,
+      "filename": "LC08_L1GT_197031_20170427_20170515_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20170427"
+    },
+    {
+      "id": 107768,
+      "filename": "LC08_L1GT_035022_20180109_20180119_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20180109"
+    },
+    {
+      "id": 107772,
+      "filename": "LC08_L1GT_037028_20181225_20190129_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20181225"
+    },
+    {
+      "id": 107760,
+      "filename": "LC08_L1GT_035035_20190520_20190604_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20190520"
+    },
+    {
+      "id": 107765,
+      "filename": "LC08_L1GT_198031_20200121_20200128_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20200121"
+    },
+    {
+      "id": 107769,
+      "filename": "LC08_L1GT_035027_20200319_20200326_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20200319"
+    },
+    {
+      "id": 107770,
+      "filename": "LC08_L1GT_001080_20210815_20210826_01_T2_b1-7.7_4096_4096_2_1_0.raw",
+      "acquisition": "20210815"
+    }
+  ],
+  "selection_before_measurements": true
+}

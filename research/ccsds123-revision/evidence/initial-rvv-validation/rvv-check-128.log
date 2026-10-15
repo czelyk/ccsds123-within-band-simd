@@ -1,0 +1,11 @@
+[15:52:38.2712] [INFO] Loaded monitor commands from: <original-workspace>/work/single_topic_review/renode/renode_1.17.0-portable/scripts/monitor.py
+[15:52:38.3627] [INFO] Including script(s): <original-workspace>/outputs/ccsds123-revision/build/rvv-check-128.resc
+[15:52:38.3730] [INFO] System bus created.
+[15:52:39.1107] [INFO] sysbus: Loading block of 64 bytes length at 0x80000000.
+[15:52:39.1181] [INFO] sysbus: Loading block of 32662 bytes length at 0x80001000.
+[15:52:39.1182] [INFO] sysbus: Loading block of 376 bytes length at 0x80008FA0.
+[15:52:39.1182] [INFO] sysbus: Loading block of 693016 bytes length at 0x80009118.
+[15:52:39.1274] [INFO] cpu: Setting PC value to 0x80001000.
+[15:52:39.1999] [INFO] machine-0: Machine started.
+[15:52:51.2021] [INFO] machine-0: Machine paused.
+[15:52:51.2464] [INFO] machine-0: Disposed.

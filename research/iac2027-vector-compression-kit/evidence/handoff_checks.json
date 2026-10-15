@@ -1,0 +1,95 @@
+{
+  "date_utc": "2026-10-15T10:01:03.123245+00:00",
+  "hardware_results_included": false,
+  "native_fixtures": 48,
+  "renode": {
+    "selftest_128": [
+      1611517011,
+      65914,
+      0,
+      739,
+      16517,
+      0,
+      0,
+      0
+    ],
+    "fulltest_128": [
+      1611517011,
+      4302200,
+      0,
+      155243,
+      6037,
+      0,
+      0,
+      102
+    ],
+    "selftest_256": [
+      1611517011,
+      65914,
+      0,
+      229,
+      8937,
+      0,
+      0,
+      0
+    ],
+    "fulltest_256": [
+      1611517011,
+      4302200,
+      0,
+      77057,
+      3583,
+      0,
+      0,
+      102
+    ],
+    "selftest_512": [
+      1611517011,
+      65914,
+      0,
+      229,
+      8937,
+      0,
+      0,
+      0
+    ],
+    "fulltest_512": [
+      1611517011,
+      4302200,
+      0,
+      77057,
+      3583,
+      0,
+      0,
+      102
+    ],
+    "selftest_1024": [
+      1611517011,
+      65914,
+      0,
+      229,
+      8937,
+      0,
+      0,
+      0
+    ],
+    "fulltest_1024": [
+      1611517011,
+      4302200,
+      0,
+      77057,
+      3583,
+      0,
+      0,
+      102
+    ]
+  },
+  "reference_commit": "9fabb0371ebf93d72a0f83ca053e9cdb2c63e3c6",
+  "fixture_regeneration_spot_checks": 4,
+  "energy_utility_test": "Synthetic constant2W interval5s integrated to10J; no physical power data.",
+  "decision": "GO for defined physical testing; not finalized IAC paper or eligibility approval.",
+  "host_binary_packaged": false,
+  "linux_binary_packaged": false,
+  "rvv_bare_elves_packaged": true,
+  "latest_scientific_assessment": "NO-GO for committing to a strong IAC topic on current evidence; small falsification experiment only. See FAIR_REVIEW.md. Mission necessity, stronger latency baselines and broader novelty comparison remain unresolved."
+}
